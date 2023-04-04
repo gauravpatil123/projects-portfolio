@@ -1,0 +1,28 @@
+#welcome-text { 
+    margin-top: 40vh;
+    margin-left: 39vw;
+    margin-right: auto;
+    font-size: 5em;
+}
+
+#enter-button {
+    width: 6.5vh;
+    height: 5vh;
+    border-style: solid;
+    border-radius: 1.5em;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1vh;
+    transition: width 0.6s ease;
+    font-size: 1.5em;
+    padding-top: 1.5vh;
+}
+
+#enter-button:hover {
+    width: 8em;
+    background-color: black;
+    color: white;
+}
