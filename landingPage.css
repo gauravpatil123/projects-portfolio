@@ -114,13 +114,6 @@
     }
 }
 
-#material-arrow-wrapper{
-    margin-left: 10vw;
-    margin-right: auto;
-    margin-top: -30vh;
-    transform: rotate(-90deg);
-}
-
 #enter-button-wrapper {
     width: 6.5vh;
     height: 5vh;
