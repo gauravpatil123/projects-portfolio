@@ -1,32 +1,103 @@
-const $icon = document.querySelector('.icon');
-const $arrow = document.querySelector('.arrow');
+function setCss(querySelector, property, value) {
 
-$arrow.animate([
-    {top: '0'},
-    {top: '6px'},
-    {top: '0'}
-  ],{
-    duration: 1000,
-    iterations: Infinity
-  });
+  $(querySelector).css(property, value);
 
-$("#enter-button-wrapper").hover(function() {
-    $("#enter-button-link").html("Enter");
-    $(".icon").css("display", "none");
-    $(".arrow-2").css("display", "none");
-    $(".arrow-3").css("display", "none");
-}, function(){
-    $("#enter-button-link").html("")
-    $(".icon").css("display", "block");
-    $(".arrow-2").css("display", "block");
-    $(".arrow-3").css("display", "block");
-    $arrow.animate([
-        {top: '0'},
-        {top: '10px'},
-        {top: '0'}
-      ],{
-        duration: 1000,
-        iterations: Infinity
-      });
-})
+}
+
+function mouseEnter_enter_button() {
+
+  $("#enter-button").html("Enter");
+  setCss(".arrow-2", "display", "none");
+  setCss(".arrow-3", "display", "none");
+
+}
+
+async function mouseExit_enter_button() {
+
+  $("#enter-button").html("")
+  await new Promise(r => setTimeout(r, 500));
+  setCss(".arrow-2", "display", "block");
+  setCss(".arrow-3", "display", "block");
+
+}
+
+function hover_enter_button() {
+
+  $("#enter-button-link-wrapper").hover(mouseEnter_enter_button, mouseExit_enter_button);
+
+}
+
+function replaceHtmlText(text, selecterquery) {
+
+  $(selecterquery).html("");
+  $(selecterquery).html(text);
+
+}
+
+async function typeWelcomeText() {
+
+  var textWrapper = document.querySelector('.text-animation .letters');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/[a-zA-Z0-9.!]/g, "<span class='letter'>$&</span>");
+
+  anime.timeline()//{loop: true})
+    .add({
+      targets: '.text-animation .line',
+      scaleY: [0,1],
+      opacity: [0.5,1],
+      easing: "easeOutExpo",
+      duration: 700
+    })
+    .add({
+      targets: '.text-animation .line',
+      translateX: [0, document.querySelector('.text-animation .letters').getBoundingClientRect().width + 10],
+      easing: "easeOutExpo",
+      duration: 700,
+      delay: 100
+    }).add({
+      targets: '.text-animation .letter',
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 600,
+      offset: '-=775',
+      delay: (el, i) => 34 * (i+1)
+    }).add({
+      targets: '.text-animation',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+    });
+
+}
+
+function typeAnimation(word) {
+
+  replaceHtmlText(word, ".letters");
+  setCss(".text-animation", "opacity", 1);
+  typeWelcomeText();
+
+}
+
+async function main() {
+
+  //Enter button
+  hover_enter_button();
+
+  //Welcome text animation
+  typeWelcomeText();
+  await new Promise(r => setTimeout(r, 4000));
+  typeAnimation("I am Gaurav");
+  await new Promise(r => setTimeout(r, 4000));
+  typeAnimation("Welcome.");
+  await new Promise(r => setTimeout(r, 4000));
+
+  //Setting final text
+  setCss(".text-animation", "opacity", 1);
+  setCss(".line", "display", "none");
+  replaceHtmlText("Welcome.", ".letters");
+
+}
+
+main();
+
 

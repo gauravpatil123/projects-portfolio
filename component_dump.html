@@ -1,0 +1,67 @@
+
+<!-- Arrow component with animation -->
+
+<div class="icon">
+    <div class="arrow"></div>
+</div>
+
+<style>
+    .icon {
+    position: absolute;
+    top: 65%;
+    left: 50.3%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    animation: arrow 700ms linear infinite;
+    transform: rotate(-90deg);
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 3px;
+    right: -8px;
+    background-color: black;
+  }
+  
+  .arrow::after {
+    top: -12px;
+    transform: rotate(37deg);
+  }
+  
+  .arrow::before {
+    top: 12px;
+    transform: rotate(-37deg);
+  }
+
+</style>
+
+<script>
+
+const $icon = document.querySelector('.icon');
+const $arrow = document.querySelector('.arrow');
+
+    $arrow.animate([
+    {top: '0'},
+    {top: '6px'},
+    {top: '0'}
+  ],{
+    duration: 1000,
+    iterations: Infinity
+  });
+
+</script>
+
+<!-- ###########Component End ########### -->
+
