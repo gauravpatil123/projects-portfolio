@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="homepage.css">
 
         <!-- Javascript libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     </head>
     <body>
         <nav class="nav-menu-container">
@@ -18,17 +19,31 @@
         </nav>
         <h1>Portfolio</h1>
         <div class="filter-buttons-container">
-            <div class="filter-button">All</div>
-            <div class="filter-button">Data | Software</div>
-            <div class="filter-button">Design | Prototypes</div>
-            <div class="filter-button">Document | Research</div>
+            <div class="filter-button" id="filter-all">All</div>
+            <div class="filter-button" id="filter-data">Data | Software</div>
+            <div class="filter-button" id="filter-design">Design | Prototypes</div>
+            <div class="filter-button" id="filter-document">Document | Research</div>
         </div>
         <div class="portfolio-pieces-container">
-            <div class="portfolio-piece-box"></div>            <div class="portfolio-piece-box"></div>
-            <div class="portfolio-piece-box"></div>
-            <div class="portfolio-piece-box"></div>
-            <div class="portfolio-piece-box"></div>
-            <div class="portfolio-piece-box"></div>
+            <div class="portfolio-piece-box data">
+                <div class="inner">Data 1</div>
+            </div>
+            <div class="portfolio-piece-box data">
+                <div class="inner">Data 2</div>
+            </div>
+            <div class="portfolio-piece-box design">
+                <div class="inner">Design 1</div>
+            </div>
+            <div class="portfolio-piece-box data">
+                <div class="inner">Data 3</div>
+            </div>
+            <div class="portfolio-piece-box document">
+                <div class="inner">Document 1</div>
+            </div>
+            <div class="portfolio-piece-box document">
+                <div class="inner"> Document 2</div>
+            </div>
         </div>
+        <script type="text/javascript" src="homepage.js"></script>
     </body>
 </html>

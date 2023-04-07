@@ -31,6 +31,32 @@ h1 {
     height: 25vh;
     border-style: solid;
     border-width: 0.1em;
-    padding: 0.5em;
     margin: 1em;
+    overflow: hidden;
+    z-index: 0;
 }
+/* uncomment bellow for transitions */
+/* .inner{ */
+    /* width: 28vw;
+    height: 35vh; */
+    /* opacity: 0; */
+    /* background-color: brown; */
+    /* transition: opacity 0.6s ease; */
+    /* border-style: solid;
+    border-width: 0.2em; */
+/* } */
+
+/* .portfolio-piece-box:hover{
+    overflow: visible;
+    z-index: 100;
+}
+
+.portfolio-piece-box:hover .inner{
+    z-index: 100;
+    opacity: 1;
+}
+
+.inner{
+    position: absolute;
+} */
+
