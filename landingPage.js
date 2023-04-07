@@ -53,14 +53,16 @@ async function typeWelcomeText() {
       easing: "easeOutExpo",
       duration: 700,
       delay: 100
-    }).add({
+    })
+    .add({
       targets: '.text-animation .letter',
       opacity: [0,1],
       easing: "easeOutExpo",
       duration: 600,
       offset: '-=775',
       delay: (el, i) => 34 * (i+1)
-    }).add({
+    })
+    .add({
       targets: '.text-animation',
       opacity: 0,
       duration: 1000,
@@ -88,7 +90,7 @@ async function main() {
   await new Promise(r => setTimeout(r, 4000));
   typeAnimation("I am Gaurav");
   await new Promise(r => setTimeout(r, 4000));
-  typeAnimation("Welcome.");
+  typeAnimation("Welcome");
   await new Promise(r => setTimeout(r, 4000));
 
   //Setting final text
