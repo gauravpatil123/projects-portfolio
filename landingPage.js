@@ -100,8 +100,6 @@ async function main() {
 
 }
 
-export {setCss};
-
 main();
 
 
