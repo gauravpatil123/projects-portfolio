@@ -16,6 +16,7 @@ h1 {
     border-width: 0.05em;
     padding: 0.5em;
     margin: 1em;
+    font-size: 1em;
 }
 
 .portfolio-pieces-container{
@@ -28,35 +29,22 @@ h1 {
 
 .portfolio-piece-box{
     width: 25vw;
-    height: 25vh;
+    height: 25vw;
     border-style: solid;
-    border-width: 0.1em;
+    border-width: 0.05em;
     margin: 1em;
-    overflow: hidden;
     z-index: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 1.5em;
 }
 /* uncomment bellow for transitions */
-/* .inner{ */
-    /* width: 28vw;
-    height: 35vh; */
-    /* opacity: 0; */
-    /* background-color: brown; */
-    /* transition: opacity 0.6s ease; */
-    /* border-style: solid;
-    border-width: 0.2em; */
-/* } */
-
-/* .portfolio-piece-box:hover{
-    overflow: visible;
-    z-index: 100;
-}
-
-.portfolio-piece-box:hover .inner{
-    z-index: 100;
-    opacity: 1;
-}
-
 .inner{
-    position: absolute;
-} */
+    display: none;
+}
 
+#project-1, #project-2, #project-3, #project-4, #project-5, #project-6 {
+    background: url("assets/thumbnails/placeholder-image-square.jpg");
+    background-size: contain;
+}

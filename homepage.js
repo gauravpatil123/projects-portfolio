@@ -36,7 +36,18 @@ async function main() {
 
     });
 
+    //make mouse hover function to delete html for id and 
+    // add opacity and other features to .inner class div to 
+    // make it pop out in thumbnail
+    $(".portfolio-piece-box").hover(function(){
 
+        console.log("mouse enter " + this.id);
+
+    }, function(){
+
+        console.log("mouse exit");
+
+    })
 
 }
 
