@@ -1,0 +1,7 @@
+@import "./navigation_menu.css";
+
+h1 {
+    text-align: center;
+    font-size: var(--site-page-font-size-h1);
+    margin-bottom: var( --site-page-margin-bot-h1);
+}
