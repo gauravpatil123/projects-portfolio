@@ -1,0 +1,44 @@
+@import "./navigation_menu.css";
+
+h1 {
+    text-align: center;
+    font-size: var(--site-page-font-size-h1);
+}
+
+h2 {
+    text-align: center;
+    font-size: var(--site-page-font-size-h2);
+}
+
+.about-intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#profile-picture-container {
+    flex: 2;
+}
+
+#profile-picture {
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 12em;
+    width: 25vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: 10%;
+    background: url(./assets/thumbnails/placeholder-image-square.jpg);
+    background-size: contain;
+}
+
+#intro-text-container {
+    flex: 3;
+}
+
+#intro-text {
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 12%;
+}
