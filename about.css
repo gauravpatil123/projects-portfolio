@@ -3,11 +3,13 @@
 h1 {
     text-align: center;
     font-size: var(--site-page-font-size-h1);
+    margin-bottom: var(--site-page-margin-bot-h1);
 }
 
 h2 {
     text-align: center;
     font-size: var(--site-page-font-size-h2);
+    margin-bottom: var( --site-page-margin-bot-h2);
 }
 
 .about-intro-container {
@@ -41,4 +43,25 @@ h2 {
     margin-left: 10%;
     margin-right: auto;
     margin-top: 12%;
+}
+
+.contact-buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-button{
+    border-style: solid;
+    border-width: 0.1em;
+    padding: 0.5em;
+    margin: 1em;
+    font-size: 1em;
+}
+
+.contact-links {
+    text-decoration: none;
+    color: black;
 }
