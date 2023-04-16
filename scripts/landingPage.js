@@ -82,29 +82,27 @@ function typeAnimation(word) {
 
 function redirect(url) {
 
-  (location).attr('href',url);
-  //$("body").html("click is triggered")
+  $(location).attr('href',url);
 
 }
 
 async function click_enter(url) {
 
-  $("#enter-button-link-wrapper").click(function(e){
+  $("#enter-button-link-wrapper").click(async function(e){
 
     e.preventDefault();
-    //$("body").transition({backgroundColor}, 0.6, ease);
-    //$("body").css({ backgroundColor : "#3D6599"});
-    $("body").animate({
-      backgroundColor : "#3D6599"
-    }, 1000);
-
-    $("#welcome-text").animate({
-      color : "#ffb7af"
-    }, 1000);
+    $("body").animate({ backgroundColor : "#3D6599" }, 1000);
+    $("#welcome-text").animate({ color : "#ffb7af", fontSize : "10em" }, 1000);
 
     setCss(".arrows", "display", "none");
     setCss("#enter-button-link-wrapper", "display", "none");
 
+    await new Promise(r => setTimeout(r, 2000));
+    //await $("body").animate({ backgroundColor : "white" }, 1000);
+    await $("#welcome-text").animate({ color : "#3D6599" }, 1000);
+
+    await new Promise(r => setTimeout(r, 1000));
+    redirect(url);
 
   });
 
