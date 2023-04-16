@@ -1,9 +1,16 @@
+@import "./css_global_variables.css";
+
+body {
+    background-color: none;
+}
+
 #welcome-text { 
     width: fit-content;
     margin-top: 35vh;
     margin-left: auto;
     margin-right: auto;
     font-size: 5em;
+    /* color: var(--color-13); */
 }
 
   .text-animation .text-wrapper {

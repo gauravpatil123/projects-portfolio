@@ -80,10 +80,26 @@ function typeAnimation(word) {
 
 }
 
+// async function redirect(url) {
+
+//   $(location).attr('href',url);
+
+// }
+
+// async function click_enter(url) {
+
+//   await $("#enter-button").click(redirect(url));
+
+// }
+
 async function main() {
 
   //Enter button
   hover_enter_button();
+
+  // var homepage_url = "./pages/homepage.html";
+  // // await new Promise(r => setTimeout(r, 4000));
+  // click_enter(homepage_url);
 
   //Welcome text animation
   typeWelcomeText();
