@@ -7,8 +7,8 @@ function setCss(querySelector, property, value) {
 function mouseEnter_enter_button() {
 
   $("#enter-button").html("Enter");
+  setCss(".arrow-1", "display", "none");
   setCss(".arrow-2", "display", "none");
-  setCss(".arrow-3", "display", "none");
 
 }
 
@@ -16,8 +16,8 @@ async function mouseExit_enter_button() {
 
   $("#enter-button").html("")
   await new Promise(r => setTimeout(r, 500));
+  setCss(".arrow-1", "display", "block");
   setCss(".arrow-2", "display", "block");
-  setCss(".arrow-3", "display", "block");
 
 }
 
@@ -80,26 +80,43 @@ function typeAnimation(word) {
 
 }
 
-// async function redirect(url) {
+function redirect(url) {
 
-//   $(location).attr('href',url);
+  (location).attr('href',url);
+  //$("body").html("click is triggered")
 
-// }
+}
 
-// async function click_enter(url) {
+async function click_enter(url) {
 
-//   await $("#enter-button").click(redirect(url));
+  $("#enter-button-link-wrapper").click(function(e){
 
-// }
+    e.preventDefault();
+    //$("body").transition({backgroundColor}, 0.6, ease);
+    //$("body").css({ backgroundColor : "#3D6599"});
+    $("body").animate({
+      backgroundColor : "#3D6599"
+    }, 1000);
+
+    $("#welcome-text").animate({
+      color : "#ffb7af"
+    }, 1000);
+
+    setCss(".arrows", "display", "none");
+    setCss("#enter-button-link-wrapper", "display", "none");
+
+
+  });
+
+}
 
 async function main() {
 
   //Enter button
   hover_enter_button();
 
-  // var homepage_url = "./pages/homepage.html";
-  // // await new Promise(r => setTimeout(r, 4000));
-  // click_enter(homepage_url);
+  var homepage_url = "./pages/homepage.html";
+  click_enter(homepage_url);
 
   //Welcome text animation
   typeWelcomeText();
