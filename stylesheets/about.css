@@ -30,7 +30,7 @@ h2 {
     height: 25vw;
     margin-left: auto;
     margin-right: 10%;
-    background: url(./assets/thumbnails/placeholder-image-square.jpg);
+    background: url(../assets/thumbnails/placeholder-image-square.jpg);
     background-size: contain;
 }
 

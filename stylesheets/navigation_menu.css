@@ -1,4 +1,4 @@
-@import "css_global_variables.css";
+@import "./css_global_variables.css";
 
 .nav-menu-container {
     display: flex;
