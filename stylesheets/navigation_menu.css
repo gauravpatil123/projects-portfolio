@@ -3,6 +3,12 @@
 .nav-menu-container {
     display: flex;
     font-size: var(--nav-menu-button-font-size);
+    background-color: var(--background-color-1);
+    margin-top: none;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 0.01em;
+    padding-block: 0.5em;
 }
 
 .nav-logo {
@@ -12,7 +18,7 @@
 
 .nav-links {
     text-decoration: none;
-    color: black
+    color: var(--color-8);
 }
 
 .nav-menu-button-container{

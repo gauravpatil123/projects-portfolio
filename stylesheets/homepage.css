@@ -1,9 +1,14 @@
 @import "./navigation_menu.css";
 
+body {
+    background-color: white;
+}
+
 h1 {
     text-align: center;
     font-size: var(--site-page-font-size-h1);
     margin-bottom: var( --site-page-margin-bot-h1);
+    color: var(--color-8);
 }
 
 .filter-buttons-container {
@@ -72,6 +77,6 @@ h1 {
 }
 
 #project-1, #project-2, #project-3, #project-4, #project-5, #project-6 {
-    background: url("assets/thumbnails/placeholder-image-square.jpg");
+    background: url("../assets/thumbnails/placeholder-image-square.jpg");
     background-size: contain;
 }

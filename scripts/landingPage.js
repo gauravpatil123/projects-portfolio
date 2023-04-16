@@ -92,14 +92,14 @@ async function click_enter(url) {
 
     e.preventDefault();
     $("body").animate({ backgroundColor : "#3D6599" }, 1000);
-    $("#welcome-text").animate({ color : "#ffb7af", fontSize : "10em" }, 1000);
+    $("#welcome-text").animate({ color : "#FF6F40", fontSize : "10em" }, 1000);
 
     setCss(".arrows", "display", "none");
     setCss("#enter-button-link-wrapper", "display", "none");
 
     await new Promise(r => setTimeout(r, 2000));
-    //await $("body").animate({ backgroundColor : "white" }, 1000);
-    await $("#welcome-text").animate({ color : "#3D6599" }, 1000);
+    await $("body").animate({ backgroundColor : "white" }, 1000);
+    await $("#welcome-text").animate({ color : "white" }, 1000);
 
     await new Promise(r => setTimeout(r, 1000));
     redirect(url);
