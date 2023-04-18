@@ -37,8 +37,6 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* padding: 1em; */
-    /* margin-left: 3vw; */
 }
 
 .portfolio-piece-box {
@@ -51,9 +49,9 @@ h1 {
     display: flex;
     align-items: end;
     justify-content: center;
-    /* padding-bottom: 1.5em; */
+    box-shadow: 0px 0px 10px grey;
 }
-/* uncomment bellow for transitions */
+
 .inner{
     display: block;
     width: 25vw;
@@ -68,10 +66,17 @@ h1 {
     margin-top: 2em;
 }
 
+.portfolio-piece-box:hover {
+    border-color: var(--color-8);
+    border-width: 0.05em;
+    box-shadow: 0px 0px 10px var(--color-8);
+}
+
 .portfolio-piece-box:hover .inner {
     width: 25vw;
     height: 10vh;
-    background-color: black;
+    background-color: var(--background-color-1);
+    /* border-radius: 2em 2em 0 0; */
     color: white;
     text-align: center;
 }
