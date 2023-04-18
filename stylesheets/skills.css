@@ -4,4 +4,113 @@ h1 {
     text-align: center;
     font-size: var(--site-page-font-size-h1);
     margin-bottom: var( --site-page-margin-bot-h1);
+    color: var(--color-8);
+}
+
+.skill-section-title, .tools-title{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skill-section {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 25vw;
+}
+
+.skill-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+.skill-packet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.text-achor {
+    width: 0.25em;
+    height: 1.5em;
+    background-color: black;
+    margin-right: 0.5em;
+}
+
+.skill-item{
+    margin-block: auto;
+}
+
+.tools-container {
+    width: 91vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 1.5em;
+    margin-inline: auto;
+    margin-top: 1em;
+}
+
+.tools-section-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.tool-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-block: 1em;
+}
+
+.tool-section-tile {
+    font-size: 1.5em;
+    margin-block: auto;
+    margin-inline: 0.5em;
+}
+
+.tool-proficiency-packet {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1em;
+    border-radius: 1.5em;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    margin-inline: 1em;
+}
+
+.tool-item-packet {
+    margin: 0.5em;
+}
+
+.tool-item-image {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.01em;
+}
+
+.tool-name {
+    text-align: center;
 }
