@@ -1,4 +1,4 @@
-// import { setCss } from "./landingPage";
+import { setCss } from "./utils.js";
 
 //global variable
 var project_titles = {
@@ -11,13 +11,6 @@ var project_titles = {
     "project-7" : "Project 7 title",
     "project-8" : "Project 8 title"
 }
-
-function setCss(querySelector, property, value) {
-
-    $(querySelector).css(property, value);
-  
-}
-
 
 async function main() {
 

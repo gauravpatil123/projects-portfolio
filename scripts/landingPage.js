@@ -1,8 +1,4 @@
-function setCss(querySelector, property, value) {
-
-  $(querySelector).css(property, value);
-
-}
+import { setCss } from "./utils.js";
 
 function mouseEnter_enter_button() {
 
