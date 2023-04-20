@@ -116,8 +116,7 @@ body {
     border-color: black;
     border-width: 1px;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin-inline: auto;
     margin-top: 1vh;
     transition: width 0.6s ease, background-color 0.6s ease;
     font-size: 1.5em;
@@ -135,4 +134,15 @@ body {
     color: white;
     text-decoration: none;
     margin-inline: auto;
+}
+
+.logo-screen {
+    width:155px;
+    height: 60px;
+    fill: var(--color-8);
+    margin-block: auto;
+    background-image: url(../assets/logo/Portfolio-Logo-MrsSD-Black-ini.svg.svg);
+    background-size: cover;
+    margin-inline: auto;
+    margin-top: 1em;
 }
