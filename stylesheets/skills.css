@@ -72,6 +72,10 @@ h1 {
     margin: 1em;
 }
 
+.tools-title {
+    margin-top: 1em;
+}
+
 .tool-section {
     display: flex;
     flex-direction: row;
