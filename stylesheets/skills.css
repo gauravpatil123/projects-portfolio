@@ -109,8 +109,22 @@ h1 {
     border-style: solid;
     border-color: black;
     border-width: 0.01em;
+    background-color: white;
 }
 
 .tool-name {
     text-align: center;
+}
+
+
+.proficiency-advanced {
+    background-color: #D5F5E3;
+}
+
+.proficiency-intermediate {
+    background-color: #D6EAF8;
+}
+
+.proficiency-familiar {
+    background-color: #FDEBD0;
 }
