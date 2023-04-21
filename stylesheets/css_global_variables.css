@@ -1,3 +1,43 @@
+@font-face {
+    font-family: "Gotham Bold";
+    src: url("../assets/fonts/Gotham/Gotham-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../assets/fonts/Gotham/Gotham-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham Thin";
+    src: url("../assets/fonts/Gotham/Gotham-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("../assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+
 :root{
     --nav-menu-button-font-size: 2em;
     --nav-menu-button-margin-left: 1em;
@@ -26,20 +66,13 @@
     --color-12: #E06741;
     --color-13: #A82518;
 
-    --color-14: #002FA7;
-    --color-15: #F28018;
-    --color-16: #A65308;
-    --color-17: #F2DF18;
-    --color-18: #A69808;
-
-    --color-19: #092059;
-    --color-20: #A62C11;
-    --color-21: #6BA611;
-    --color-22: #385904;
-
-    --color-23: #4716D9;
-    --color-24: #231A40;
-    --color-25: #B17D2C;
-    --color-26: #D97216;
+    --font-family-1: "Gotham Bold";
+    --font-family-2: "Gotham Light"; /*selected*/
+    --font-family-3: "Gotham Thin";
+    --font-family-4: "Playfair Display Regular";
+    --font-family-5: "Montserrat Regular";
+    --font-family-6: "Lato Regular";
+    --font-family-7: "Roboto Regular";
+    --font-family-8: "Open Sans Regular";
 
 }

@@ -38,4 +38,18 @@
     padding: var(--nav-menu-button-padding);
     margin-left: var(--nav-menu-button-margin-left);
     margin-right: var(--nav-menu-button-margin-right);
+    font-family: var(--font-family-2);
+}
+
+.nav-menu-selected {
+    color: white;
+    /* text-shadow: 0 0 2px var(--color-8); */
+}
+
+h1 {
+    text-align: center;
+    font-size: var(--site-page-font-size-h1);
+    margin-bottom: var( --site-page-margin-bot-h1);
+    color: var(--color-8);
+    font-family: var(--font-family-4);
 }
