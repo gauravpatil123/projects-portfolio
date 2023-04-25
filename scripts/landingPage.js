@@ -94,8 +94,10 @@ async function click_enter(url) {
     setCss("#enter-button-link-wrapper", "display", "none");
 
     await new Promise(r => setTimeout(r, 2000));
-    await $("body").animate({ backgroundColor : "white" }, 1000);
-    await $("#welcome-text").animate({ color : "white" }, 1000);
+    
+    $("body").animate({ backgroundColor : "white" }, 1000);
+    $("#welcome-text").animate({ color : "white" }, 1000);
+    $(".logo-screen").animate({ opacity : 0 }, 1000);
 
     await new Promise(r => setTimeout(r, 1000));
     redirect(url);
