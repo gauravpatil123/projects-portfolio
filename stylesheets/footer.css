@@ -1,0 +1,24 @@
+@import "./css_global_variables.css";
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: var(--nav-menu-button-font-size);
+    background-color: var(--background-color-1);
+    margin-top: 1em;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 0.01em;
+    padding-block: 0.5em;
+    height: 60px;
+}
+
+.footer-logo {
+    width:155px;
+    height: 60px;
+    fill: var(--color-8);
+    margin-inline: 1em;
+    margin-block: auto;
+    background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-ini.svg);
+    background-size: cover;
+}
