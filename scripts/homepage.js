@@ -2,7 +2,7 @@ import { setCss } from "./utils.js";
 
 //global variable
 var project_titles = {
-    "project-1" : "Project 1 title",
+    "project-1" : "IMDb Dataset Network Visualization",
     "project-2" : "Project 2 title",
     "project-3" : "Project 3 title",
     "project-4" : "Project 4 title",
@@ -46,11 +46,15 @@ async function main() {
         var selector = "#" + this.id + " .inner .project-thumbnail-title";
         var title_text = project_titles[this.id];
         $(selector).html(title_text);
+        var pd_selector = "#" + this.id + " .inner .project-domain";
+        setCss(pd_selector, "display", "block");
 
     }, function(){
 
         var selector = "#" + this.id + " .inner .project-thumbnail-title";
         $(selector).html("");
+        var pd_selector = "#" + this.id + " .inner .project-domain";
+        setCss(pd_selector, "display", "none");
 
     })
 

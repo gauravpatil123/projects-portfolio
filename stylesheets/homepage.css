@@ -50,15 +50,23 @@ body {
 .inner{
     display: block;
     width: 25vw;
-    height: 5vh;
+    /* height: 5vh; */
+    height: 0vh;
     text-align: center;
     padding-bottom: 1.5em;
     padding-top: 0.5em;
     transition: background-color 0.5s ease, height 0.5s ease;
+    font-family: var(--font-family-2);
+}
+
+.project-domain {
+    display: none;
+    margin-top: 1em;
 }
 
 .project-thumbnail-title{
-    margin-top: 2em;
+    margin-top: 1em;
+    font-family: var(--font-family-2);
 }
 
 .portfolio-piece-box:hover {
@@ -76,7 +84,12 @@ body {
     text-align: center;
 }
 
-#project-1, #project-2, #project-3, #project-4, #project-5, #project-6 {
+#project-1 {
+    background-image: url("../assets/thumbnails/pfch-mid-sp22.png");
+    background-size: contain;
+}
+
+#project-2, #project-3, #project-4, #project-5, #project-6 {
     background: url("../assets/thumbnails/placeholder-image-square.jpg");
     background-size: contain;
 }
