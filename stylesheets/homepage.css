@@ -2,7 +2,7 @@
 @import "./footer.css";
 
 body {
-    background-color: white;
+    background-color: var(--primary-background-color-2);
 }
 
 .filter-buttons-container {
@@ -14,17 +14,22 @@ body {
 }
 
 .filter-button{
-    border-style: solid;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     padding: 0.5em;
-    margin: 1em;
-    font-size: 1em;
-    font-family: var(--font-family-2);
+    margin: var(--page-button-margin);
+    font-size: var(--page-button-font-size);
+    font-family: var(--font-button);
 }
 
 .filter-button:hover {
     cursor: pointer;
-    border-color: brown;
+    border-color: var(--accent-color-1);
+}
+
+.filter-button-selected {
+    border-color: var(--accent-color-1);
+    background-color: var(--primary-background-color-1);
+    color: var(--primary-background-color-2);
 }
 
 .portfolio-pieces-container{
@@ -37,50 +42,51 @@ body {
 .portfolio-piece-box {
     width: 25vw;
     height: 25vw;
-    border-style: solid;
-    border-width: 0.05em;
+    border: 0.1em solid black;
     margin: 1em;
     z-index: 0;
     display: flex;
     align-items: end;
     justify-content: center;
-    box-shadow: 0px 0px 10px grey;
+    /* box-shadow: 0px 0px 10px grey; */
 }
 
 .inner{
     display: block;
     width: 25vw;
-    /* height: 5vh; */
-    height: 0vh;
+    height: 3vh;
+    /* height: 0vh; */
     text-align: center;
     padding-bottom: 1.5em;
     padding-top: 0.5em;
+    background-color: var(--primary-background-color-1-alpha-6);
     transition: background-color 0.5s ease, height 0.5s ease;
-    font-family: var(--font-family-2);
+    font-family: var(--font-headings);
 }
 
-.project-domain {
-    display: none;
-    margin-top: 1em;
+.project-title {
+    display: block;
+    margin-top: 0.75em;
+    color: var(--primary-background-color-2);
+    /* background-color: var(--primary-background-color-1); */
 }
 
-.project-thumbnail-title{
+.project-domain{
     margin-top: 1em;
-    font-family: var(--font-family-2);
+    font-family: var(--font-headings);
 }
 
 .portfolio-piece-box:hover {
-    border-color: var(--color-8);
-    border-width: 0.05em;
-    box-shadow: 0px 0px 10px var(--color-8);
+    border-color: var(--accent-color-1);
+    border-width: 0.1em;
+    /* box-shadow: 0px 0px 10px var(--color-8); */
 }
 
 .portfolio-piece-box:hover .inner {
     width: 25vw;
-    height: 10vh;
-    background-color: var(--background-color-1);
-    /* border-radius: 2em 2em 0 0; */
-    color: white;
+    height: 8vh;
+    background-color: var(--primary-background-color-1);
+    color: var(--primary-background-color-2);
     text-align: center;
 }
 

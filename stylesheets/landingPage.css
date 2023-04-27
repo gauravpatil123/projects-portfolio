@@ -1,7 +1,7 @@
 @import "./css_global_variables.css";
 
 body {
-    background-color: white;
+    background-color: var(--primary-background-color-2);
 }
 
 #welcome-text { 
@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     font-size: 5em;
     color: black;
-    font-family: var(--font-family-4);
+    font-family: var(--font-text);
 }
 
   .text-animation .text-wrapper {
@@ -112,28 +112,26 @@ body {
 #enter-button {
     width: 6.5vh;
     height: 5vh;
-    border-style: solid;
+    border: 1px solid black;
     border-radius: 1.5em;
-    border-color: black;
-    border-width: 1px;
     text-align: center;
     margin-inline: auto;
     margin-top: 3vh;
     transition: width 0.6s ease, background-color 0.6s ease;
     font-size: 1.5em;
     padding-top: 1.5vh;
-    font-family: var(--font-family-2);
+    font-family: var(--font-button);
 }
 
 #enter-button:hover {
     width: 8em;
     background-color: black;
-    color: white;
+    color: var(--primary-background-color-2);
 }
 
 #enter-button-link-wrapper {
     width: fit-content;
-    color: white;
+    color: var(--primary-background-color-2);
     text-decoration: none;
     margin-inline: auto;
 }
@@ -141,7 +139,7 @@ body {
 .logo-screen {
     width:155px;
     height: 60px;
-    fill: var(--color-8);
+    fill: var(--accent-color-1);
     margin-block: auto;
     background-image: url(../assets/logo/Portfolio-Logo-MrsSD-Black-ini.svg.svg);
     background-size: cover;

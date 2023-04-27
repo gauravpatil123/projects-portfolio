@@ -39,40 +39,59 @@
 }
 
 :root{
-    --nav-menu-button-font-size: 2em;
+
+    /* margins & padding */
     --nav-menu-button-margin-left: 1em;
     --nav-menu-button-margin-right: 1em;
     --nav-menu-button-padding: 0.5em;
 
+    --site-page-margin-bot-h1: 0.5em;
+    --site-page-margin-bot-h2: 0.5em;
+
+    --page-button-margin: 1em;
+
+    /* font sizes */
     --site-page-font-size-h1: 5em;
     --site-page-font-size-h2: 3em;
 
-    --site-page-margin-bot-h1: 0.5em;
-    --site-page-margin-bot-h2: 0.5em;
+    --page-section-title: 2em; 
+
+    --nav-menu-button-font-size: 2em;
+    --page-button-font-size: 1em;
+
+    /* font families */
+    --font-headings: "Gotham Light"; /*selected*/
+    --font-button: "Gotham Light"; 
+    --font-accent: "Playfair Display Regular";
+    --font-text: "Playfair Display Regular";
+
+    --font-family-1: "Gotham Bold";
+    --font-family-3: "Gotham Thin";
+    --font-family-5: "Montserrat Regular";
+    --font-family-6: "Lato Regular";
+    --font-family-7: "Roboto Regular";
+    --font-family-8: "Open Sans Regular";
+
+    /* colors */
+    --primary-background-color-1: #3D6599;
+    --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
+    --primary-background-color-2: white;
+    --accent-color-1: #FF6F40; /*sl 1*/
+
+    --proficiency-a: #D5F5E3;
+    --proficiency-b: #D6EAF8;
+    --proficiency-c: #FDEBD0;
 
     --color-1: #ffb7af;
     --color-2: #D3F547;
     --color-3: #F5422F; /*sl 2*/
     --color-4: #1677F5;
     --color-5: #1856A8;
-
-    --background-color-1: #3D6599;
     --color-7: #00F5FF;
-    --color-8: #FF6F40; /*sl 1*/
     --color-9: #CC2714;
-
     --color-10: #345175;
     --color-11: #09D4DB;
     --color-12: #E06741;
     --color-13: #A82518;
-
-    --font-family-1: "Gotham Bold";
-    --font-family-2: "Gotham Light"; /*selected*/
-    --font-family-3: "Gotham Thin";
-    --font-family-4: "Playfair Display Regular";
-    --font-family-5: "Montserrat Regular";
-    --font-family-6: "Lato Regular";
-    --font-family-7: "Roboto Regular";
-    --font-family-8: "Open Sans Regular";
 
 }

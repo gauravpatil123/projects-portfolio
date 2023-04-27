@@ -1,20 +1,23 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
+body {
+    background-color: var(--primary-background-color-2);
+}
 
 h2 {
     text-align: center;
     font-size: var(--site-page-font-size-h2);
     margin-bottom: var( --site-page-margin-bot-h2);
-    font-family: var(--font-family-4);
-    color: var(--color-8);
+    font-family: var(--font-accent);
+    color: var(--accent-color-1);
 }
 
 .about-intro-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-family: var(--font-family-4);
+    font-family: var(--font-text);
 }
 
 #profile-picture-container {
@@ -22,8 +25,7 @@ h2 {
 }
 
 #profile-picture {
-    border-style: solid;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     border-radius: 12em;
     width: 25vw;
     height: 25vw;
@@ -48,20 +50,22 @@ h2 {
     display: flex;
     flex-direction: row;
     width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: var(--font-family-2);
+    margin-inline: auto;
+    font-family: var(--font-button);
 }
 
 .contact-button{
-    border-style: solid;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     padding: 0.5em;
     margin: 1em;
-    font-size: 1em;
+    font-size: var(--page-button-font-size);
 }
 
 .contact-links {
     text-decoration: none;
     color: black;
+}
+
+.contact-button:hover {
+    border-color: var(--accent-color-1);
 }

@@ -86,6 +86,7 @@ async function click_enter(url) {
 
   $("#enter-button-link-wrapper").click(async function(e){
 
+    //get color hex from caa global variables
     e.preventDefault();
     $("body").animate({ backgroundColor : "#3D6599" }, 1000);
     $("#welcome-text").animate({ color : "#FF6F40", fontSize : "10em" }, 1000);
@@ -95,6 +96,7 @@ async function click_enter(url) {
 
     await new Promise(r => setTimeout(r, 2000));
     
+    //change white to require colors from style sheet
     $("body").animate({ backgroundColor : "white" }, 1000);
     $("#welcome-text").animate({ color : "white" }, 1000);
     $(".logo-screen").animate({ opacity : 0 }, 1000);

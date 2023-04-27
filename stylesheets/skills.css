@@ -1,11 +1,8 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
-.skill-section-title, .tools-title{
-    font-size: 1.5em;
-    margin-bottom: 1em;
-    text-align: center;
-    font-family: var(--font-family-2);
+body {
+    background-color: var(--primary-background-color-2);
 }
 
 .skills-container {
@@ -25,13 +22,20 @@
     width: 25vw;
 }
 
+.skill-section-title, .tools-title{
+    font-size: var(--page-section-title);
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: var(--font-headings);
+}
+
 .skill-set {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-inline: auto;
-    font-family: var(--font-family-4);
+    font-family: var(--font-text);
 }
 
 .skill-packet {
@@ -52,9 +56,7 @@
 .skill-item{
     width: 15vw;
     margin-block: auto;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     border-radius: 1em;
     padding: 0.25em;
     text-align: center;
@@ -63,13 +65,11 @@
 
 .tools-container {
     width: 91vw;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     border-radius: 1.5em;
     margin-inline: auto;
     margin-top: 1em;
-    font-family: var(--font-family-4);
+    font-family: var(--font-text);
 }
 
 .tools-section-container {
@@ -96,9 +96,7 @@
 }
 
 .tool-proficiency-packet {
-    border-style: solid;
-    border-color: black;
-    border-width: 0.1em;
+    border: 0.1em solid black;
     border-radius: 1.5em;
     width: 20vw;
     display: flex;
@@ -114,12 +112,12 @@
 }
 
 .tool-item-image {
+    display: block;
     width: 50px;
     height: 50px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.01em;
-    background-color: white;
+    border: 0.01em solid black;
+    margin-inline: auto;
+    background-color: var(--primary-background-color-2);
 }
 
 .tool-name {
@@ -128,13 +126,13 @@
 
 
 .proficiency-advanced {
-    background-color: #D5F5E3;
+    background-color: var(--proficiency-a);
 }
 
 .proficiency-intermediate {
-    background-color: #D6EAF8;
+    background-color: var(--proficiency-b);
 }
 
 .proficiency-familiar {
-    background-color: #FDEBD0;
+    background-color: var(--proficiency-c);
 }
