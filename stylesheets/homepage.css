@@ -42,13 +42,14 @@ body {
 .portfolio-piece-box {
     width: 25vw;
     height: 25vw;
-    border: 0.1em solid black;
+    border: 0.1em solid var(--primary-background-color-1);
     margin: 1em;
     z-index: 0;
     display: flex;
     align-items: end;
     justify-content: center;
-    /* box-shadow: 0px 0px 10px grey; */
+    box-sizing: border-box;
+    box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1);
 }
 
 .inner{
@@ -79,7 +80,7 @@ body {
 .portfolio-piece-box:hover {
     border-color: var(--accent-color-1);
     border-width: 0.1em;
-    /* box-shadow: 0px 0px 10px var(--color-8); */
+    box-shadow: 0px 0px 10px var(--accent-color-1);
 }
 
 .portfolio-piece-box:hover .inner {

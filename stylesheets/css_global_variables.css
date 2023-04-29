@@ -50,6 +50,8 @@
 
     --page-button-margin: 1em;
 
+    --box-shadow-spread: 10px;
+
     /* font sizes */
     --site-page-font-size-h1: 5em;
     --site-page-font-size-h2: 3em;
@@ -77,6 +79,7 @@
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
     --primary-background-color-2: white;
     --accent-color-1: #FF6F40; /*sl 1*/
+    --box-shadow-color-1: grey;
 
     --proficiency-a: #D5F5E3;
     --proficiency-b: #D6EAF8;
