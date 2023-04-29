@@ -42,8 +42,12 @@ h2 {
 #intro-text {
     font-size: 1.25em;
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 30%;
     margin-top: 10%;
+}
+
+#intro-detail {
+    font-size: 11pt;
 }
 
 .contact-buttons-container {
@@ -68,4 +72,5 @@ h2 {
 
 .contact-button:hover {
     border-color: var(--accent-color-1);
+    color: var(--primary-background-color-1)
 }
