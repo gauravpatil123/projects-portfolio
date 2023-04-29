@@ -1,6 +1,7 @@
 @import "./css_global_variables.css";
 
 .footer-container {
+    position: relative;
     display: flex;
     justify-content: space-around;
     font-size: var(--nav-menu-button-font-size);
@@ -20,4 +21,12 @@
     margin-block: auto;
     background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-ini.svg);
     background-size: cover;
+}
+
+#copyright{
+    position: absolute;
+    font-size: var(--font-size-copyright);
+    font-family: var(--font-copyright);
+    right: 3%;
+    top: 73%;
 }

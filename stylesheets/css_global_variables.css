@@ -61,11 +61,14 @@
     --nav-menu-button-font-size: 2em;
     --page-button-font-size: 1em;
 
+    --font-size-copyright: x-small;
+
     /* font families */
     --font-headings: "Gotham Light"; /*selected*/
     --font-button: "Gotham Light"; 
     --font-accent: "Playfair Display Regular";
     --font-text: "Playfair Display Regular";
+    --font-copyright: "Helvetica", sans-serif;
 
     --font-family-1: "Gotham Bold";
     --font-family-3: "Gotham Thin";
