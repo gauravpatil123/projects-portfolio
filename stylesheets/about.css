@@ -31,8 +31,9 @@ h2 {
     height: 25vw;
     margin-left: auto;
     margin-right: 10%;
-    background: url(../assets/thumbnails/placeholder-image-square.jpg);
+    background: url(../assets/account/profile-pic.jpg);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #intro-text-container {

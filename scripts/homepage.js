@@ -3,11 +3,11 @@ import { setCss, switch_class_to } from "./utils.js";
 //global variable
 var project_domains = {
     "project-1" : "Data Science | Data Viz | Data Art",
-    "project-2" : "Project 2 domain",
-    "project-3" : "Project 3 domain",
-    "project-4" : "Project 4 domain",
-    "project-5" : "Project 5 domain",
-    "project-6" : "Project 6 domain",
+    "project-2" : "Data Science | Interactive Data Viz",
+    "project-3" : "Web Development | Database Design",
+    "project-4" : "Info-Architecture | Prototyping | UX Research",
+    "project-5" : "Digital Product Design | Prototyping",
+    "project-6" : "Research Paper | Research Methodology",
     "project-7" : "Project 7 domain",
     "project-8" : "Project 8 domain"
 }
