@@ -16,32 +16,32 @@ async function main() {
 
     $("#filter-data").on("click", function(){
 
+        switch_class_to("#filter-data");
         setCss(".portfolio-piece-box", "display", "none");
         setCss(".data", "display", "flex");
-        switch_class_to("#filter-data");
 
     });
 
     $("#filter-design").on("click", function(){
 
+        switch_class_to("#filter-design");
         setCss(".portfolio-piece-box", "display", "none");
         setCss(".design", "display", "flex");
-        switch_class_to("#filter-design");
 
     });
 
     $("#filter-document").on("click", function(){
 
+        switch_class_to("#filter-document");
         setCss(".portfolio-piece-box", "display", "none");
         setCss(".document", "display", "flex");
-        switch_class_to("#filter-document");
 
     });
 
     $("#filter-all").on("click", function(){
 
-        setCss(".portfolio-piece-box", "display", "flex");
         switch_class_to("#filter-all");
+        setCss(".portfolio-piece-box", "display", "flex");
 
     });
 
