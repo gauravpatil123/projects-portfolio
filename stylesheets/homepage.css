@@ -92,13 +92,13 @@ body {
 }
 
 #project-1 {
-    background-image: url("../assets/thumbnails/pfch-mid-sp22.png");
+    background-image: url("../assets/thumbnails/us-congress-fall22.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #project-2 {
-    background-image: url("../assets/thumbnails/us-congress-fall22.png");
+    background-image: url("../assets/thumbnails/pfch-mid-sp22.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
