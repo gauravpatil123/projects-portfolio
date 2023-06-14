@@ -11,4 +11,10 @@ function switch_class_to(query_selector) {
 
 }
 
-export { setCss, switch_class_to };
+function redirect(url) {
+
+  $(location).attr('href',url);
+
+}
+
+export { setCss, switch_class_to, redirect };

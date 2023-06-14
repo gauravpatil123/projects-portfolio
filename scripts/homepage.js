@@ -1,4 +1,4 @@
-import { setCss, switch_class_to } from "./utils.js";
+import { setCss, switch_class_to, redirect } from "./utils.js";
 
 //global variable
 var project_domains = {
@@ -78,6 +78,13 @@ async function main() {
 
         var selector = "#" + this.id + " .inner .project-domain";
         $(selector).html("");
+
+    })
+
+    $("#project-1").on("click", function() {
+
+        var url = "./projects/interactive_viz.html";
+        redirect(url);
 
     })
 
