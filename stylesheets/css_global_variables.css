@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat Bold";
+    src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Lato Regular";
     src: url("../assets/fonts/Lato/Lato-Regular.ttf") format("truetype");
 }
@@ -100,5 +105,12 @@
     --color-11: #09D4DB;
     --color-12: #E06741;
     --color-13: #A82518;
+
+    /* Project pieces styles */
+    --font-h1: "Montserrat Bold";
+    --font-h1-size: 28pt;
+
+    --font-text: "Georgia";
+    --font-text-size: 15pt;
 
 }
