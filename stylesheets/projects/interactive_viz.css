@@ -48,7 +48,7 @@ body {
     margin-inline: auto;
 }
 
-#prototype-fig-6-7-container, #prototype-fig-10-11-container, #prototype-fig-15-16-container {
+#prototype-fig-6-7-container, #prototype-fig-10-11-container, #prototype-fig-15-16-container, #prototype-fig-23-24-container, #prototype-fig-25-26-container, #prototype-fig-27-28-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -185,4 +185,32 @@ body {
 
 #fig21 {
     background-image: url("../../assets/projects/interactive_viz/Fig21.png");
+}
+
+#fig22 {
+    background-image: url("../../assets/projects/interactive_viz/Fig22.png");
+}
+
+#fig23 {
+    background-image: url("../../assets/projects/interactive_viz/Fig23.png");
+}
+
+#fig24 {
+    background-image: url("../../assets/projects/interactive_viz/Fig24.png");
+}
+
+#fig25 {
+    background-image: url("../../assets/projects/interactive_viz/Fig25.png");
+}
+
+#fig26 {
+    background-image: url("../../assets/projects/interactive_viz/Fig26.png");
+}
+
+#fig27 {
+    background-image: url("../../assets/projects/interactive_viz/Fig27.png");
+}
+
+#fig28 {
+    background-image: url("../../assets/projects/interactive_viz/Fig28.png");
 }

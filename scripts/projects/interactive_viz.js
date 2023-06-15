@@ -39,6 +39,22 @@ var dataset_text4 = "After the election data for both the houses was collected, 
 var fig21_caption = "Fig #21: <i>Screenshot of Bills & Major events JSON data</i>";
 var dataset_text5 = "Further, I also collected statistical data for Bills & Resolutions for both the houses of Congress from 2014 to 2020 through their official website. This included the number of bills introduced, reported & passed. Finally, I also collected the data for the major events from several sources (these are described in detail in the appendix).";
 
+var evaluation_text1 = "The project was initially planned to span over at least 2 decades, but due to several constraints including time and data collection I decided to cover the project only from years 2014 to 2020. But even with the limited scope the project is quite interactive with a lot of major events and transitions to see in the US Congress. During this timeframe the control of both the houses flipped from one party to the other as well as a lot of new members were elected.";
+var evaluation_text2 = "In this visualization I have attempted to showcase the representation of each house of the US congress from 2014 to 2020. Moreover, along with the composition of the US Congress, I have also attempted to include statistics about the Bills & Resolutions during the congress tenure to provide a statistical overview of the selected chamber. Further, the highlighted major events will provide even more context and build an informative narrative along with the transition of the US Congress through years.";
+var evaluation_text3 = "This project will allow easy understanding of the representational changes that took place in both the houses of Congress through a visual medium. While at the same time provide other related contextual information in the form of major events that will help understand the reasons, circumstances or scenarios that led to the transition or change in the seats/composition.";
+var evaluation_text4 = "This form of at-a-glance visual representation of political data will help simplify the delivery of information and help its users better understand the changing scenarios & other factors through interactivity. Being able to see the changes happen visually with user interaction may also be more impactful than just reading about it or looking up the information through other mediums.";
+var evaluation_text5 = "The choice of representing the House of Representatives seats as small rectangles in sequential form without any geographical association within the state will increase the searchability for any user looking for specific seats or representatives. The complete lack of map in this project helps normalize the overwhelming effect created by similar (but misleading) visual representations in a map format. The notion that land doesn’t vote, people do - fits this visualization.";
+var fig22_caption = "Fig #22: <i>US Senate 2014</i>";
+var evaluation_text6 = "Further, I decided to blur the senate seats which were not contested in the current election cycle as shown in Fig #22, but nevertheless provide information in the form of tooltips when hovering over these seats. This was to provide the user with an intuitive way to infer which seats were contested in the current election cycle while simultaneously not losing the ability to look up information about the other seats.";
+var fig23_24_caption = "Fig #23 & #24: <i>Tooltip Design for US House of Representatives</i>";
+var fig25_26_caption = "Fig #25 & #26: <i>Tooltip Design for US Senate</i>"; 
+var evaluation_text7 = "Additionally, the tooltips are also designed to convey the information clearly to the user. The tooltips have text information about the state, seat, representative & the party. Moreover, the tooltip background also changes color based on the party to provide an extra layer of visual communication for the user. This design is shown in Figs #23 - #26.";
+var fig27_28_caption = "Fig #27 & #28: <i>Semicircular Arcs for House & Senate</i>"; 
+var evaluation_text8 = "Further, the semicircular arc at the bottom right is designed to provide a quick at-glance visual representation of statistical information about the seat distribution in the selected house as shown in Fig #27 & #28.";
+var evaluation_text9 = "The color choices were made taking into account factors such as intuition, accessibility and familiarity. I decided to use the official colors of the two major parties (Democratic & Republican) to represent them since those have a high familiarity. The colors used for other smaller parties & independent candidates are chosen so that the user can intuitively and clearly differentiate between them. All the colors chosen are also colorblind safe; this enables this visualization to have a greater degree of accessibility.";
+var evaluation_text10 = "Typography also plays a significant role in creating a visual impact and setting a tone for this visualization. I have used 2 custom font families in this visualizations - “<i>Pinyon Script</i>” & “<i>Playfair Display</i>”. Most of the top level headings and titles have the first font which is cursive and gives the visualization a very “<i>Political & Antiquited</i>” feel whereas the later font is used in descriptive texts of major events, naming the states & in the tooltip information since it as a clearer font and will help in the readability of the text.";
+var evaluation_text11 = "I decided to have the major events listed behind a horizontal scroll interaction, this adds to the interactivity of the visualization. The user may choose to look & explore the major events and scroll back for the visual representation of the seats at his pace and needs.";
+
 function main() {
 
     $("#introduction-text").html(introduction_text);
@@ -112,6 +128,36 @@ function main() {
     $("#fig21-caption").html(fig21_caption);
 
     $("#dataset-text5").html(dataset_text5);
+
+    $("#evaluation-text1").html(evaluation_text1);
+
+    $("#evaluation-text2").html(evaluation_text2);
+
+    $("#evaluation-text3").html(evaluation_text3);
+
+    $("#evaluation-text4").html(evaluation_text4);
+
+    $("#evaluation-text5").html(evaluation_text5);
+
+    $("#fig22-caption").html(fig22_caption);
+
+    $("#evaluation-text6").html(evaluation_text6);
+
+    $("#fig23-24-caption").html(fig23_24_caption);
+
+    $("#fig25-26-caption").html(fig25_26_caption);
+
+    $("#evaluation-text7").html(evaluation_text7);
+
+    $("#fig27-28-caption").html(fig27_28_caption);
+
+    $("#evaluation-text8").html(evaluation_text8);
+
+    $("#evaluation-text9").html(evaluation_text9);
+
+    $("#evaluation-text10").html(evaluation_text10);
+
+    $("#evaluation-text11").html(evaluation_text11);
 
 }
 
