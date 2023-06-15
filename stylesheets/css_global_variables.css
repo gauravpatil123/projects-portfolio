@@ -107,13 +107,18 @@
     --color-13: #A82518;
 
     /* Project pieces styles */
+
+    --project-container-background-color: white;
+
     --font-h1: "Montserrat Bold";
-    --font-h1-size: 28pt;
+    --font-h1-size: 19pt;
     --h1-margin: 0.5em;
 
     --font-text: "Georgia";
     --font-text-size: 12pt;
-    --text-margin: 1em;
+    --text-margin-block: 1em;
+    --text-margin-left: 3em;
+    --text-margin-right: 6em;
 
     --font-caption: "Georgia";
     --font-caption-size: 10pt;

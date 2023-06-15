@@ -1,8 +1,13 @@
 @import "../css_global_variables.css";
 
+body {
+    background-color: #efefef;
+}
+
 #project-piece-container {
     max-width: 82vw;
     margin-inline: auto;
+    background-color: var(--project-container-background-color);
 }
 
 .project-h1 {
@@ -14,14 +19,25 @@
 .project-text {
     font-family: var(--font-text);
     font-size: var(--font-text-size);
-    margin-block: var(--text-margin);
+    margin-block: var(--text-margin-block);
+    margin-left: var(--text-margin-left);
+    margin-right: var(--text-margin-right);
 }
 
 .project-figs1 {
-    width: 60vw;
-    height: 30vw;
+    width: 55vw;
+    height: 29vw;
     border: 0.1em solid var(--fig-border-color);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs2 {
+    width: 50vw;
+    height: 33vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
     background-repeat: no-repeat;
     margin-inline: auto;
 }
@@ -41,4 +57,16 @@
 
 #fig2 {
     background-image: url("../../assets/projects/interactive_viz/Fig2.png");
+}
+
+#fig3 {
+    background-image: url("../../assets/projects/interactive_viz/Fig3.png");
+}
+
+#fig4 {
+    background-image: url("../../assets/projects/interactive_viz/Fig4.png");
+}
+
+#fig5 {
+    background-image: url("../../assets/projects/interactive_viz/Fig5.png");
 }
