@@ -57,6 +57,10 @@ var evaluation_text11 = "I decided to have the major events listed behind a hori
 
 var conclusion_text = "This project provides a variety of information to its user in a visually appealing and concise format. The user can interact with the visualization at his pace, go back and forth with its several interactive features to interpret information from the visualization. This project has successfully achieved its aim of telling the story of the changes and transitions in the US Congress from 2014 to 2020 through the use of major events & election results during this timeframe.";
 
+var next_steps_text1 = "Before working on the project further I would do a few user tests to make sure the visualization is interpreted as intended and fix any issues based on the user feedback.";
+var next_steps_text2 = "After the user tests, the first good next step in taking this project further would be to add the grid-view feature that was planned in the initial prototypes. The initial arrangement code for the grid-view is already included in this project's repository. Which is a good starting point to work towards adding this feature.";
+var next_steps_text3 = "Other long term steps would include expanding the scope of the project on either side of the timeline. This project can be expanded by just adding the election data of other election cycles in the same format as used in this project. Maybe creation of an API for this dataset can help in its expansion. This project can also be expanded and updated with each election cycle to include the latest datasets & information.";
+
 function main() {
 
     $("#introduction-text").html(introduction_text);
@@ -162,6 +166,12 @@ function main() {
     $("#evaluation-text11").html(evaluation_text11);
 
     $("#conclusion-text").html(conclusion_text);
+
+    $("#next-steps-text1").html(next_steps_text1);
+
+    $("#next-steps-text2").html(next_steps_text2);
+
+    $("#next-steps-text3").html(next_steps_text3);
 
 }
 
