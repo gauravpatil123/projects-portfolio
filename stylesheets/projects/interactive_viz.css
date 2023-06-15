@@ -1,11 +1,44 @@
 @import "../css_global_variables.css";
 
+#project-piece-container {
+    max-width: 82vw;
+    margin-inline: auto;
+}
+
 .project-h1 {
     font-family: var(--font-h1);
     font-size: var(--font-h1-size);
+    margin-block: var(--h1-margin);
 }
 
 .project-text {
     font-family: var(--font-text);
     font-size: var(--font-text-size);
+    margin-block: var(--text-margin);
+}
+
+.project-figs1 {
+    width: 60vw;
+    height: 30vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs1-caption {
+    margin-inline: auto;
+    font-family: var(--font-caption);
+    font-size: var(--font-caption-size);
+    margin-top: var(--caption-margin-top);
+    margin-bottom: var(--caption-margin-bot);
+    text-align: center;
+}
+
+#fig1 {
+    background-image: url("../../assets/projects/interactive_viz/Fig1.png");
+}
+
+#fig2 {
+    background-image: url("../../assets/projects/interactive_viz/Fig2.png");
 }

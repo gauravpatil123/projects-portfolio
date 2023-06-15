@@ -109,8 +109,17 @@
     /* Project pieces styles */
     --font-h1: "Montserrat Bold";
     --font-h1-size: 28pt;
+    --h1-margin: 0.5em;
 
     --font-text: "Georgia";
-    --font-text-size: 15pt;
+    --font-text-size: 12pt;
+    --text-margin: 1em;
+
+    --font-caption: "Georgia";
+    --font-caption-size: 10pt;
+    --caption-margin-top: 0.5em;
+    --caption-margin-bot: 1em;
+
+    --fig-border-color: #222222;
 
 }
