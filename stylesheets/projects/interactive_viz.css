@@ -16,6 +16,12 @@ body {
     margin-block: var(--h1-margin);
 }
 
+.project-h2 {
+    font-family: var(--font-h2);
+    font-size: var(--font-h2-size);
+    margin-block: var(--h2-margin);
+}
+
 .project-text {
     font-family: var(--font-text);
     font-size: var(--font-text-size);
@@ -42,6 +48,48 @@ body {
     margin-inline: auto;
 }
 
+#prototype-fig-6-7-container, #prototype-fig-10-11-container, #prototype-fig-15-16-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-figs3 {
+    width: 35vw;
+    height: 30vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs4 {
+    width: 40vw;
+    height: 30vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs5 {
+    width: 23vw;
+    height: 28vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs6 {
+    width: 28vw;
+    height: 16vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
 .project-figs1-caption {
     margin-inline: auto;
     font-family: var(--font-caption);
@@ -49,6 +97,10 @@ body {
     margin-top: var(--caption-margin-top);
     margin-bottom: var(--caption-margin-bot);
     text-align: center;
+}
+
+#fig-11-container {
+    margin-block: auto;
 }
 
 #fig1 {
@@ -69,4 +121,48 @@ body {
 
 #fig5 {
     background-image: url("../../assets/projects/interactive_viz/Fig5.png");
+}
+
+#fig6 {
+    background-image: url("../../assets/projects/interactive_viz/Fig6.png");
+}
+
+#fig7 {
+    background-image: url("../../assets/projects/interactive_viz/Fig7.png");
+}
+
+#fig8 {
+    background-image: url("../../assets/projects/interactive_viz/Fig8.png");
+}
+
+#fig9 {
+    background-image: url("../../assets/projects/interactive_viz/Fig9.png");
+}
+
+#fig10 {
+    background-image: url("../../assets/projects/interactive_viz/Fig10.png");
+}
+
+#fig11 {
+    background-image: url("../../assets/projects/interactive_viz/Fig11.png");
+}
+
+#fig12 {
+    background-image: url("../../assets/projects/interactive_viz/Fig12.png");
+}
+
+#fig13 {
+    background-image: url("../../assets/projects/interactive_viz/Fig13.png");
+}
+
+#fig14 {
+    background-image: url("../../assets/projects/interactive_viz/Fig14.png");
+}
+
+#fig15 {
+    background-image: url("../../assets/projects/interactive_viz/Fig15.png");
+}
+
+#fig16 {
+    background-image: url("../../assets/projects/interactive_viz/Fig16.png");
 }

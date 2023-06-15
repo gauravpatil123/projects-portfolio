@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat Semi Bold";
+    src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Montserrat Bold";
     src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
 }
@@ -113,6 +118,10 @@
     --font-h1: "Montserrat Bold";
     --font-h1-size: 19pt;
     --h1-margin: 0.5em;
+
+    --font-h2: "Montserrat Semi Bold";
+    --font-h2-size: 15pt;
+    --h2-margin: 0.5em;
 
     --font-text: "Georgia";
     --font-text-size: 12pt;
