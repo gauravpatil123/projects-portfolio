@@ -28,6 +28,17 @@ var prototype_evolution_text4 = "1. Changed the orientations of state grids for 
 var prototype_evolution_text5 = "1. Added the “<i>President in Office</i>” text bar to accompany the chart title.<br>2. Added a scroll arrow at the right on the bottom of the “<i>Details Panel</i>” to access the “<i>Major Events</i>” text with a scroll interaction."; 
 var prototype_evolution_text6 = "1. Deleted the grid collapse view feature from the visualization (including the buttons & pages). While the feature was an interesting idea, I wanted to focus on the interactivity of the state grid views and get them to work smoothly.";
 
+var dataset_text1 = "Even though all the data required to build this project was available on various online sources, a compiled dataset with all the required data elements was hard to find. So I decided to build the datasets myself and tailor them to the needs of this project. These constructed datasets are available on the GitHub project repository.";
+var fig17_caption = "Fig #17: <i>Screenshot of Number of seats csv data</i>";
+var dataset_text2 = "First, I started collecting data related to the number of seats that each state represents in the US House of Representatives through the years. Further, I collected the data for the individual chambers of US congress, the House & the Senate. This data included the election year, the name of the winning candidate, the party of the winning candidate, the state, and the district number. Moreover, for the Senate seats I collected additional data that included whether the seat was contested in the current cycle, the seat class & whether the seat was a part of a special election.";
+var fig18_caption = "Fig #18: <i>Screenshot of House of Representatives csv data</i>";
+var fig19_caption = "Fig #19: <i>Screenshot of Senate csv data</i>";
+var dataset_text3 = "I started collecting data from the 2020 election cycle working backwards in election cycles. I finished by collecting the data for four election cycles (~8years), from 2014 to 2020.";
+var fig20_caption = "Fig #20: <i>Screenshot of Congress Details JSON data</i>";
+var dataset_text4 = "After the election data for both the houses was collected, I started to collect the details of each formed Congress from 2014 - 2020. This data included the party leaders of both the houses, the seats won by their parties, the tenure of the Congress & election date.";
+var fig21_caption = "Fig #21: <i>Screenshot of Bills & Major events JSON data</i>";
+var dataset_text5 = "Further, I also collected statistical data for Bills & Resolutions for both the houses of Congress from 2014 to 2020 through their official website. This included the number of bills introduced, reported & passed. Finally, I also collected the data for the major events from several sources (these are described in detail in the appendix).";
+
 function main() {
 
     $("#introduction-text").html(introduction_text);
@@ -81,6 +92,26 @@ function main() {
     $("#prototype_evolution-text5").html(prototype_evolution_text5);
 
     $("#prototype_evolution-text6").html(prototype_evolution_text6);
+
+    $("#dataset-text1").html(dataset_text1);
+
+    $("#fig17-caption").html(fig17_caption);
+
+    $("#dataset-text2").html(dataset_text2);
+
+    $("#fig18-caption").html(fig18_caption);
+
+    $("#fig19-caption").html(fig19_caption);
+
+    $("#dataset-text3").html(dataset_text3);
+
+    $("#fig20-caption").html(fig20_caption);
+
+    $("#dataset-text4").html(dataset_text4);
+
+    $("#fig21-caption").html(fig21_caption);
+
+    $("#dataset-text5").html(dataset_text5);
 
 }
 
