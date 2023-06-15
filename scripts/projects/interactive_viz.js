@@ -55,6 +55,8 @@ var evaluation_text9 = "The color choices were made taking into account factors 
 var evaluation_text10 = "Typography also plays a significant role in creating a visual impact and setting a tone for this visualization. I have used 2 custom font families in this visualizations - “<i>Pinyon Script</i>” & “<i>Playfair Display</i>”. Most of the top level headings and titles have the first font which is cursive and gives the visualization a very “<i>Political & Antiquited</i>” feel whereas the later font is used in descriptive texts of major events, naming the states & in the tooltip information since it as a clearer font and will help in the readability of the text.";
 var evaluation_text11 = "I decided to have the major events listed behind a horizontal scroll interaction, this adds to the interactivity of the visualization. The user may choose to look & explore the major events and scroll back for the visual representation of the seats at his pace and needs.";
 
+var conclusion_text = "This project provides a variety of information to its user in a visually appealing and concise format. The user can interact with the visualization at his pace, go back and forth with its several interactive features to interpret information from the visualization. This project has successfully achieved its aim of telling the story of the changes and transitions in the US Congress from 2014 to 2020 through the use of major events & election results during this timeframe.";
+
 function main() {
 
     $("#introduction-text").html(introduction_text);
@@ -158,6 +160,8 @@ function main() {
     $("#evaluation-text10").html(evaluation_text10);
 
     $("#evaluation-text11").html(evaluation_text11);
+
+    $("#conclusion-text").html(conclusion_text);
 
 }
 
