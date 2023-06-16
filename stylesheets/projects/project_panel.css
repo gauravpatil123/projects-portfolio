@@ -9,7 +9,7 @@
     width: 91vw;
     box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
     margin-inline: auto;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: 5em;
 }
 
@@ -29,4 +29,68 @@
 
 #project-details {
     flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+#project-title {
+    font-size: var(--project-panel-title-font-size);
+    text-align: center;
+    font-family: var(--project-panel-title-font);
+    margin-block: auto;
+    margin-inline: 2em;
+}
+
+#skills-container, #tools-container, #links-container {
+    display: flex;
+    flex-direction: row;
+    margin-block: 2em;
+    justify-content: flex-start;
+}
+
+#skill-title, #tools-title, #links-title {
+    font-size: var(--page-section-title);
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: var(--font-headings);
+    margin-block: auto;
+    margin-inline: 2em;
+}
+
+.skill-item, .tool-item {
+    width: 10vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.25em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    background-color: var(--tag-background-color-1);
+    color: var(--tag-font-color-2);
+}
+
+.link-item {
+    width: 10vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.25em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    transition: background-color 0.5s ease;
+}
+
+.link-item:hover {
+    width: 10vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.25em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    background-color: var(--tag-background-color-1);
+    color: var(--tag-font-color-2);
 }

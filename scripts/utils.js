@@ -17,4 +17,12 @@ function redirect(url) {
 
 }
 
-export { setCss, switch_class_to, redirect };
+function append_tag(element, parentselectorid, classname) {
+
+  var selector = "#" + parentselectorid;
+  var appendtext  = "<div class=" + classname + ">" + element + "</div>"; 
+  $(selector).append(appendtext);
+
+}
+
+export { setCss, switch_class_to, redirect, append_tag };

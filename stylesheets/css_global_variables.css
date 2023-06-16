@@ -111,6 +111,15 @@
     --color-12: #E06741;
     --color-13: #A82518;
 
+    /* project panel */
+    --tag-background-color-1: #222222;
+    --tag-background-color-2: white;
+    --tag-font-color-1: #222222;
+    --tag-font-color-2: white;
+
+    --project-panel-title-font-size: 24pt;
+    --project-panel-title-font: "Gotham Bold";
+
     /* Project pieces styles */
 
     --project-container-background-color: white;
