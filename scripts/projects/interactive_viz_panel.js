@@ -1,10 +1,11 @@
-import {setCss, append_tag} from "../utils.js";
+import {setCss, append_tag, append_link} from "../utils.js";
 
 var project_thumbnail_url = "../../assets/thumbnails/us-congress-fall22.png";
 var title = "The Transition in US Congress from 2014 - 2020";
 var skills = ["Data Visualization", "Data Collection", "Data ETL"];
 var tools = ["D3", "JavaScript", "CSS", "HTML"];
-var links = ["Repository", "Visualization"]
+var link_titles = ["Repository", "Visualization", "third link", "link4"];
+var link_srcs = ["https://github.com/gauravpatil123/Transitions-in-US-Congress", "https://gauravpatil123.github.io/Transitions-in-US-Congress/", "link-url", "4url"];
 
 function main() {
 
@@ -16,7 +17,16 @@ function main() {
 
     tools.forEach(element => append_tag(element, "tools-container", "tool-item"));
 
-    links.forEach(element => append_tag(element, "links-container", "link-item"));
+    // link_titles.forEach(element => append_tag(element, "links-container", "link-item"));
+
+    for (let i = 0; i < link_titles.length; i++) {
+        let element = link_titles[i];
+        let src = link_srcs[i];
+        append_link(element, src, "links-container", "link-item");
+    }
+
+    // link_titles.forEach((element, index) => append_link(element, link_srcs[index], "links-container", "link-item"));
+
 
 }
 

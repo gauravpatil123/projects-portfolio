@@ -25,4 +25,13 @@ function append_tag(element, parentselectorid, classname) {
 
 }
 
-export { setCss, switch_class_to, redirect, append_tag };
+function append_link(element, src, parentselectorid, classname) {
+
+  var selector = "#" + parentselectorid;
+  var appendtext = "<div class=" + classname + " src=" + src + ">" +  element + "</div>";
+  console.log(appendtext);
+  $(selector).append(appendtext);
+
+}
+
+export { setCss, switch_class_to, redirect, append_tag, append_link };
