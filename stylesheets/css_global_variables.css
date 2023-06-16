@@ -115,22 +115,32 @@
 
     --project-container-background-color: white;
 
+    --font-title: "Montserrat Bold";
+    --font-title-size: 28pt;
+    --title-margin-block: 0.5em;
+    --title-margin-left: 60px;
+
     --font-h1: "Montserrat Bold";
     --font-h1-size: 19pt;
-    --h1-margin: 0.5em;
+    --h1-margin-block: 0.5em;
+    --h1-margin-left: 60px;
 
     --font-h2: "Montserrat Semi Bold";
     --font-h2-size: 15pt;
-    --h2-margin: 0.5em;
+    --h2-margin-top: 1em;
+    --h2-margin-bot: 0.5em;
+    --h2-margin-left: 60px;
 
-    --font-text: "Georgia";
-    --font-text-size: 12pt;
-    --text-margin-block: 1em;
-    --text-margin-left: 3em;
-    --text-margin-right: 6em;
+    --font-text-project: "Georgia";
+    --font-text-size: 15pt;
+    --text-margin-top: 0.5em;
+    --text-margin-bot: 1em;
+    --text-margin-left: 60px;
+    --text-margin-right: 12em;
+    --text-line-height: 2;
 
     --font-caption: "Georgia";
-    --font-caption-size: 10pt;
+    --font-caption-size: 12pt;
     --caption-margin-top: 0.5em;
     --caption-margin-bot: 1em;
 
