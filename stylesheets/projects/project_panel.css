@@ -1,0 +1,32 @@
+@import "../css_global_variables.css";
+
+.project-panel {
+    display: flex;
+    flex-direction: row;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 91vw;
+    box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+    margin-inline: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+#thumbnail-container {
+    flex: 1;
+    margin: 1em;
+}
+
+#project-thumbnail {
+    width: 20vw;
+    height: 20vw;
+    border: 0.1em solid black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+#project-details {
+    flex: 3;
+}
