@@ -29,7 +29,6 @@ function append_link(element, src, parentselectorid, classname) {
 
   var selector = "#" + parentselectorid;
   var appendtext = "<div class=" + classname + " src=" + src + ">" +  element + "</div>";
-  console.log(appendtext);
   $(selector).append(appendtext);
 
 }

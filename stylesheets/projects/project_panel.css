@@ -35,20 +35,20 @@
 
 #project-title {
     font-size: var(--project-panel-title-font-size);
-    text-align: center;
+    text-align: left;
     font-family: var(--project-panel-title-font);
     margin-block: auto;
-    margin-inline: 2em;
+    margin-inline: 1em;
 }
 
-#skills-container, #tools-container, #links-container {
+#title-container, #skills-container, #tools-container, #links-container {
     display: flex;
     flex-direction: row;
-    margin-block: 2em;
+    margin-block: 1.5em;
     justify-content: flex-start;
 }
 
-#skill-title, #tools-title, #links-title {
+#title-head, #skill-title, #tools-title, #links-title {
     font-size: var(--page-section-title);
     margin-bottom: 1em;
     text-align: center;
