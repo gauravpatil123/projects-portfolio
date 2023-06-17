@@ -4,8 +4,8 @@ var project_thumbnail_url = "../../assets/thumbnails/us-congress-fall22.png";
 var title = "The Transition in US Congress from 2014 - 2020";
 var skills = ["Data Visualization", "Data Collection", "Data ETL"];
 var tools = ["D3", "JavaScript", "CSS", "HTML"];
-var link_titles = ["Repository", "Visualization", "third link", "link4"];
-var link_srcs = ["https://github.com/gauravpatil123/Transitions-in-US-Congress", "https://gauravpatil123.github.io/Transitions-in-US-Congress/", "link-url", "4url"];
+var link_titles = ["Repository", "Visualization"];
+var link_srcs = ["https://github.com/gauravpatil123/Transitions-in-US-Congress", "https://gauravpatil123.github.io/Transitions-in-US-Congress"];
 
 function main() {
 
