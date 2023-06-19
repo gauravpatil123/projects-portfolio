@@ -1,8 +1,8 @@
 @import "../css_global_variables.css";
 @import "./project_panel.css";
+@import "./project_template.css";
 
-body {
-    /* background-color: #efefef; */
+/* body {
     background-color: white;
 }
 
@@ -60,7 +60,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-inline: auto;
-}
+} */
 
 #prototype-fig-6-7-container, #prototype-fig-10-11-container, #prototype-fig-15-16-container, #prototype-fig-23-24-container, #prototype-fig-25-26-container, #prototype-fig-27-28-container {
     display: flex;
@@ -68,7 +68,7 @@ body {
     justify-content: space-evenly;
 }
 
-.project-figs3 {
+/* .project-figs3 {
     width: 35vw;
     height: 30vw;
     border: 0.1em solid var(--fig-border-color);
@@ -111,7 +111,7 @@ body {
     margin-top: var(--caption-margin-top);
     margin-bottom: var(--caption-margin-bot);
     text-align: center;
-}
+} */
 
 #fig-11-container {
     margin-block: auto;
