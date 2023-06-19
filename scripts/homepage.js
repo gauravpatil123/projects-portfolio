@@ -88,6 +88,13 @@ async function main() {
 
     })
 
+    $("#project-4").on("click", function() {
+
+        var url = "./projects/information_arch.html";
+        redirect(url);
+
+    })
+
 }
 
 main();
