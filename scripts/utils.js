@@ -33,4 +33,17 @@ function append_link(element, src, parentselectorid, classname) {
 
 }
 
-export { setCss, switch_class_to, redirect, append_tag, append_link };
+function get_link_url() {
+
+  $(".link-item").on("click", function () {
+
+      console.log("clicked");
+      var element = $(this)[0];
+      var src = $(element).attr("src");
+      window.open(src, "_blank");
+
+  })
+
+}
+
+export { setCss, switch_class_to, redirect, append_tag, append_link, get_link_url };
