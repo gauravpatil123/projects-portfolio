@@ -142,6 +142,15 @@ body {
     margin-inline: auto;
 }
 
+.project-figs11 {
+    width: 55vw;
+    height: 30vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
 .project-figs1-caption {
     margin-inline: auto;
     font-family: var(--font-caption);

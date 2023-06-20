@@ -35,6 +35,10 @@ var data_collection_text9 = "3. People need to know the information about costs,
 var data_collection_text10 = "4. People usually prefer to use the mobile website first before going on the desktop version.";
 var data_collection_text11 = "5. Visitors dislike crowds or guided tours in the museum.";
 
+var persona_text1 = "Based on the affinity mapping, I came up with a representative persona to have a better idea of our target visitors as well as our design goals.";
+var persona_text2 = "<u>The Museum Enthusiast</u>: He usually visits the museum website to plan his visit & purchases tickets online. He values clear information about location, travel, ticket prices & museum policies above other things.";
+var fig13_caption =  "Fig #13: <i>User Persona created for the NYTM | Museum Enthusiast - Sid Shaw</i>";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -100,6 +104,12 @@ function main() {
     $("#data-collection-text10").html(data_collection_text10);
 
     $("#data-collection-text11").html(data_collection_text11);
+
+    $("#persona-text1").html(persona_text1);
+
+    $("#persona-text2").html(persona_text2);
+
+    $("#fig13-caption").html(fig13_caption);
 
 }
 
