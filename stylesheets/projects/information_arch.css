@@ -2,3 +2,21 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
+#client-duration-container, #team-container, #all-tools-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#client-text, #duration-text, #team-text, #all-tools-text {
+    margin-left: 1em;
+    margin-right: 3em;
+    font-family: var(--font-text-project);
+}
+
+#fig1 {
+    background-image: url("../../assets/projects/information_arch/Fig1.png");
+}
+
+#fig2 {
+    background-image: url("../../assets/projects/information_arch/Fig2.png");
+}
