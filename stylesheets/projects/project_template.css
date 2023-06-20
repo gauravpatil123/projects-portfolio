@@ -33,6 +33,14 @@ body {
     margin-left: var(--h2-margin-left);
 }
 
+.project-h3 {
+    font-family: var(--font-h3);
+    font-size: var(--font-h3-size);
+    margin-top: var(--h3-margin-top);
+    margin-bottom: var(--h3-margin-bot);
+    margin-left: var(--h3-margin-left);
+}
+
 .project-text {
     font-family: var(--font-text-project);
     font-size: var(--font-text-size);
@@ -110,6 +118,24 @@ body {
 .project-figs8 {
     width: 15vw;
     height: 15vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs9 {
+    width: 32vw;
+    height: 16vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs10 {
+    width: 30vw;
+    height: 31vw;
     border: 0.1em solid var(--fig-border-color);
     background-size: cover;
     background-repeat: no-repeat;

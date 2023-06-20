@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: "Montserrat Medium";
+    src: url("../assets/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Montserrat Semi Bold";
     src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
 }
@@ -139,6 +144,12 @@
     --h2-margin-top: 1em;
     --h2-margin-bot: 0.5em;
     --h2-margin-left: 60px;
+
+    --font-h3: "Montserrat Medium";
+    --font-h3-size: 15pt;
+    --h3-margin-top: 1em;
+    --h3-margin-bot: 0.5em;
+    --h3-margin-left: 60px;
 
     --font-text-project: "Georgia";
     --font-text-size: 15pt;

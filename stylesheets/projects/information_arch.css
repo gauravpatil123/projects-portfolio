@@ -13,7 +13,7 @@
     font-family: var(--font-text-project);
 }
 
-#about-fig-3-4-container, #about-fig-5-6-7-container {
+#about-fig-3-4-container, #about-fig-5-6-7-container, #data-collection-fig-8-9-container, #data-collection-fig-11-12-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -45,4 +45,24 @@
 
 #fig7 {
     background-image: url("../../assets/projects/information_arch/Fig7.png");
+}
+
+#fig8 {
+    background-image: url("../../assets/projects/information_arch/Fig8.png");
+}
+
+#fig9 {
+    background-image: url("../../assets/projects/information_arch/Fig9.png");
+}
+
+#fig10 {
+    background-image: url("../../assets/projects/information_arch/Fig10.png");
+}
+
+#fig11 {
+    background-image: url("../../assets/projects/information_arch/Fig11.png");
+}
+
+#fig12 {
+    background-image: url("../../assets/projects/information_arch/Fig12.png");
 }

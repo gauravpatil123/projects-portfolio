@@ -19,6 +19,22 @@ var about_text4 = "After the kick-off meeting with the client, we decided on the
 var about_text5 = "1. Make the process of purchasing tickets through their website easy & intuitive.";
 var about_text6 = "2. Revise the Information architecture of the website to make its programs & offerings easily & intuitively accessible to their users.";
 
+var data_collection_text1 = "<b>Sample Size:</b> 12 responses"; 
+var fig8_9_caption = "Fig #8 & #9: <i>Screener Question Responses</i>";
+var data_collection_text2 = "Since we wanted to base our research on frequent museum visitors who are more likely to use the museum website, we used the screener criteria from the above images to choose the candidates for user interviews."; 
+var data_collection_text3 = "We conducted 6 moderated user interviews from the screened participants. These interviews were directed to find out their motivations & needs when they visit museums. The questions covered a range of topics including the frequency of visits, motivations, likes, dislikes, preferences & planning routines. The users were also asked for any additional feedback and insights they might have to offer.";
+var data_collection_text4 = "After conducting the interviews we gathered all the information from our research notes and organized the gained insights on a Miro board. We color coded the notes according to the interview participants.";
+var fig10_caption = "Fig #10: <i>Miro Board with Insights from the User Interviews | Color coded for participants</i>";
+var data_collection_text5 = "Once we had all the insights, we started on the affinity mapping of these insights and grouped them into several categories. For grouping, we looked at recurring themes of insights to understand the motivations, behavior, habits & preferences of users."; 
+var data_collection_text6 = "Once the groups were formed we started to see if these groups have any connections within themselves and connected these groups. We formed 20 major insight categories, many of which were divided into subcategories for more narrow insights.";
+var fig11_caption = "Fig #11: <i>Miro Board with showing the Affinity Mapping | Board 1 of 2</i>";
+var fig12_caption = "Fig #12: <i>Miro Board with showing the Affinity Mapping | Board 2 of 2</i>";
+var data_collection_text7 = "1. Visitors like to plan their visits & book tickets in advance.";
+var data_collection_text8 = "2. Visitors use online resources including the museums website for planning visits.";
+var data_collection_text9 = "3. People need to know the information about costs, travel directions, locations, food options & exhibits.";
+var data_collection_text10 = "4. People usually prefer to use the mobile website first before going on the desktop version.";
+var data_collection_text11 = "5. Visitors dislike crowds or guided tours in the museum.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -54,6 +70,36 @@ function main() {
     $("#about-text5").html(about_text5);
 
     $("#about-text6").html(about_text6);
+
+    $("#data-collection-text1").html(data_collection_text1);
+
+    $("#fig8-9-caption").html(fig8_9_caption);
+
+    $("#data-collection-text2").html(data_collection_text2);
+
+    $("#data-collection-text3").html(data_collection_text3);
+
+    $("#data-collection-text4").html(data_collection_text4);
+
+    $("#fig10-caption").html(fig10_caption);
+
+    $("#data-collection-text5").html(data_collection_text5);
+
+    $("#data-collection-text6").html(data_collection_text6);
+
+    $("#fig11-caption").html(fig11_caption);
+
+    $("#fig12-caption").html(fig12_caption);
+
+    $("#data-collection-text7").html(data_collection_text7);
+
+    $("#data-collection-text8").html(data_collection_text8);
+
+    $("#data-collection-text9").html(data_collection_text9);
+
+    $("#data-collection-text10").html(data_collection_text10);
+
+    $("#data-collection-text11").html(data_collection_text11);
 
 }
 
