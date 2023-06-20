@@ -16,8 +16,7 @@ var about_text2 = "Further, since the New York Transit Museum is a self-supporti
 var about_text3 = "All these groups are potential visitors of the NYTM since the museum has educational, historic & informative offerings that have appeal for all these groups. Thus all these groups are essential for our research and are our target users."; 
 var fig5_6_7_caption = "Fig #5, #6 & #7: <i>Icons Respectively Representing Educators, Students & Museum Enthusiasts</i>";
 var about_text4 = "After the kick-off meeting with the client, we decided on the following goals for project:";
-var about_text5 = "1. Make the process of purchasing tickets through their website easy & intuitive.";
-var about_text6 = "2. Revise the Information architecture of the website to make its programs & offerings easily & intuitively accessible to their users.";
+var about_text5 = "1. Make the process of purchasing tickets through their website easy & intuitive.<br>2. Revise the Information architecture of the website to make its programs & offerings easily & intuitively accessible to their users.";
 
 var data_collection_text1 = "<b>Sample Size:</b> 12 responses"; 
 var fig8_9_caption = "Fig #8 & #9: <i>Screener Question Responses</i>";
@@ -29,15 +28,18 @@ var data_collection_text5 = "Once we had all the insights, we started on the aff
 var data_collection_text6 = "Once the groups were formed we started to see if these groups have any connections within themselves and connected these groups. We formed 20 major insight categories, many of which were divided into subcategories for more narrow insights.";
 var fig11_caption = "Fig #11: <i>Miro Board with showing the Affinity Mapping | Board 1 of 2</i>";
 var fig12_caption = "Fig #12: <i>Miro Board with showing the Affinity Mapping | Board 2 of 2</i>";
-var data_collection_text7 = "1. Visitors like to plan their visits & book tickets in advance.";
-var data_collection_text8 = "2. Visitors use online resources including the museums website for planning visits.";
-var data_collection_text9 = "3. People need to know the information about costs, travel directions, locations, food options & exhibits.";
-var data_collection_text10 = "4. People usually prefer to use the mobile website first before going on the desktop version.";
-var data_collection_text11 = "5. Visitors dislike crowds or guided tours in the museum.";
+var data_collection_text7 = "1. Visitors like to plan their visits & book tickets in advance.<br>2. Visitors use online resources including the museums website for planning visits.<br> 3. People need to know the information about costs, travel directions, locations, food options & exhibits.<br>4. People usually prefer to use the mobile website first before going on the desktop version.<br> 5. Visitors dislike crowds or guided tours in the museum.";
 
 var persona_text1 = "Based on the affinity mapping, I came up with a representative persona to have a better idea of our target visitors as well as our design goals.";
 var persona_text2 = "<u>The Museum Enthusiast</u>: He usually visits the museum website to plan his visit & purchases tickets online. He values clear information about location, travel, ticket prices & museum policies above other things.";
-var fig13_caption =  "Fig #13: <i>User Persona created for the NYTM | Museum Enthusiast - Sid Shaw</i>";
+var fig13_caption = "Fig #13: <i>User Persona created for the NYTM | Museum Enthusiast - Sid Shaw</i>";
+
+var fig14_caption = "Fig #14: <i>Logos of the 9 chosen competitors for analysis</i>";
+var market_research_text1 = "1. To establish a benchmark for the redesign of the NYTM website by looking at the websites of its direct and indirect competitors.<br>2. To analyze the pros and cons of the competitor websites along a range of qualitative dimensions.";
+var market_research_text2 = "1. Conducted a comprehensive review of 9 competitor websites (8 museums & 1 botanical garden) across 6 dimensions which include homepage aesthetics, homepage content, planning your visit, navigation & search, ticketing & mobile experience.<br>2. After the review we scored the websites along the mentioned dimensions on a scale of 1 to 3, 1 being lowest & 3 being the highest.";
+var fig15_caption = "Fig #15: <i>Chart showing the scores of the competitor websites along the dimensions</i>";
+var market_research_text3 = "1. Clean, minimalistic & visually appealing homepages using current pictures or videos from the museum.<br>2. Info about opening hours, tickets, current exhibits & need to know instructions on the homepage.<br>3. Clear, concise & intuitive “Plan your visits” page for smooth user experience.<br>4. Intuitive navigation menu with clear hierarchy & a working search function.<br>5. Ticketing access from the homepage with clear policies and pricing.<br>6. Calendar for tickets reservations with times and dates grayed out when full."; 
+var market_research_text4 = "1. Too many tabs, unclear location information & misplaced information on the “Plan your Visits” page.<br>2. Multiple buttons on internal pages for reserving tickets can become confusing.<br>3. Too much unnecessary information on the mobile website clutters the webpage.";
 
 function main() {
 
@@ -73,8 +75,6 @@ function main() {
 
     $("#about-text5").html(about_text5);
 
-    $("#about-text6").html(about_text6);
-
     $("#data-collection-text1").html(data_collection_text1);
 
     $("#fig8-9-caption").html(fig8_9_caption);
@@ -97,19 +97,23 @@ function main() {
 
     $("#data-collection-text7").html(data_collection_text7);
 
-    $("#data-collection-text8").html(data_collection_text8);
-
-    $("#data-collection-text9").html(data_collection_text9);
-
-    $("#data-collection-text10").html(data_collection_text10);
-
-    $("#data-collection-text11").html(data_collection_text11);
-
     $("#persona-text1").html(persona_text1);
 
     $("#persona-text2").html(persona_text2);
 
     $("#fig13-caption").html(fig13_caption);
+
+    $("#fig14-caption").html(fig14_caption);
+
+    $("#market-research-text1").html(market_research_text1);
+
+    $("#market-research-text2").html(market_research_text2);
+
+    $("#fig15-caption").html(fig15_caption);
+
+    $("#market-research-text3").html(market_research_text3);
+
+    $("#market-research-text4").html(market_research_text4);
 
 }
 
