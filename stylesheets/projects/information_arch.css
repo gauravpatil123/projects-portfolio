@@ -13,10 +13,36 @@
     font-family: var(--font-text-project);
 }
 
+#about-fig-3-4-container, #about-fig-5-6-7-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 #fig1 {
     background-image: url("../../assets/projects/information_arch/Fig1.png");
 }
 
 #fig2 {
     background-image: url("../../assets/projects/information_arch/Fig2.png");
+}
+
+#fig3 {
+    background-image: url("../../assets/projects/information_arch/Fig3.png");
+}
+
+#fig4 {
+    background-image: url("../../assets/projects/information_arch/Fig4.png");
+}
+
+#fig5 {
+    background-image: url("../../assets/projects/information_arch/Fig5.png");
+}
+
+#fig6 {
+    background-image: url("../../assets/projects/information_arch/Fig6.png");
+}
+
+#fig7 {
+    background-image: url("../../assets/projects/information_arch/Fig7.png");
 }
