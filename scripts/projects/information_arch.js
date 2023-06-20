@@ -50,6 +50,11 @@ var info_arch_text4 = "We analyzed the results from the Tree Tests and gained th
 var fig18_19_20_21_22_caption = "Fig #18, #19, #20, #21 & #22: <i>Results of Tree Tests from Optimal Workshop showing the failed tasks</i>";
 var fig23_caption = "Fig #23: <i>New Information Architecture for NYTM website</i>";
 
+var solution_synthesis_text1 = "Once the information architecture was ready, we created user stories and task flows for 2 tasks - purchasing a ticket & reserving a school field trip - to map out all the pages that need to be designed."; 
+var fig24_25_caption = "Fig #24 & #25: <i>User stories for the two tasks</i>";
+var fig26_27_caption = "Fig #26 & #27: <i>Task Flows for the two tasks</i>";
+var solution_synthesis_text2 = "Once we decided on all the content pages that were to be designed, we started brainstorming ideas for the page designs. The following are a few sketches and ideas that I came up with, many of these ideas were implemented in the prototypes.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -139,6 +144,14 @@ function main() {
     $("#fig18-19-20-21-22-caption").html(fig18_19_20_21_22_caption);
 
     $("#fig23-caption").html(fig23_caption);
+
+    $("#solution-synthesis-text1").html(solution_synthesis_text1);
+
+    $("#fig24-25-caption").html(fig24_25_caption);
+
+    $("#fig26-27-caption").html(fig26_27_caption);
+
+    $("#solution-synthesis-text2").html(solution_synthesis_text2);
 
 }
 

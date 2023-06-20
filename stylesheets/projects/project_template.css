@@ -187,6 +187,24 @@ body {
     margin-inline: auto;
 }
 
+.project-figs16 {
+    width: 42vw;
+    height: 16vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs17 {
+    width: 36vw;
+    height: 28vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
 .project-figs1-caption {
     margin-inline: auto;
     font-family: var(--font-caption);

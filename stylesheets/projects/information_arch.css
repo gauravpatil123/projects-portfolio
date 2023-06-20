@@ -13,7 +13,10 @@
     font-family: var(--font-text-project);
 }
 
-#about-fig-3-4-container, #about-fig-5-6-7-container, #data-collection-fig-8-9-container, #data-collection-fig-11-12-container, #info-arch-fig-18-19-container, #info-arch-fig-20-21-container {
+#about-fig-3-4-container, #about-fig-5-6-7-container, #data-collection-fig-8-9-container, 
+#data-collection-fig-11-12-container, #info-arch-fig-18-19-container, 
+#info-arch-fig-20-21-container, #solution-synthesis-fig-24-25-container, 
+#solution-synthesis-fig-26-27-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -113,4 +116,20 @@
 
 #fig23 {
     background-image: url("../../assets/projects/information_arch/Fig23.png");
+}
+
+#fig24 {
+    background-image: url("../../assets/projects/information_arch/Fig24.png");
+}
+
+#fig25 {
+    background-image: url("../../assets/projects/information_arch/Fig25.png");
+}
+
+#fig26 {
+    background-image: url("../../assets/projects/information_arch/Fig26.png");
+}
+
+#fig27 {
+    background-image: url("../../assets/projects/information_arch/Fig27.png");
 }
