@@ -76,6 +76,12 @@ var fig52_caption = "Fig #52: <i>Decision #10 | Added text to clearly convey the
 var fig53_caption = "Fig #53: <i>Desktop Prototype Link</i>";
 var fig54_caption = "Fig #54: <i>Mobile Protoytpe Link</i>";
 
+var conclusion_text1 = "The results of this project over its duration of 15 weeks have provided solutions to many existing problems on the current NYTM website. By implementing the designs & features that are mentioned above in this study including - the revised Information Architecture, added calendar in the ticket reservation pages, inclusion of icons for visitor policies & adding images for each type of school trip - the user experience of the NYTM website can be significantly improved making it more intuitive for its users.";
+var conclusion_text2 = "Looking back at the entire project the major takeaway for me is the whole process of research & design itself. The learned technical know-how of tools used during this project like Figma, Sketch & Invision are an added bonus.";
+var conclusion_text3 = "First Step to move forward with this project is conducting the User Tests using the Mid-Fidelity prototypes. Followed by the prototype revision implementing the feedback and observations from the user tests. ";
+var conclusion_text4 = "After the required changes, this project can finally move into the design of High-Fidelity prototypes. This stage will involve a lot more visual design including colors, images & graphics. Once the High-Fidelity prototype designs are done, a more comprehensive usability study can be performed on the prototype to assess its usability.";
+var conclusion_text5 = "As an alternative path to carry this project forward, one can also look into designing any of the other pages and task flows required for the full website. This can be done following the same iterative process as described above in this study. Some pages & task flows for future work can include the “exhibits” & “archive” pages; and the “make a donation” task flow.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -209,6 +215,16 @@ function main() {
     $("#fig53-caption").html(fig53_caption);
 
     $("#fig54-caption").html(fig54_caption);
+
+    $("#conclusion-text1").html(conclusion_text1);
+
+    $("#conclusion-text2").html(conclusion_text2);
+
+    $("#conclusion-text3").html(conclusion_text3);
+
+    $("#conclusion-text4").html(conclusion_text4);
+
+    $("#conclusion-text5").html(conclusion_text5);
 
 }
 
