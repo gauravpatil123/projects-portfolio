@@ -33,9 +33,9 @@ function append_link(element, src, parentselectorid, classname) {
 
 }
 
-function get_link_url() {
+function get_link_url(selector_class) {
 
-  $(".link-item").on("click", function () {
+  $(selector_class).on("click", function () {
 
       console.log("clicked");
       var element = $(this)[0];

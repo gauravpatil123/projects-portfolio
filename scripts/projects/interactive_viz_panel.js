@@ -36,7 +36,7 @@ function main() {
         append_link(element, src, "links-container", "link-item");
     }
 
-    get_link_url();
+    get_link_url(".link-item");
 
 }
 
