@@ -16,7 +16,7 @@
 #about-fig-3-4-container, #about-fig-5-6-7-container, #data-collection-fig-8-9-container, 
 #data-collection-fig-11-12-container, #info-arch-fig-18-19-container, 
 #info-arch-fig-20-21-container, #solution-synthesis-fig-24-25-container, 
-#solution-synthesis-fig-26-27-container {
+#solution-synthesis-fig-26-27-container, #prototypes-fig-53-54-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -253,4 +253,12 @@
 
 #fig52 {
     background-image: url("../../assets/projects/information_arch/Fig52.jpg");
+}
+
+#fig53 {
+    background-image: url("../../assets/projects/information_arch/Fig53.png");
+}
+
+#fig54 {
+    background-image: url("../../assets/projects/information_arch/Fig54.png");
 }

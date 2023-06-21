@@ -73,6 +73,9 @@ var fig50_caption = "Fig #50: <i>Decision #8 | Linked the images to their respec
 var fig51_caption = "Fig #51: <i>Decision #9 | Clearly mentioned purchase summary before checkout</i>";
 var fig52_caption = "Fig #52: <i>Decision #10 | Added text to clearly convey the waitlist option to users</i>";
 
+var fig53_caption = "Fig #53: <i>Desktop Prototype Link</i>";
+var fig54_caption = "Fig #54: <i>Mobile Protoytpe Link</i>";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -202,6 +205,10 @@ function main() {
     $("#fig51-caption").html(fig51_caption);
 
     $("#fig52-caption").html(fig52_caption);
+
+    $("#fig53-caption").html(fig53_caption);
+
+    $("#fig54-caption").html(fig54_caption);
 
 }
 
