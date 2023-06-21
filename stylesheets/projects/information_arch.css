@@ -26,6 +26,27 @@
     margin-block: 1em;
 }
 
+#solution-synthesis-fig-28-38-container {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    border: 0.1em solid var(--fig-border-color);
+    padding: 0.75em;
+}
+
+#solution-synthesis-fig-28-38-container .fig-image {
+    margin-inline: 1em;
+}
+
+#solution-synthesis-fig-28-38-container .fig-image:first-child {
+    margin-left: auto;
+}
+
+#solution-synthesis-fig-28-38-container .fig-image:last-child {
+    margin-right: auto;
+}
+
 #fig1 {
     background-image: url("../../assets/projects/information_arch/Fig1.png");
 }
@@ -132,4 +153,48 @@
 
 #fig27 {
     background-image: url("../../assets/projects/information_arch/Fig27.png");
+}
+
+#fig28 {
+    background-image: url("../../assets/projects/information_arch/Fig28.png");
+}
+
+#fig29 {
+    background-image: url("../../assets/projects/information_arch/Fig29.png");
+}
+
+#fig30 {
+    background-image: url("../../assets/projects/information_arch/Fig30.png");
+}
+
+#fig31 {
+    background-image: url("../../assets/projects/information_arch/Fig31.png");
+}
+
+#fig32 {
+    background-image: url("../../assets/projects/information_arch/Fig32.png");
+}
+
+#fig33 {
+    background-image: url("../../assets/projects/information_arch/Fig33.png");
+}
+
+#fig34 {
+    background-image: url("../../assets/projects/information_arch/Fig34.png");
+}
+
+#fig35 {
+    background-image: url("../../assets/projects/information_arch/Fig35.png");
+}
+
+#fig36 {
+    background-image: url("../../assets/projects/information_arch/Fig36.png");
+}
+
+#fig37 {
+    background-image: url("../../assets/projects/information_arch/Fig37.png");
+}
+
+#fig38 {
+    background-image: url("../../assets/projects/information_arch/Fig38.png");
 }

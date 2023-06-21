@@ -54,6 +54,7 @@ var solution_synthesis_text1 = "Once the information architecture was ready, we 
 var fig24_25_caption = "Fig #24 & #25: <i>User stories for the two tasks</i>";
 var fig26_27_caption = "Fig #26 & #27: <i>Task Flows for the two tasks</i>";
 var solution_synthesis_text2 = "Once we decided on all the content pages that were to be designed, we started brainstorming ideas for the page designs. The following are a few sketches and ideas that I came up with, many of these ideas were implemented in the prototypes.";
+var fig28_38_caption = "Fig #28 to #38 (scroll): <i>Design Sketches for the NYTM Website</i>";
 
 function main() {
 
@@ -152,6 +153,8 @@ function main() {
     $("#fig26-27-caption").html(fig26_27_caption);
 
     $("#solution-synthesis-text2").html(solution_synthesis_text2);
+
+    $("#fig28-38-caption").html(fig28_38_caption);
 
 }
 
