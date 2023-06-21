@@ -56,6 +56,11 @@ var fig26_27_caption = "Fig #26 & #27: <i>Task Flows for the two tasks</i>";
 var solution_synthesis_text2 = "Once we decided on all the content pages that were to be designed, we started brainstorming ideas for the page designs. The following are a few sketches and ideas that I came up with, many of these ideas were implemented in the prototypes.";
 var fig28_38_caption = "Fig #28 to #38 (scroll): <i>Design Sketches for the NYTM Website</i>";
 
+var user_testing_text1 = "After the design sketches and ideas for the web pages were ready, the team made the paper prototypes using the best ideas and design features from the sketches. We used Sketch and Invision for creating the Low-Fidelity Paper Prototypes.";
+var fig39_caption = "Fig #39: <i>Desktop Paper Prototype</i>";
+var fig40_caption = "Fig #40: <i>Mobile Paper Prototype</i>";
+var user_testing_text2 = "Once the low-fidelity paper prototypes were ready we conducted 6 moderated user tests and concluded with the following insights.<br>1. The inclusion of the word “private” in the “Private Tours & Events” category was confusing or misleading for some users. We decided to change the category to “Tours & Events”.<br>2. Participants expected to be able to click on images of the various School Field trips types in the “School Field Trips” page to proceed with the booking process. We decided to add this feature in our further designs.<br>3. The ticket prices and quantities not being on the same page was confusing some users. We decided to put this information together on the respective reserve pages."; 
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -155,6 +160,14 @@ function main() {
     $("#solution-synthesis-text2").html(solution_synthesis_text2);
 
     $("#fig28-38-caption").html(fig28_38_caption);
+
+    $("#user-testing-text1").html(user_testing_text1);
+
+    $("#fig39-caption").html(fig39_caption);
+
+    $("#fig40-caption").html(fig40_caption);
+
+    $("#user-testing-text2").html(user_testing_text2);
 
 }
 
