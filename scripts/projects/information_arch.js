@@ -61,6 +61,18 @@ var fig39_caption = "Fig #39: <i>Desktop Paper Prototype</i>";
 var fig40_caption = "Fig #40: <i>Mobile Paper Prototype</i>";
 var user_testing_text2 = "Once the low-fidelity paper prototypes were ready we conducted 6 moderated user tests and concluded with the following insights.<br>1. The inclusion of the word “private” in the “Private Tours & Events” category was confusing or misleading for some users. We decided to change the category to “Tours & Events”.<br>2. Participants expected to be able to click on images of the various School Field trips types in the “School Field Trips” page to proceed with the booking process. We decided to add this feature in our further designs.<br>3. The ticket prices and quantities not being on the same page was confusing some users. We decided to put this information together on the respective reserve pages."; 
 
+var mid_fidelity_text = "We implemented all the feedback, observations & findings from the user tests on the low-fidelity prototype into our final mid-fidelity prototypes. Moreover, we standardized the design by creating a style guide & asset panel for designing the prototype. This guide & asset panel included the fonts, button sizes, button versions, header, footer, spacing between content, navigation menu including the dropdowns; icons, logos, calendar and other page specific components.";
+var fig41_42_caption = "Fig #41 & #42: <i>Mid-Fidelity task-based prototype pages for NYTM desktop website</i>";
+var fig43_44_caption = "Fig #43 & #44: <i>Mid-Fidelity task-based prototype pages for NYTM mobile website</i>";
+var fig45_caption = "Fig #45: <i>Decision #1 & #2 | Ticket Button & Hours Information on Homepage</i>";
+var fig46_caption = "Fig #46: <i>Decision #3 | Separated different content types on pages with a separator line</i>";
+var fig47_caption = "Fig #47: <i>Decision #4 & #5 | Category selection buttons & Intuitive icons for visitor policies</i>";
+var fig48_caption = "Fig #48: <i>Decision #6 | Added a calendar for choosing the date & time for reserving tickets</i>";
+var fig49_caption = "Fig #49: <i>Decision #7 | Added a confirmation page after completing the purchase</i>";
+var fig50_caption = "Fig #50: <i>Decision #8 | Linked the images to their respective booking pages</i>";
+var fig51_caption = "Fig #51: <i>Decision #9 | Clearly mentioned purchase summary before checkout</i>";
+var fig52_caption = "Fig #52: <i>Decision #10 | Added text to clearly convey the waitlist option to users</i>";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -168,6 +180,28 @@ function main() {
     $("#fig40-caption").html(fig40_caption);
 
     $("#user-testing-text2").html(user_testing_text2);
+
+    $("#mid-fidelity-text").html(mid_fidelity_text);
+
+    $("#fig41-42-caption").html(fig41_42_caption);
+
+    $("#fig43-44-caption").html(fig43_44_caption);
+
+    $("#fig45-caption").html(fig45_caption);
+
+    $("#fig46-caption").html(fig46_caption);
+
+    $("#fig47-caption").html(fig47_caption);
+
+    $("#fig48-caption").html(fig48_caption);
+
+    $("#fig49-caption").html(fig49_caption);
+
+    $("#fig50-caption").html(fig50_caption);
+
+    $("#fig51-caption").html(fig51_caption);
+
+    $("#fig52-caption").html(fig52_caption);
 
 }
 
