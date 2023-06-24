@@ -88,6 +88,13 @@ async function main() {
 
     })
 
+    $("#project-2").on("click", function() {
+
+        var url = "./projects/imdb_data_viz.html";
+        redirect(url);
+
+    })
+
     $("#project-4").on("click", function() {
 
         var url = "./projects/information_arch.html";
