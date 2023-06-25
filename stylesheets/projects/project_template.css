@@ -277,6 +277,15 @@ body {
     margin-inline: auto;
 }
 
+.project-figs26 {
+    width: 50vw;
+    height: 50vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
 .project-figs1-caption {
     margin-inline: auto;
     font-family: var(--font-caption);

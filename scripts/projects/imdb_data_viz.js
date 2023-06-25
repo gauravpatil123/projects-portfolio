@@ -28,6 +28,12 @@ var methodology_text9 = "Once all the nodes were created it was now time to esta
 var fig13_caption = "Fig #13: <i>Screenshot example of code demonstrating the creation of edges data and edges csv file</i>";
 var methodology_text10 = "Once this data list was built it was then converted and dumped into a csv file for edges to be used later for creating the visual network graphs."; 
 
+var network_graphs_text = "The nodes and edges csv datafiles created in the previous step for actors, actress, directors & writers for the movie titles for movies from 2021 to 2022 were now used to create a visual representation of these large network graphs using Gephi. I used these files to create 4 individual high definition visual representations of these network graphs having a pleasing & artsy overview look.";
+var fig14_caption = "Fig #14: <i>Overview of Network Graph for relationship between actors & movies from 2021 - 2022</i>"; 
+var fig15_caption = "Fig #15: <i>Overview of Network Graph for relationship between actresses & movies from 2021 - 2022</i>";
+var fig16_caption = "Fig #16: <i>Overview of Network Graph showing relationship between directors & movies from 2021 - 2022</i>";
+var fig17_caption = "Fig #17: <i> Overview of Network Graph showing relationship between writers & movies from 2021 - 2022</i>";
+
 function main() {
 
     $("#introduction-text").html(introduction_text);
@@ -79,6 +85,16 @@ function main() {
     $("#fig13-caption").html(fig13_caption);
 
     $("#methodology-text10").html(methodology_text10);
+
+    $("#network-graphs-text").html(network_graphs_text);
+
+    $("#fig14-caption").html(fig14_caption);
+
+    $("#fig15-caption").html(fig15_caption);
+
+    $("#fig16-caption").html(fig16_caption);
+
+    $("#fig17-caption").html(fig17_caption);
 
 }
 
