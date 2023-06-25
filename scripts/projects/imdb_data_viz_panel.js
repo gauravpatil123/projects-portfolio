@@ -5,7 +5,7 @@ var title = "IMDb Dataset Network Visualization";
 var skills = ["Data ETL", "Data Cleaning", "API's"];
 var tools = ["Python", "Gephi"];
 var link_titles = ["Repository", "Data Documentation", "Data Download"];
-var link_srcs = [];
+var link_srcs = ["https://github.com/gauravpatil123/IMDb-Dataset-Visualization-PFCH", "https://developer.imdb.com/non-commercial-datasets", "https://datasets.imdbws.com"];
 
 function main() {
 
