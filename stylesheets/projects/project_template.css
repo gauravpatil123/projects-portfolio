@@ -241,6 +241,42 @@ body {
     margin-inline: auto;
 }
 
+.project-figs22 {
+    width: 60vw;
+    height: 15vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs23 {
+    width: 60vw;
+    height: 16vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs24 {
+    width: 28vw;
+    height: 48vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
+.project-figs25 {
+    width: 44vw;
+    height: 48vw;
+    border: 0.1em solid var(--fig-border-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+}
+
 .project-figs1-caption {
     margin-inline: auto;
     font-family: var(--font-caption);

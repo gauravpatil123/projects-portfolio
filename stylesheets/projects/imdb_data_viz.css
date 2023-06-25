@@ -3,3 +3,66 @@
 @import "../footer.css";
 @import "./project_panel.css";
 @import "./project_template.css";
+
+#methodology-fig-1-2-container, #methodology-fig-3-4-container, 
+#methodology-fig-8-9-container, #methodology-fig-11-12-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#fig-8-container, #fig-9-container, #fig-11-container, #fig-12-container {
+    align-self: center;
+}
+
+#fig1 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig1.png");
+}
+
+#fig2 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig2.png");
+}
+
+#fig3 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig3.png");
+}
+
+#fig4 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig4.png");
+}
+
+#fig5 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig5.png");
+}
+
+#fig6 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig6.png");
+}
+
+#fig7 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig7.png");
+}
+
+#fig8 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig8.png");
+}
+
+#fig9 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig9.png");
+}
+
+#fig10 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig10.png");
+}
+
+#fig11 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig11.png");
+}
+
+#fig12 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig12.png");
+}
+
+#fig13 {
+    background-image: url("../../assets/projects/imdb_data_viz/Fig13.png");
+}
