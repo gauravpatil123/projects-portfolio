@@ -102,6 +102,13 @@ async function main() {
 
     })
 
+    $("#project-5").on("click", function() {
+
+        var url = "./projects/digital_product_design.html";
+        redirect(url);
+
+    })
+
 }
 
 main();
