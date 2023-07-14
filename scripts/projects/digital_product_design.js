@@ -15,6 +15,13 @@ var fig4_caption = "Fig #4: <i>Low-Fidelity Sketch Wireframe #2 & Initial Sketch
 var mid_fidelity_text = "We conducted peer reviews on the low-fidelity task based sketch wireframes and implemented all the feedback & observations into our mid-fidelity prototypes. Moreover, we started to standardize the design by creating a style guide & asset panel for designing the prototype. This guide & asset panel included the fonts, button sizes, button versions, header, footer, spacing between content, navigation menu including the dropdowns; icons, logos, calendar and other page specific components.";
 var fig5_caption = "Fig #5: <i>Select Mid-Fidelity Design Pages</i>";
 
+var design_iteration_text1 = "Once the mid-fidelity prototype was ready, we began an iterative process of user testing & peer reviews. We updated the design at every iteration by taking into account the feedback & observations from the iterative process.";
+var fig6_caption = "Fig #6: <i>Design Evolution of the Project Dashboard</i>";
+var design_iteration_text2 = "The projects page or the project dashboards went through a lot of transformation throughout each iteration of the design process. The key changes were made in how the projects are displayed in cards, the search function & search bar and the addition of DDC’s critical subsurface infrastructure filters.";
+var fig7_caption = "Fig #7: <i>Design Evolution of the Project Search Pages</i>";
+var design_iteration_text3 = "The project search page went through changes in the search bars, filter buttons and the map design. The various search bars were combined into a single search bar having all their functionality in the final design.";
+var design_iteration_text4 = "Further, the filter button was a feature that was most disliked by users in the user tests of the mid-fidelity design so in  the final design we updated the design to have filters for the most critical subsurface infrastructure work domains of the NYC DDC instead of a big filter button.";
+var design_iteration_text5 = "Finally, we separated the search page from the earlier iterations into a search bar page and map page in the final design. Which according to our feedback provided a more smooth and cohesive user experience for the search function.";
 
 function main() {
 
@@ -39,6 +46,21 @@ function main() {
     $("#mid-fidelity-text").html(mid_fidelity_text);
 
     $("#fig5-caption").html(fig5_caption);
+
+    $("#design-iteration-text1").html(design_iteration_text1);
+
+    $("#fig6-caption").html(fig6_caption);
+
+    $("#design-iteration-text2").html(design_iteration_text2);
+
+    $("#fig7-caption").html(fig7_caption);
+
+    $("#design-iteration-text3").html(design_iteration_text3);
+
+    $("#design-iteration-text4").html(design_iteration_text4);
+
+    $("#design-iteration-text5").html(design_iteration_text5);
+
 
 }
 
