@@ -12,6 +12,10 @@ var design_ideation_text2 = "Once it was decided which content pages were to be 
 var fig3_caption = "Fig #3: <i>Low-Fidelity Sketch Wireframe #1</i>";
 var fig4_caption = "Fig #4: <i>Low-Fidelity Sketch Wireframe #2 & Initial Sketch for Mobile App Pages</i>";
 
+var mid_fidelity_text = "We conducted peer reviews on the low-fidelity task based sketch wireframes and implemented all the feedback & observations into our mid-fidelity prototypes. Moreover, we started to standardize the design by creating a style guide & asset panel for designing the prototype. This guide & asset panel included the fonts, button sizes, button versions, header, footer, spacing between content, navigation menu including the dropdowns; icons, logos, calendar and other page specific components.";
+var fig5_caption = "Fig #5: <i>Select Mid-Fidelity Design Pages</i>";
+
+
 function main() {
 
     $("#problem-text1").html(problem_text1);
@@ -31,6 +35,10 @@ function main() {
     $("#fig3-caption").html(fig3_caption);
 
     $("#fig4-caption").html(fig4_caption);
+
+    $("#mid-fidelity-text").html(mid_fidelity_text);
+
+    $("#fig5-caption").html(fig5_caption);
 
 }
 

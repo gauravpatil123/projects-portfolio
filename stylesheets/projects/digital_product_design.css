@@ -17,6 +17,12 @@
     flex: 1;
 }
 
+#fig3, #fig4, #fig5 {
+    margin-inline: auto;
+    display: block;
+    border: 0.1em solid var(--fig-border-color);
+}
+
 #fig1 {
     content: url(../../assets/projects/digital_product_design/Fig1.png);
     height: 28vw;
@@ -31,15 +37,14 @@
 #fig3 {
     content: url(../../assets/projects/digital_product_design/Fig3.png);
     max-width: 60vw;
-    margin-inline: auto;
-    display: block;
-    border: 0.1em solid var(--fig-border-color);
 }
 
 #fig4 {
     content: url(../../assets/projects/digital_product_design/Fig4.png);
     max-width: 60vw;
-    margin-inline: auto;
-    display: block;
-    border: 0.1em solid var(--fig-border-color);
+}
+
+#fig5 {
+    content: url(../../assets/projects/digital_product_design/Fig5.png);
+    max-width: 60vw;
 }
