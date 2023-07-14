@@ -5,6 +5,7 @@ var problem_text2 = "The NYC DDC is constantly building & maintaining infrastruc
 var problem_text3 = "How can we better communicate the purpose & necessity of the DDC projects to NYC residents & business owners?";
 var fig1_caption = "Fig #1: <i>Search Screen in Final Prototype</i>";
 
+var fig2_caption = "Fig #2: <i>Project Timeline Outlining Critical Project Activities</i>";
 
 function main() {
 
@@ -15,6 +16,8 @@ function main() {
     $("#problem-text3").html(problem_text3);
 
     $("#fig1-caption").html(fig1_caption);
+
+    $("#fig2-caption").html(fig2_caption);
 
 }
 

@@ -23,3 +23,7 @@
     margin-inline: auto;
     display: block;
 }
+
+#fig2 {
+    background-image: url("../../assets/projects/digital_product_design/Fig2.png");
+}
