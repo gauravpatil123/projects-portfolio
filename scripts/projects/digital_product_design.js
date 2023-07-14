@@ -7,6 +7,11 @@ var fig1_caption = "Fig #1: <i>Search Screen in Final Prototype</i>";
 
 var fig2_caption = "Fig #2: <i>Project Timeline Outlining Critical Project Activities</i>";
 
+var design_ideation_text1 = "Since the NYC DDC already has a functional website, we decided it was best to find a solution that utilizes and builds up on the current digital infrastructure. Based on NYC DDC’s available resources and their primary requirement we came to a conclusion to focus our design on a section of the NYC DDC website instead of creating a new mobile/web app altogether.";
+var design_ideation_text2 = "Once it was decided which content pages were to be designed, we started brainstorming ideas for the page designs. The following are a few sets of Low-Fidelity sketch wireframes and ideas for specific task flows derived from the user research; many of these ideas were implemented in the prototypes.";
+var fig3_caption = "Fig #3: <i>Low-Fidelity Sketch Wireframe #1</i>";
+var fig4_caption = "Fig #4: <i>Low-Fidelity Sketch Wireframe #2 & Initial Sketch for Mobile App Pages</i>";
+
 function main() {
 
     $("#problem-text1").html(problem_text1);
@@ -18,6 +23,14 @@ function main() {
     $("#fig1-caption").html(fig1_caption);
 
     $("#fig2-caption").html(fig2_caption);
+
+    $("#design-ideation-text1").html(design_ideation_text1);
+
+    $("#design-ideation-text2").html(design_ideation_text2);
+
+    $("#fig3-caption").html(fig3_caption);
+
+    $("#fig4-caption").html(fig4_caption);
 
 }
 
