@@ -23,6 +23,8 @@ var design_iteration_text3 = "The project search page went through changes in th
 var design_iteration_text4 = "Further, the filter button was a feature that was most disliked by users in the user tests of the mid-fidelity design so in  the final design we updated the design to have filters for the most critical subsurface infrastructure work domains of the NYC DDC instead of a big filter button.";
 var design_iteration_text5 = "Finally, we separated the search page from the earlier iterations into a search bar page and map page in the final design. Which according to our feedback provided a more smooth and cohesive user experience for the search function.";
 
+var final_design_text1 = "All the critical pages of the final design are presented in the following subsections.";
+
 function main() {
 
     $("#problem-text1").html(problem_text1);
@@ -60,6 +62,8 @@ function main() {
     $("#design-iteration-text4").html(design_iteration_text4);
 
     $("#design-iteration-text5").html(design_iteration_text5);
+
+    $("#final-design-text1").html(final_design_text1);
 
 
 }

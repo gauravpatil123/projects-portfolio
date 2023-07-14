@@ -17,10 +17,31 @@
     flex: 1;
 }
 
+#homepage-screen-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #fig3, #fig4, #fig5, #fig6, #fig7 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
+}
+
+.screen-container {
+    overflow: hidden;
+    height: 37vw;;
+    width: 19vw;
+    margin-inline: 2.5vw;
+    border: 0.1em solid var(--fig-border-color);
+}
+
+.sliding-image {
+    width: 19vw;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #fig1 {
@@ -57,4 +78,12 @@
 #fig7 {
     content: url(../../assets/projects/digital_product_design/Fig7.png);
     max-width: 60vw;
+}
+
+#fig8 {
+    background-image: url(../../assets/projects/digital_product_design/Fig8.png);
+}
+
+#fig9 {
+    background-image: url(../../assets/projects/digital_product_design/Fig9.png);
 }
