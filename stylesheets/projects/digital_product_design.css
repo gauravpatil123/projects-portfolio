@@ -17,31 +17,32 @@
     flex: 1;
 }
 
-#homepage-screen-container {
+#homepage-screen-container, #search-screen-container, 
+#project-list-screen-container, #project-details-screen-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#fig3, #fig4, #fig5, #fig6, #fig7 {
-    margin-inline: auto;
-    display: block;
-    border: 0.1em solid var(--fig-border-color);
-}
-
 .screen-container {
-    overflow: hidden;
-    height: 37vw;;
+    overflow-y: auto;
+    height: 41vw;
     width: 19vw;
     margin-inline: 2.5vw;
     border: 0.1em solid var(--fig-border-color);
+    border-radius: 2.5em;
 }
 
 .sliding-image {
     width: 19vw;
-    height: auto;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+}
+
+#fig3, #fig4, #fig5, #fig6, #fig7, #fig17, #fig18, #fig19 {
+    margin-inline: auto;
+    display: block;
+    border: 0.1em solid var(--fig-border-color);
 }
 
 #fig1 {
@@ -81,9 +82,61 @@
 }
 
 #fig8 {
-    background-image: url(../../assets/projects/digital_product_design/Fig8.png);
+    background-image: url("../../assets/projects/digital_product_design/Fig8.png");
+    height: 114vw;
 }
 
 #fig9 {
-    background-image: url(../../assets/projects/digital_product_design/Fig9.png);
+    background-image: url("../../assets/projects/digital_product_design/Fig9.png");
+    height: 78vw;
+}
+
+#fig10 {
+    background-image: url("../../assets/projects/digital_product_design/Fig10.png");
+    height: 41vw;
+}
+
+#fig11 {
+    background-image: url("../../assets/projects/digital_product_design/Fig11.png");
+    height: 41vw;
+}
+
+#fig12 {
+    background-image: url("../../assets/projects/digital_product_design/Fig12.png");
+    height: 41vw;
+}
+
+#fig13 {
+    background-image: url("../../assets/projects/digital_product_design/Fig13.png");
+    height: 96.75vw;
+}
+
+#fig14 {
+    background-image: url("../../assets/projects/digital_product_design/Fig14.png");
+    height: 77.5vw;
+}
+
+#fig15 {
+    background-image: url("../../assets/projects/digital_product_design/Fig15.png");
+    height: 77.5vw;
+}
+
+#fig16 {
+    background-image: url("../../assets/projects/digital_product_design/Fig16.png");
+    height: 145vw;
+}
+
+#fig17 {
+    content: url(../../assets/projects/digital_product_design/Fig17.png);
+    max-width: 60vw;
+}
+
+#fig18 {
+    content: url(../../assets/projects/digital_product_design/Fig18.png);
+    max-width: 60vw;
+}
+
+#fig19 {
+    content: url(../../assets/projects/digital_product_design/Fig19.png);
+    max-width: 60vw;
 }

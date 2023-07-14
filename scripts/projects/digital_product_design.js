@@ -24,6 +24,14 @@ var design_iteration_text4 = "Further, the filter button was a feature that was 
 var design_iteration_text5 = "Finally, we separated the search page from the earlier iterations into a search bar page and map page in the final design. Which according to our feedback provided a more smooth and cohesive user experience for the search function.";
 
 var final_design_text1 = "All the critical pages of the final design are presented in the following subsections.";
+var fig8_9_caption = "Fig #8 & #9: <i>Final Prototype Design of the Home & About Pages (Scrollable)</i>";
+var fig10_12_caption = "Fig #10, #11 & #12: <i>Final Prototype Design of the Search Pages</i>";
+var fig13_15_caption = "Fig #13, #14 & #15: <i>Final Prototype Design of the Project List Page (Scrollable)</i>";
+var fig16_caption = "Fig #16: <i>Final Prototype Design of the Project Details Page (Scrollable)</i>";
+var fig17_caption = "Fig #17: <i>Final Prototype Design Details for the Project Details Page #1</i>";
+var fig18_caption = "Fig #18: <i>Final Prototype Design Details for the Project Details Page #2</i>";
+var fig19_caption = "Fig #19: <i>Final Prototype Design Details for the Project List Page</i>";
+
 
 function main() {
 
@@ -65,6 +73,19 @@ function main() {
 
     $("#final-design-text1").html(final_design_text1);
 
+    $("#fig8-9-caption").html(fig8_9_caption);
+
+    $("#fig10-12-caption").html(fig10_12_caption);
+
+    $("#fig13-15-caption").html(fig13_15_caption);
+
+    $("#fig16-caption").html(fig16_caption);
+
+    $("#fig17-caption").html(fig17_caption);
+    
+    $("#fig18-caption").html(fig18_caption);
+    
+    $("#fig19-caption").html(fig19_caption);
 
 }
 
