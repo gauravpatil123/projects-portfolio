@@ -140,3 +140,10 @@
     content: url(../../assets/projects/digital_product_design/Fig19.png);
     max-width: 60vw;
 }
+
+#fig20 {
+    content: url(../../assets/projects/digital_product_design/Fig20.png);
+    height: 30vw;
+    margin-inline: auto;
+    display: block;
+}

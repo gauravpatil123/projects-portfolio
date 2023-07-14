@@ -33,13 +33,13 @@ function append_link(element, src, parentselectorid, classname) {
 
 }
 
-function get_link_url(selector_class) {
+function get_link_url(selector_class, link_src="src") {
 
   $(selector_class).on("click", function () {
 
       //console.log("clicked");
       var element = $(this)[0];
-      var src = $(element).attr("src");
+      var src = $(element).attr(link_src);
       window.open(src, "_blank");
 
   })

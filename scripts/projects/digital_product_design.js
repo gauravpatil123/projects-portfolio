@@ -32,8 +32,11 @@ var fig17_caption = "Fig #17: <i>Final Prototype Design Details for the Project 
 var fig18_caption = "Fig #18: <i>Final Prototype Design Details for the Project Details Page #2</i>";
 var fig19_caption = "Fig #19: <i>Final Prototype Design Details for the Project List Page</i>";
 
+var fig20_caption = "Fig #20: <i>Final Prototype Design Link Image</i>";
 
 function main() {
+
+    get_link_url("#fig20", "link")
 
     $("#problem-text1").html(problem_text1);
 
@@ -86,6 +89,8 @@ function main() {
     $("#fig18-caption").html(fig18_caption);
     
     $("#fig19-caption").html(fig19_caption);
+
+    $("#fig20-caption").html(fig20_caption);
 
 }
 
