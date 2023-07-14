@@ -37,7 +37,7 @@ function get_link_url(selector_class) {
 
   $(selector_class).on("click", function () {
 
-      console.log("clicked");
+      //console.log("clicked");
       var element = $(this)[0];
       var src = $(element).attr("src");
       window.open(src, "_blank");

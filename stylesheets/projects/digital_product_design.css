@@ -3,3 +3,23 @@
 @import "../footer.css";
 @import "./project_panel.css";
 @import "./project_template.css";
+
+#problem-block {
+    display: flex;
+    flex-direction: row;
+}
+
+#problem-text {
+    flex: 3;
+}
+
+#problem-image {
+    flex: 1;
+}
+
+#fig1 {
+    content: url(../../assets/projects/digital_product_design/Fig1.png);
+    height: 28vw;
+    margin-inline: auto;
+    display: block;
+}
