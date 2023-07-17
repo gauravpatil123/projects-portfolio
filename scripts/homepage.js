@@ -95,6 +95,13 @@ async function main() {
 
     })
 
+    $("#project-3").on("click", function() {
+
+        var url = "./projects/web_development.html";
+        redirect(url);
+
+    })
+
     $("#project-4").on("click", function() {
 
         var url = "./projects/information_arch.html";
