@@ -59,6 +59,33 @@
     border: 0.1em solid var(--fig-border-color);
 }
 
+.test-credentials {
+    min-width: 20vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.25em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    background-color: var(--tag-background-color-1);
+    color: var(--tag-background-color-1);
+    transition: color 0.5s ease;
+}
+
+.test-credentials:hover {
+    min-width: 20vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.25em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    background-color: var(--tag-background-color-1);
+    color: var(--tag-font-color-2);
+}
+
 #fig1 {
     content: url(../../assets/projects/web_development/Fig1.png);
     max-width: 60vw;
