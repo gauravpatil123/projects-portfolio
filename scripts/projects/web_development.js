@@ -22,6 +22,16 @@ var web_interface_design_text4 = "The recommendation page has three recommendati
 var fig9_11_caption = "Fig #9, #10 & #11 (Scroll): <i>Screenshot of an Example User Account Page Interface</i>";
 var web_interface_design_text5 = "The account page displays the user information and also allows the users to logout from their account. Further, the account page also has two other lists which contain items that are watched and items that are removed from the watchlist. The user can also interact with the items in these lists to change their status to either put them back to the watchlist, remove them or delete them permanently from their account.";
 
+var backend_development_text1 = "The backend development for this web application is done using PHP and the database is interacted with SQL queries used within PHP. The user inputs throughout the application are collected using forms and are passed for backend processing in php for further actions. While the full scope of the backend system and code is available on the github repository a few key backend operations are described in the following sections."; 
+var fig12_13_caption = "Fig #12 & #13 (Scroll): <i>Screenshot showing example of password handling for the application</i>";
+var backend_development_text2 = "The user passwords are stored after hashing them using the password_hash function of php at signup and verified using password_verify function of php at login."; 
+var fig14_15_caption = "Fig #14 & #15 (Scroll): <i>Screenshots showing sanitizeString function & example of string sanitization instance</i>";
+var backend_development_text3 = "The user inputs are sanitized at every instance throughout the web application using the sanitizeString function shown above to prevent any malicious exploits like php injection attacks etc.";
+var fig16_17_caption = "Fig #16 & #17 (Scroll): <i>Screenshots showing user session initialization & sessions destruction</i>";
+var backend_development_text4 = "The user sessions are handled using the $_SESSION array in php and the session is initialized once the user successfully logins at the login page. Further, the session is destroyed once the user successfully logs out at the account page.";
+var fig18_20_caption = "Fig #18, #19 & #20 (Scroll): <i>Screenshots showing pdo object creation & example instances of using it to execute SQL queries</i>";
+var backend_development_text5 = "The SQL database is interacted by creating the pdo object in php and the same pdo object is used to pass & execute SQL queries and also to retrieve the outpost from the executed SQL queries. All the SQL queries used in this web application are passed via this pdo object created in php.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -59,6 +69,24 @@ function main() {
     $("#fig9-11-caption").html(fig9_11_caption);
 
     $("#web-interface-design-text5").html(web_interface_design_text5);
+
+    $("#backend-development-text1").html(backend_development_text1);
+
+    $("#fig12-13-caption").html(fig12_13_caption);
+
+    $("#backend-development-text2").html(backend_development_text2);
+
+    $("#fig14-15-caption").html(fig14_15_caption);
+
+    $("#backend-development-text3").html(backend_development_text3);
+
+    $("#fig16-17-caption").html(fig16_17_caption);
+
+    $("#backend-development-text4").html(backend_development_text4);
+
+    $("#fig18-20-caption").html(fig18_20_caption);
+
+    $("#backend-development-text5").html(backend_development_text5);
 
 }
 

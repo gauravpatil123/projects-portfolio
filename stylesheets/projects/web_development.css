@@ -6,7 +6,11 @@
 
 #web-interface-design-fig-5-6-container, 
 #web-interface-design-fig-7-8-container,
-#web-interface-design-fig-9-11-container {
+#web-interface-design-fig-9-11-container,
+#backend-development-fig-12-13-container,
+#backend-development-fig-14-15-container,
+#backend-development-fig-16-17-container,
+#backend-development-fig-18-20-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -20,24 +24,36 @@
 
 #web-interface-design-fig-5-6-container .fig-image,
 #web-interface-design-fig-7-8-container .fig-image,
-#web-interface-design-fig-9-11-container .fig-image {
+#web-interface-design-fig-9-11-container .fig-image,
+#backend-development-fig-12-13-container .fig-image,
+#backend-development-fig-14-15-container .fig-image,
+#backend-development-fig-16-17-container .fig-image,
+#backend-development-fig-18-20-container .fig-image {
     margin-inline: 1em;
 }
 
 #web-interface-design-fig-5-6-container .fig-image:first-child,
 #web-interface-design-fig-7-8-container .fig-image:first-child,
-#web-interface-design-fig-9-11-container .fig-image:first-child {
+#web-interface-design-fig-9-11-container .fig-image:first-child,
+#backend-development-fig-12-13-container .fig-image:first-child,
+#backend-development-fig-14-15-container .fig-image:first-child,
+#backend-development-fig-16-17-container .fig-image:first-child,
+#backend-development-fig-18-20-container .fig-image:first-child {
     margin-left: auto;
 }
 
 #web-interface-design-fig-5-6-container .fig-image:last-child,
 #web-interface-design-fig-7-8-container .fig-image:last-child,
-#web-interface-design-fig-9-11-container .fig-image:last-child {
+#web-interface-design-fig-9-11-container .fig-image:last-child,
+#backend-development-fig-12-13-container .fig-image:last-child,
+#backend-development-fig-14-15-container .fig-image:last-child,
+#backend-development-fig-16-17-container .fig-image:last-child,
+#backend-development-fig-18-20-container .fig-image:last-child {
     margin-right: auto;
 }
 
 #fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7, #fig8, #fig9, #fig10, 
-#fig11 {
+#fig11, #fig12, #fig13, #fig14, #fig15, #fig16, #fig17 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
@@ -96,4 +112,49 @@
 #fig11 {
     content: url(../../assets/projects/web_development/Fig11.png);
     max-width: 50vw;
+}
+
+#fig12 {
+    content: url(../../assets/projects/web_development/Fig12.png);
+    max-width: 40vw;
+}
+
+#fig13 {
+    content: url(../../assets/projects/web_development/Fig13.png);
+    max-width: 40vw;
+}
+
+#fig14 {
+    content: url(../../assets/projects/web_development/Fig14.png);
+    max-width: 40vw;
+}
+
+#fig15 {
+    content: url(../../assets/projects/web_development/Fig15.png);
+    max-width: 40vw;
+}
+
+#fig16 {
+    content: url(../../assets/projects/web_development/Fig16.png);
+    max-width: 40vw;
+}
+
+#fig17 {
+    content: url(../../assets/projects/web_development/Fig17.png);
+    max-width: 40vw;
+}
+
+#fig18 {
+    content: url(../../assets/projects/web_development/Fig18.png);
+    max-width: 40vw;
+}
+
+#fig19 {
+    content: url(../../assets/projects/web_development/Fig19.png);
+    max-width: 40vw;
+}
+
+#fig20 {
+    content: url(../../assets/projects/web_development/Fig20.png);
+    max-width: 40vw;
 }
