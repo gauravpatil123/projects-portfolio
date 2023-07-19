@@ -8,6 +8,9 @@ var introduction_text4 = "Since this is an issue in which I have already investe
 
 var dataset_text = "The dataset is user specific and consists of details & metadata of the movie, series or any other content types that the user wants to put on their WatchList. The whole dataset will be created by the users themselves by adding data to their WatchList through the web application, without requiring the application to have a default set of dataset to be stored. This will grant the users much flexibility to store the data as they wish. Some attributes that the dataset has are content type, content name, users interest scale, content genres, current status etc. Some automatically added attributes to the user input data are content id, date added, time added, date removed, time removed etc.";
 
+var fig2_caption = "Fig #2: <i>Entity Relationship Diagram of the SQL Database</i>";
+var database_design_text = "The database designed for this project is a SQL based relational database as shown in the ERD above. The database is normalized to the third normal form. The many to many relations in the tables are handled using join/junction tables as shown in the ERD.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -21,6 +24,10 @@ function main() {
     $("#introduction-text4").html(introduction_text4);
 
     $("#dataset-text").html(dataset_text);
+
+    $("#fig2-caption").html(fig2_caption);
+
+    $("#database-design-text").html(database_design_text);
 
 }
 

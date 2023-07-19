@@ -4,7 +4,7 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
-#fig1 {
+#fig1, #fig2 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
@@ -13,4 +13,9 @@
 #fig1 {
     content: url(../../assets/projects/web_development/Fig1.png);
     max-width: 60vw;
+}
+
+#fig2 {
+    content: url(../../assets/projects/web_development/Fig2.png);
+    max-width: 50vw;
 }
