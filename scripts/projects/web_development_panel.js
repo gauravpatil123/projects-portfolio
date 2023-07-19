@@ -1,10 +1,10 @@
 import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
 var project_thumbnail_url = "../../assets/thumbnails/watchlist-sp23.png";
-var title = "WatchList";
+var title = "WatchList - User Content Recommendation System";
 var skills = ["Database Design", "Interface Design", "Web Development"];
 var tools = ["php", "MySQL", "JavaScript", "HTML + CSS"];
-var link_titles = ["Watch<i>List</i>"];
+var link_titles = ["Repository", "Watch<i>List</i>"];
 var link_srcs = [];
 
 function main() {

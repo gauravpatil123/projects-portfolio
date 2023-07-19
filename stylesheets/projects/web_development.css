@@ -3,3 +3,14 @@
 @import "../footer.css";
 @import "./project_panel.css";
 @import "./project_template.css";
+
+#fig1 {
+    margin-inline: auto;
+    display: block;
+    border: 0.1em solid var(--fig-border-color);
+}
+
+#fig1 {
+    content: url(../../assets/projects/web_development/Fig1.png);
+    max-width: 60vw;
+}
