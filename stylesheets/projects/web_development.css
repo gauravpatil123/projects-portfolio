@@ -4,7 +4,40 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
-#fig1, #fig2 {
+#web-interface-design-fig-5-6-container, 
+#web-interface-design-fig-7-8-container,
+#web-interface-design-fig-9-11-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    border: 0.1em solid var(--fig-border-color);
+    padding: 0.75em;
+    width: 60vw;
+    margin-inline: auto;
+}
+
+#web-interface-design-fig-5-6-container .fig-image,
+#web-interface-design-fig-7-8-container .fig-image,
+#web-interface-design-fig-9-11-container .fig-image {
+    margin-inline: 1em;
+}
+
+#web-interface-design-fig-5-6-container .fig-image:first-child,
+#web-interface-design-fig-7-8-container .fig-image:first-child,
+#web-interface-design-fig-9-11-container .fig-image:first-child {
+    margin-left: auto;
+}
+
+#web-interface-design-fig-5-6-container .fig-image:last-child,
+#web-interface-design-fig-7-8-container .fig-image:last-child,
+#web-interface-design-fig-9-11-container .fig-image:last-child {
+    margin-right: auto;
+}
+
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7, #fig8, #fig9, #fig10, 
+#fig11 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
@@ -17,5 +50,50 @@
 
 #fig2 {
     content: url(../../assets/projects/web_development/Fig2.png);
+    max-width: 50vw;
+}
+
+#fig3 {
+    content: url(../../assets/projects/web_development/Fig3.png);
+    max-width: 60vw;
+}
+
+#fig4 {
+    content: url(../../assets/projects/web_development/Fig4.png);
+    max-width: 60vw;
+}
+
+#fig5 {
+    content: url(../../assets/projects/web_development/Fig5.png);
+    max-width: 50vw;
+}
+
+#fig6 {
+    content: url(../../assets/projects/web_development/Fig6.png);
+    max-width: 50vw;
+}
+
+#fig7 {
+    content: url(../../assets/projects/web_development/Fig7.png);
+    max-width: 50vw;
+}
+
+#fig8 {
+    content: url(../../assets/projects/web_development/Fig8.png);
+    max-width: 50vw;
+}
+
+#fig9 {
+    content: url(../../assets/projects/web_development/Fig9.png);
+    max-width: 50vw;
+}
+
+#fig10 {
+    content: url(../../assets/projects/web_development/Fig10.png);
+    max-width: 50vw;
+}
+
+#fig11 {
+    content: url(../../assets/projects/web_development/Fig11.png);
     max-width: 50vw;
 }

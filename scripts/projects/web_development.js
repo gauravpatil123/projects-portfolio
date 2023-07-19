@@ -11,6 +11,17 @@ var dataset_text = "The dataset is user specific and consists of details & metad
 var fig2_caption = "Fig #2: <i>Entity Relationship Diagram of the SQL Database</i>";
 var database_design_text = "The database designed for this project is a SQL based relational database as shown in the ERD above. The database is normalized to the third normal form. The many to many relations in the tables are handled using join/junction tables as shown in the ERD.";
 
+var fig3_caption = "Fig #3: <i>Screenshot of the Login Page</i>";
+var web_interface_design_text1 = "The login page is also the landing page of the web application. Here users can simply login to their previously created account or click on the signup button to create an account on the signup page.";
+var fig4_caption = "Fig #4: <i>Screenshot of the Sign Up Page</i>";
+var web_interface_design_text2 = "Users can create new user accounts for the WatchList web application on the sign up page for personal use.";
+var fig5_6_caption = "Fig #5 & #6 (Scroll): <i>Screenshot of an Example User Homepage Interface</i>";
+var web_interface_design_text3 = "The Homepage is where the user can add new content to the users Watchlist, view the created WatchList and also interact with the content of the created WatchList to see details or modify status of individual content items."; 
+var fig7_8_caption = "Fig #7 & #8 (Scroll): <i>Screenshot of an Example User Recommendation Page Interface</i>";
+var web_interface_design_text4 = "The recommendation page has three recommendation panels. The first two panels show the random first & random three choices selected from the list respectively. The third recommendation panel is a poll function which asks for a numerical user input for the number of total votes. Then distributes these votes in the users watchlist items and displays the results in descending order. The user can use this poll function any number of times during a single session."; 
+var fig9_11_caption = "Fig #9, #10 & #11 (Scroll): <i>Screenshot of an Example User Account Page Interface</i>";
+var web_interface_design_text5 = "The account page displays the user information and also allows the users to logout from their account. Further, the account page also has two other lists which contain items that are watched and items that are removed from the watchlist. The user can also interact with the items in these lists to change their status to either put them back to the watchlist, remove them or delete them permanently from their account.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -28,6 +39,26 @@ function main() {
     $("#fig2-caption").html(fig2_caption);
 
     $("#database-design-text").html(database_design_text);
+
+    $("#fig3-caption").html(fig3_caption);
+
+    $("#web-interface-design-text1").html(web_interface_design_text1);
+
+    $("#fig4-caption").html(fig4_caption);
+
+    $("#web-interface-design-text2").html(web_interface_design_text2);
+
+    $("#fig5-6-caption").html(fig5_6_caption);
+
+    $("#web-interface-design-text3").html(web_interface_design_text3);
+
+    $("#fig7-8-caption").html(fig7_8_caption);
+
+    $("#web-interface-design-text4").html(web_interface_design_text4);
+
+    $("#fig9-11-caption").html(fig9_11_caption);
+
+    $("#web-interface-design-text5").html(web_interface_design_text5);
 
 }
 
