@@ -6,6 +6,8 @@ var introduction_text2 = "This project is intended to help its user keep track o
 var introduction_text3 = "I have at times faced this problem of being indecisive when it comes to choosing content to watch in my free time. I have previously tried to solve this issue for myself and have written program in python to help me with the same. Although the attempted python solution works for now it has several shortcomings such as, unavailability of a database to store the user data and serve the application; and the display & interaction limitations of the command line interface of the program.";
 var introduction_text4 = "Since this is an issue in which I have already invested some time previously, I was interested in making a database backed solution for this problem. This project has presented me with an opportunity to formulate an elegant web based solution with an interactive interface which is supported with an efficient backend database system.";
 
+var dataset_text = "The dataset is user specific and consists of details & metadata of the movie, series or any other content types that the user wants to put on their WatchList. The whole dataset will be created by the users themselves by adding data to their WatchList through the web application, without requiring the application to have a default set of dataset to be stored. This will grant the users much flexibility to store the data as they wish. Some attributes that the dataset has are content type, content name, users interest scale, content genres, current status etc. Some automatically added attributes to the user input data are content id, date added, time added, date removed, time removed etc.";
+
 function main() {
 
     $("#fig1-caption").html(fig1_caption);
@@ -17,6 +19,8 @@ function main() {
     $("#introduction-text3").html(introduction_text3);
 
     $("#introduction-text4").html(introduction_text4);
+
+    $("#dataset-text").html(dataset_text);
 
 }
 
