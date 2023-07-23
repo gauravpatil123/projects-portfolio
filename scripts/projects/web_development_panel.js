@@ -5,7 +5,7 @@ var title = "WatchList - User Content Recommendation System";
 var skills = ["Database Design", "Interface Design", "Web Development"];
 var tools = ["php", "MySQL", "JavaScript", "HTML + CSS"];
 var link_titles = ["Repository", "Watch<i>List</i>"];
-var link_srcs = [];
+var link_srcs = ["https://github.com/gauravpatil123/Web-WatchList", "https://webdevdbcourses.prattsi.org/~gpatil/watchlist"];
 
 function main() {
 
