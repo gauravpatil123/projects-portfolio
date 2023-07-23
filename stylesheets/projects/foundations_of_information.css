@@ -3,3 +3,12 @@
 @import "../footer.css";
 @import "./project_panel.css";
 @import "./project_template.css";
+
+
+#research-paper-container {
+    display: block;
+    width: 64vw;
+    height: 73vw;
+    margin-inline: auto;
+    border: 0.15em solid var(--fig-border-color);
+}

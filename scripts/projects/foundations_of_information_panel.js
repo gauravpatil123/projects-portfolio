@@ -1,10 +1,10 @@
 import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
 var project_thumbnail_url = "../../assets/thumbnails/seminar-paper-foundations-sp22.png";
-var title = "";
+var title = "Environmental Effects of Electric Vehicles";
 var skills = [];
 var tools = [];
-var link_titles = [];
+var link_titles = ["Research Paper"];
 var link_srcs = [];
 
 function main() {
