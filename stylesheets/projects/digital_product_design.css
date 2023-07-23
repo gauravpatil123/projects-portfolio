@@ -4,6 +4,11 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
+#problem {
+    background-color: var(--bg-color-12); /*2, 3, 10, 12, 14, 16, 21*/
+    padding: 0.5em;
+}
+
 #problem-block {
     display: flex;
     flex-direction: row;
