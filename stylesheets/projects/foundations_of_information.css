@@ -1,0 +1,5 @@
+@import "../css_global_variables.css";
+@import "../navigation_menu.css";
+@import "../footer.css";
+@import "./project_panel.css";
+@import "./project_template.css";

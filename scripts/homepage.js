@@ -116,6 +116,13 @@ async function main() {
 
     })
 
+    $("#project-6").on("click", function() {
+
+        var url = "./projects/foundations_of_information.html";
+        redirect(url);
+
+    })
+
 }
 
 main();
