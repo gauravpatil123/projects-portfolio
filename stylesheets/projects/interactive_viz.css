@@ -10,6 +10,31 @@
     justify-content: space-evenly;
 }
 
+.viz-link {
+    min-width: 10vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.3em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    transition: background-color 0.5s ease;
+}
+
+.viz-link:hover {
+    min-height: 10vw;
+    margin-block: auto;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.3em;
+    text-align: center;
+    margin-inline: 0.25em;
+    font-family: var(--font-text);
+    background-color: var(--tag-background-color-1);
+    color: var(--tag-font-color-2);
+}
+
 #fig-11-container {
     margin-block: auto;
 }
