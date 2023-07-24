@@ -4,6 +4,24 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
+#introduction {
+    background-color: var(--bg-color-13); /*1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14*/
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#dataset {
+    background-color: var(--bg-color-6);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#methodology {
+    background-color: var(--bg-color-3);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
 #methodology-fig-1-2-container, #methodology-fig-3-4-container, 
 #methodology-fig-8-9-container, #methodology-fig-11-12-container {
     display: flex;
