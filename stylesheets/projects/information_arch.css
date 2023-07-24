@@ -4,6 +4,66 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
+#introduction {
+    background-color: var(--bg-color-34); /*1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 18, 19, 20, 21, 30, 31, 32, 33, 34, 35*/
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#about {
+    background-color: var(--bg-color-14);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#data-collection {
+    background-color: var(--bg-color-3);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#persona {
+    background-color: var(--bg-color-8);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#market-research {
+    background-color: var(--bg-color-9);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#info-arch {
+    background-color: var(--bg-color-1);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#solution-synthesis {
+    background-color: var(--bg-color-6);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#user-testing {
+    background-color: var(--bg-color-2);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#mid-fidelity {
+    background-color: var(--bg-color-13);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#conclusion {
+    background-color: var(--bg-color-34);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
 #client-duration-container, #team-container, #all-tools-container {
     display: flex;
     flex-direction: row;
