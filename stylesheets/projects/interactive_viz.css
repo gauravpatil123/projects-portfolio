@@ -4,6 +4,54 @@
 @import "./project_panel.css";
 @import "./project_template.css";
 
+#introduction {
+    background-color: var(--bg-color-29); /*6, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33*/
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#concept_idea {
+    background-color: var(--bg-color-25);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#prototype_evolution {
+    background-color: var(--bg-color-29);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#dataset {
+    background-color: var(--bg-color-1);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#evaluation {
+    background-color: var(--bg-color-25);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#conclusion {
+    background-color: var(--bg-color-24);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#next_steps {
+    background-color: var(--bg-color-27);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#try_it_yourself {
+    background-color: var(--bg-color-26);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
 #prototype-fig-6-7-container, #prototype-fig-10-11-container, #prototype-fig-15-16-container, #prototype-fig-23-24-container, #prototype-fig-25-26-container, #prototype-fig-27-28-container {
     display: flex;
     flex-direction: row;
@@ -13,25 +61,25 @@
 .viz-link {
     min-width: 10vw;
     margin-block: auto;
-    border: 0.1em solid black;
+    border: 0.1em solid var(--bg-color-22);
     border-radius: 1em;
     padding: 0.3em;
     text-align: center;
     margin-inline: 0.25em;
     font-family: var(--font-text);
-    transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease, border-color 0.5s ease;
 }
 
 .viz-link:hover {
     min-height: 10vw;
     margin-block: auto;
-    border: 0.1em solid black;
+    border: 0.1em solid var(--bg-color-24);
     border-radius: 1em;
     padding: 0.3em;
     text-align: center;
     margin-inline: 0.25em;
     font-family: var(--font-text);
-    background-color: var(--tag-background-color-1);
+    background-color: var(--bg-color-24);
     color: var(--tag-font-color-2);
 }
 

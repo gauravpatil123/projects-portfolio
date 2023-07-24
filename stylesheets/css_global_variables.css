@@ -117,6 +117,7 @@
     --color-13: #A82518;
 
     /* background pastel colors */
+    --bg-border-1: white;
     --bg-color-1: #edf2fb;
     --bg-color-2: #d7e3fc;
     --bg-color-3: #ccdbfd;
@@ -138,6 +139,18 @@
     --bg-color-19: #eac9c1;
     --bg-color-20: #ebd8d0;
     --bg-color-21: #ffdab9;
+    --bg-color-22: #E81B23;
+    --bg-color-23: #E81B2330;
+    --bg-color-24: #EC7063;
+    --bg-color-25: #EC706330;
+    --bg-color-26: #00AEF3;
+    --bg-color-27: #00AEF330;
+    --bg-color-28: #5DADE2;
+    --bg-color-29: #5DADE230;
+    --bg-color-30: #DAA520;
+    --bg-color-31: #DAA52030;
+    --bg-color-32: #F4D03F;
+    --bg-color-33: #F4D03F30;
 
     /* project panel */
     --tag-background-color-1: #222222;

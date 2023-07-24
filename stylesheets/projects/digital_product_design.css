@@ -5,8 +5,33 @@
 @import "./project_template.css";
 
 #problem {
-    background-color: var(--bg-color-12); /*2, 3, 10, 12, 14, 16, 21*/
+    background-color: var(--bg-color-12); /*2, 3, 6, 10, 12, 14, 16, 21*/
     padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#design-ideation {
+    background-color: var(--bg-color-6);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#design-iteration {
+    background-color: var(--bg-color-14);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#final-design {
+    background-color: var(--bg-color-16);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#prototype {
+    background-color: var(--bg-color-21);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
 }
 
 #problem-block {
