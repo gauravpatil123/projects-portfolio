@@ -1,7 +1,7 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
-@media (min-width: 1024px) {
+@media (min-width: 481px) {
 
     body {
         background-color: var(--primary-background-color-2);
@@ -58,7 +58,6 @@
         display: block;
         width: 25vw;
         height: 3vh;
-        /* height: 0vh; */
         text-align: center;
         padding-bottom: 1.5em;
         padding-top: 0.5em;
@@ -71,7 +70,6 @@
         display: block;
         margin-top: 0.75em;
         color: var(--primary-background-color-2);
-        /* background-color: var(--primary-background-color-1); */
     }
     
     .project-domain{
@@ -87,6 +85,100 @@
     
     .portfolio-piece-box:hover .inner {
         width: 25vw;
+        height: 8vh;
+        background-color: var(--primary-background-color-1);
+        color: var(--primary-background-color-2);
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    body {
+        background-color: var(--primary-background-color-2);
+    }
+
+    .filter-buttons-container {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .filter-button{
+        border: 0.1em solid black;
+        padding: 0.5em;
+        text-align: center;
+        margin: var(--page-button-margin-mobile);
+        font-size: var(--page-button-font-size);
+        font-family: var(--font-button);
+    }
+    
+    .filter-button:hover {
+        cursor: pointer;
+        border-color: var(--accent-color-1);
+    }
+    
+    .filter-button-selected {
+        border-color: var(--accent-color-1);
+        background-color: var(--primary-background-color-1);
+        color: var(--primary-background-color-2);
+    }
+    
+    .portfolio-pieces-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .portfolio-piece-box {
+        width: 75vw;
+        height: 75vw;
+        border: 0.1em solid var(--primary-background-color-1);
+        margin-inline: auto;
+        margin-block: 1em;
+        z-index: 0;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        box-sizing: border-box;
+        box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6);
+    }
+    
+    .inner{
+        display: block;
+        width: 75vw;
+        height: 3vh;
+        text-align: center;
+        padding-bottom: 1.5em;
+        padding-top: 0.5em;
+        background-color: var(--primary-background-color-1-alpha-8);
+        transition: background-color 0.3s ease, height 0.3s ease;
+        font-family: var(--font-headings);
+    }
+    
+    .project-title {
+        display: block;
+        margin-top: 0.75em;
+        font-size: 0.8em;
+        color: var(--primary-background-color-2);
+    }
+    
+    .project-domain{
+        margin-top: 1em;
+        font-size: 0.8em;
+        font-family: var(--font-headings);
+    }
+    
+    .portfolio-piece-box:hover {
+        border-color: var(--accent-color-1);
+        border-width: 0.1em;
+        box-shadow: 0px 0px 10px var(--accent-color-1);
+    }
+    
+    .portfolio-piece-box:hover .inner {
+        width: 75vw;
         height: 8vh;
         background-color: var(--primary-background-color-1);
         color: var(--primary-background-color-2);
