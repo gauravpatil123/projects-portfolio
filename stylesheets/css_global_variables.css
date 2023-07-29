@@ -72,7 +72,8 @@
     --site-page-font-size-h1: 5em;
     --site-page-font-size-h2: 3em;
 
-    --page-section-title: 2em; 
+    --page-section-title: 2em;
+    --page-section-title-mobile: 1.5em; 
 
     --nav-menu-button-font-size: 2em;
     --page-button-font-size: 1em;

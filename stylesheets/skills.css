@@ -1,138 +1,281 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
-body {
-    background-color: var(--primary-background-color-2);
+@media (min-width: 481px) {
+    
+    body {
+        background-color: var(--primary-background-color-2);
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .skill-section {
+        display: flex;
+        flex-direction: column;
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        padding: 1em;
+        width: 25vw;
+        box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+    }
+
+    .skill-section-title, .tools-title{
+        font-size: var(--page-section-title);
+        margin-bottom: 1em;
+        text-align: center;
+        font-family: var(--font-headings);
+    }
+
+    .skill-set {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-inline: auto;
+        font-family: var(--font-text);
+    }
+
+    .skill-packet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .text-achor {
+        display: none;
+        width: 0.25em;
+        height: 1.5em;
+        background-color: black;
+        margin-right: 0.5em;
+    }
+
+    .skill-item{
+        width: 15vw;
+        margin-block: auto;
+        border: 0.1em solid black;
+        border-radius: 1em;
+        padding: 0.25em;
+        text-align: center;
+        margin-block: 0.1em;
+    }
+
+    .tools-container {
+        width: 91vw;
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        margin-inline: auto;
+        margin-top: 2em;
+        font-family: var(--font-text);
+        box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+    }
+
+    .tools-section-container {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
+
+    .tools-title {
+        margin-top: 1em;
+    }
+
+    .tool-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-block: 1em;
+    }
+
+    .tool-section-tile {
+        font-size: 1.25em;
+        margin-block: auto;
+        margin-inline: 0.5em;
+    }
+
+    .tool-proficiency-packet {
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0.5em;
+        margin-inline: 1em;
+    }
+
+    .tool-item-packet {
+        margin: 0.5em;
+    }
+
+    .tool-item-image {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 0.01em solid black;
+        margin-inline: auto;
+        background-color: var(--primary-background-color-2);
+    }
+
+    .tool-name {
+        text-align: center;
+    }
+
+    .proficiency-advanced {
+        background-color: var(--proficiency-a);
+    }
+
+    .proficiency-intermediate {
+        background-color: var(--proficiency-b);
+    }
+
+    .proficiency-familiar {
+        background-color: var(--proficiency-c);
+    }
+
 }
 
-.skills-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+@media (max-width: 480px) {
+    
+    body {
+        background-color: var(--primary-background-color-2);
+    }
 
-.skill-section {
-    display: flex;
-    flex-direction: column;
-    border: 0.1em solid black;
-    border-radius: 1.5em;
-    padding: 1em;
-    width: 25vw;
-    box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
-}
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+    }
 
-.skill-section-title, .tools-title{
-    font-size: var(--page-section-title);
-    margin-bottom: 1em;
-    text-align: center;
-    font-family: var(--font-headings);
-}
+    .skill-section {
+        margin-block: 1em;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        padding: 1em;
+        width: 75vw;
+        box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+    }
 
-.skill-set {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-inline: auto;
-    font-family: var(--font-text);
-}
+    .skill-section-title, .tools-title{
+        font-size: var(--page-section-title-mobile);
+        margin-bottom: 1em;
+        text-align: center;
+        font-family: var(--font-headings);
+    }
 
-.skill-packet {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
+    .skill-set {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-inline: auto;
+        font-family: var(--font-text);
+    }
 
-.text-achor {
-    display: none;
-    width: 0.25em;
-    height: 1.5em;
-    background-color: black;
-    margin-right: 0.5em;
-}
+    .skill-packet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
 
-.skill-item{
-    width: 15vw;
-    margin-block: auto;
-    border: 0.1em solid black;
-    border-radius: 1em;
-    padding: 0.25em;
-    text-align: center;
-    margin-block: 0.1em;
-}
+    .text-achor {
+        display: none;
+        width: 0.25em;
+        height: 1.5em;
+        background-color: black;
+        margin-right: 0.5em;
+    }
 
-.tools-container {
-    width: 91vw;
-    border: 0.1em solid black;
-    border-radius: 1.5em;
-    margin-inline: auto;
-    margin-top: 2em;
-    font-family: var(--font-text);
-    box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
-}
+    .skill-item{
+        width: 60vw;
+        margin-block: auto;
+        border: 0.1em solid black;
+        border-radius: 1em;
+        padding: 0.25em;
+        text-align: center;
+        margin-block: 0.1em;
+    }
 
-.tools-section-container {
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-}
+    .tools-container {
+        width: 91vw;
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        margin-inline: auto;
+        margin-top: 2em;
+        font-family: var(--font-text);
+        box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
+    }
 
-.tools-title {
-    margin-top: 1em;
-}
+    .tools-section-container {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+    }
 
-.tool-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-block: 1em;
-}
+    .tools-title {
+        margin-top: 1em;
+    }
 
-.tool-section-tile {
-    font-size: 1.25em;
-    margin-block: auto;
-    margin-inline: 0.5em;
-}
+    .tool-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-block: 1em;
+    }
 
-.tool-proficiency-packet {
-    border: 0.1em solid black;
-    border-radius: 1.5em;
-    width: 20vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0.5em;
-    margin-inline: 1em;
-}
+    .tool-section-tile {
+        font-size: 1.25em;
+        margin-block: auto;
+        margin-inline: 0.5em;
+    }
 
-.tool-item-packet {
-    margin: 0.5em;
-}
+    .tool-proficiency-packet {
+        border: 0.1em solid black;
+        border-radius: 1.5em;
+        width: 20vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0.5em;
+        margin-inline: 1em;
+    }
 
-.tool-item-image {
-    display: block;
-    width: 50px;
-    height: 50px;
-    border: 0.01em solid black;
-    margin-inline: auto;
-    background-color: var(--primary-background-color-2);
-}
+    .tool-item-packet {
+        margin: 0.5em;
+    }
 
-.tool-name {
-    text-align: center;
-}
+    .tool-item-image {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border: 0.01em solid black;
+        margin-inline: auto;
+        background-color: var(--primary-background-color-2);
+    }
 
+    .tool-name {
+        text-align: center;
+    }
 
-.proficiency-advanced {
-    background-color: var(--proficiency-a);
-}
+    .proficiency-advanced {
+        background-color: var(--proficiency-a);
+    }
 
-.proficiency-intermediate {
-    background-color: var(--proficiency-b);
-}
+    .proficiency-intermediate {
+        background-color: var(--proficiency-b);
+    }
 
-.proficiency-familiar {
-    background-color: var(--proficiency-c);
+    .proficiency-familiar {
+        background-color: var(--proficiency-c);
+    } 
+
 }
