@@ -4,6 +4,8 @@
 
     body {
         background-image: url(../assets/background/landingbg.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     #portfolio-domain-logo {
