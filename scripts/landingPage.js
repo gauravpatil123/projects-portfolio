@@ -12,6 +12,8 @@ async function click_enter(url) {
 
     e.preventDefault();
 
+    setCss("body", "background-image", "none");
+
     setCss("#portfolio-domain-logo", "background-image", "url(../assets/logo/Portfolio-Domains-Logo-b.png)");
     setCss("#enter-button-link-wrapper", "display", "none");
 

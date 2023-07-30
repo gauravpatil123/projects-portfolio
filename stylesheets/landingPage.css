@@ -2,6 +2,10 @@
 
 @media (min-width: 481px) {
 
+    body {
+        background-image: url(../assets/background/landingbg.svg);
+    }
+
     #portfolio-domain-logo {
         width: 25vw;
         height: 25vw;
