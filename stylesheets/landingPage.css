@@ -11,6 +11,12 @@
     #portfolio-domain-logo {
         width: 25vw;
         height: 25vw;
+        background-image: url(../assets/logo/Portfolio-Domains-Logo-a.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-inline: auto;
+        margin-top: 5em;
+        margin-bottom: 0.25em;
     }
 
 }
@@ -20,21 +26,18 @@
     #portfolio-domain-logo {
         width: 75vw;
         height: 75vw;
+        background-image: url(../assets/logo/Portfolio-Domains-Logo-a.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-inline: auto;
+        margin-top: 5em;
+        margin-bottom: 0.25em;
     }
 
 }
 
 body {
     background-color: var(--primary-background-color-2);
-}
-
-#portfolio-domain-logo {
-    background-image: url(../assets/logo/Portfolio-Domains-Logo-a.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-inline: auto;
-    margin-top: 5em;
-    margin-bottom: 0.25em;
 }
 
 #enter-button {
