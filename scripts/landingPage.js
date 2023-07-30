@@ -12,7 +12,8 @@ async function click_enter(url) {
 
     e.preventDefault();
     
-    setCss("#portfolio-domain-logo", "background-image", "url(../../projects-portfolio/assets/logo/Portfolio-Domains-Logo-b.png)");
+    //links doent working in local environment =? its set up to work on github pages
+    setCss("#portfolio-domain-logo", "background-image", "url(/projects-portfolio/assets/logo/Portfolio-Domains-Logo-b.png)");
     setCss("body", "background-image", "none");
     setCss("#enter-button-link-wrapper", "display", "none");
 
