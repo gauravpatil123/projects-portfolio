@@ -11,10 +11,9 @@ async function click_enter(url) {
   $("#enter-button-link-wrapper").click(async function(e){
 
     e.preventDefault();
-
-    setCss("body", "background-image", "none");
-
+    
     setCss("#portfolio-domain-logo", "background-image", "url(../assets/logo/Portfolio-Domains-Logo-b.png)");
+    setCss("body", "background-image", "none");
     setCss("#enter-button-link-wrapper", "display", "none");
 
     $("body").animate({ backgroundColor : "#3D6599" }, 1000);
