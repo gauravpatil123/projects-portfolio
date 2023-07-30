@@ -10,15 +10,19 @@ async function click_enter(url) {
 
   $("#enter-button-link-wrapper").click(async function(e){
 
-    //get color hex from caa global variables
     e.preventDefault();
+
+    setCss("#portfolio-domain-logo", "background-image", "url(../assets/logo/Portfolio-Domains-Logo-b.png)");
+    setCss("#enter-button-link-wrapper", "display", "none");
+
     $("body").animate({ backgroundColor : "#3D6599" }, 1000);
+    $("#portfolio-domain-logo").animate({ width : "37vw", height : "37vw" }, 1000);
 
     await new Promise(r => setTimeout(r, 2000));
     
-    //change white to require colors from style sheet
     $("body").animate({ backgroundColor : "white" }, 1000);
     $(".logo-screen").animate({ opacity : 0 }, 1000);
+    $("#portfolio-domain-logo").animate({ opacity : 0 }, 1000);
 
     await new Promise(r => setTimeout(r, 1000));
     redirect(url);
