@@ -1,7 +1,7 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
-@media (min-width: 481px) {
+@media (min-width: 769px) {
 
     body {
         background-color: var(--primary-background-color-2);
@@ -93,7 +93,7 @@
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 
     body {
         background-color: var(--primary-background-color-2);
