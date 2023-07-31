@@ -16,7 +16,7 @@
     
     #profile-picture {
         border: 0.1em solid black;
-        border-radius: 12em;
+        border-radius: 50%;
         width: 25vw;
         height: 25vw;
         margin-left: auto;
@@ -64,7 +64,7 @@
     
     #profile-picture {
         border: 0.1em solid black;
-        border-radius: 12em;
+        border-radius: 50%;
         width: 60vw;
         height: 60vw;
         margin-inline: auto;
