@@ -18,7 +18,12 @@ async function click_enter(url) {
     setCss("#enter-button-link-wrapper", "display", "none");
 
     $("body").animate({ backgroundColor : "#3D6599" }, 1000);
-    $(".portfolio-domain-logo-clicked").animate({ width : "37vw", height : "37vw" }, 1000);
+
+    if (window.matchMedia("(min-width: 1200px)").matches) {
+
+      $(".portfolio-domain-logo-clicked").animate({ width : "37vw", height : "37vw" }, 1000);
+    
+    }
 
     await new Promise(r => setTimeout(r, 2000));
     

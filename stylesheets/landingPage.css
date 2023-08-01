@@ -45,6 +45,17 @@
         margin-bottom: 0.25em;
     }
 
+    .portfolio-domain-logo-clicked {
+        width: 75vw;
+        height: 75vw;
+        background-image: url(../assets/logo/Portfolio-Domains-Logo-b.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-inline: auto;
+        margin-top: 5em;
+        margin-bottom: 0.25em;
+    }
+
 }
 
 body {
