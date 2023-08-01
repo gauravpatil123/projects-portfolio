@@ -1,55 +1,128 @@
 @import "./css_global_variables.css";
 
-.nav-menu-container {
-    display: flex;
-    font-size: var(--nav-menu-button-font-size);
-    background-color: var(--primary-background-color-1);
-    margin-top: 0px;
-    margin-bottom: 1em;
-    border: 0.01em solid black;
-    padding-block: 0.5em;
+@media (min-width: 1200px) {
+
+    .nav-menu-container {
+        display: flex;
+        font-size: var(--nav-menu-button-font-size);
+        background-color: var(--primary-background-color-1);
+        margin-top: 0px;
+        margin-bottom: 1em;
+        border: 0.01em solid black;
+        padding-block: 0.5em;
+    }
+    
+    .nav-logo {
+        flex: 1;
+        width:230px;
+        height: 60px;
+        fill: var(--accent-color-1);
+        margin-inline: 1em;
+        margin-block: auto;
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-Full.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .nav-links {
+        text-decoration: none;
+        color: var(--accent-color-1);
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+    
+    .nav-menu-button-container {
+        flex: 9;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .nav-menu-button {
+        padding: var(--nav-menu-button-padding);
+        margin-left: var(--nav-menu-button-margin-left);
+        margin-right: var(--nav-menu-button-margin-right);
+        font-family: var(--font-button);
+    }
+    
+    .nav-menu-selected {
+        color: var(--primary-background-color-2);
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: var(--site-page-font-size-h1);
+        margin-bottom: var( --site-page-margin-bot-h1);
+        color: var(--accent-color-1);
+        font-family: var(--font-accent);
+    }
+
 }
 
-.nav-logo {
-    flex: 1;
-    width:230px;
-    height: 60px;
-    fill: var(--accent-color-1);
-    margin-inline: 1em;
-    margin-block: auto;
-    background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-Full.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+@media (max-width: 1199px) {
+    
+    .nav-menu-container {
+        display: flex;
+        flex-direction: column;
+        font-size: var(--nav-menu-button-font-size);
+        background-color: var(--primary-background-color-1);
+        margin-top: 0px;
+        margin-bottom: 1em;
+        border: 0.01em solid black;
+        padding-block: 0.5em;
+    }
 
-.nav-links {
-    text-decoration: none;
-    color: var(--accent-color-1);
-}
+    .nav-logo {
+        width:230px;
+        height: 60px;
+        fill: var(--accent-color-1);
+        margin-inline: auto;
+        margin-block: 1em;
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-Full.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
-.nav-menu-button-container{
-    flex: 9;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
+    .nav-links {
+        text-decoration: none;
+        color: var(--accent-color-1);
+        text-align: center;
+    }
 
-.nav-menu-button {
-    padding: var(--nav-menu-button-padding);
-    margin-left: var(--nav-menu-button-margin-left);
-    margin-right: var(--nav-menu-button-margin-right);
-    font-family: var(--font-button);
-}
+    .mobile-menu-closed {
+        background-image: url();
+    }
 
-.nav-menu-selected {
-    color: var(--primary-background-color-2);
-    /* text-shadow: 0 0 2px var(--color-8); */
-}
+    .mobile-menu-open {
+        background-image: url();
+    }
 
-h1 {
-    text-align: center;
-    font-size: var(--site-page-font-size-h1);
-    margin-bottom: var( --site-page-margin-bot-h1);
-    color: var(--accent-color-1);
-    font-family: var(--font-accent);
+    .nav-menu-button-container{
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-menu-button {
+        padding: var(--nav-menu-button-padding);
+        margin-left: var(--nav-menu-button-margin-left);
+        margin-right: var(--nav-menu-button-margin-right);
+        font-family: var(--font-button);
+        margin-block: 0.25em;
+    }
+
+    .nav-menu-selected {
+        color: var(--primary-background-color-2);
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: var(--site-page-font-size-h1);
+        margin-top: var( --site-page-margin-top-h1-mobile);
+        margin-bottom: var( --site-page-margin-bot-h1-mobile);
+        color: var(--accent-color-1);
+        font-family: var(--font-accent);
+    }
+
 }
