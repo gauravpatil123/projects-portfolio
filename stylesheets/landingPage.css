@@ -1,6 +1,6 @@
 @import "./css_global_variables.css";
 
-@media (min-width: 769px) {
+@media (min-width: 813px) {
 
     body {
         background-image: url(../assets/background/landingbg.svg);
@@ -32,7 +32,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
 
     .portfolio-domain-logo {
         width: 75vw;

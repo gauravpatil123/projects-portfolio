@@ -1,7 +1,7 @@
 @import "./navigation_menu.css";
 @import "./footer.css";
 
-@media (min-width: 769px) {
+@media (min-width: 813px) {
 
     .skills-container {
         display: flex;
@@ -80,7 +80,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
 
     .skills-container {
         display: flex;
