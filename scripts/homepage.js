@@ -1,4 +1,4 @@
-import { setCss, switch_class_to, redirect } from "./utils.js";
+import { setCss, mobile_menu_nav, switch_class_to, redirect } from "./utils.js";
 
 //global variable
 var project_domains = {
