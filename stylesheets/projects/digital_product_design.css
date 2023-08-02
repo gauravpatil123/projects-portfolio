@@ -10,8 +10,20 @@
     border: 1em solid var(--bg-border-1);
 }
 
+#project-timeline {
+    background-color: var(--bg-color-white-2);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
 #design-ideation {
     background-color: var(--bg-color-6);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#mid-fidelity-prototype {
+    background-color: var(--bg-color-white-2);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }

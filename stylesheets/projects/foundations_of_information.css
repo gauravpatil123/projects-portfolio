@@ -12,3 +12,9 @@
     margin-inline: auto;
     border: 0.15em solid var(--fig-border-color);
 }
+
+#research-paper {
+    background-color: var(--bg-color-white-2);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}

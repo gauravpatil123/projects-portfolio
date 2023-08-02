@@ -1,4 +1,4 @@
-import { get_link_url } from "../utils.js";
+import { get_link_url, section_expand } from "../utils.js";
 
 var problem_text1 = 'Initial problem statement from NYC DDC: "How might we communicate subsurface infrastructure construction projects to the people."';
 var problem_text2 = "The NYC DDC is constantly building & maintaining infrastructure projects for the NYC public. But, these projects require opening up streets for an extensive amount of time.";
@@ -35,6 +35,8 @@ var fig19_caption = "Fig #19: <i>Final Prototype Design Details for the Project 
 var fig20_caption = "Fig #20: <i>Final Prototype Design Link Image</i>";
 
 function main() {
+
+    section_expand();
 
     get_link_url("#fig20", "link")
 

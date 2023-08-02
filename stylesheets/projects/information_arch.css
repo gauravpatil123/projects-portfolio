@@ -10,6 +10,12 @@
     border: 1em solid var(--bg-border-1);
 }
 
+#project-timeline {
+    background-color: var(--bg-color-white-2);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
 #about {
     background-color: var(--bg-color-14);
     padding: 0.5em;
@@ -54,6 +60,12 @@
 
 #mid-fidelity {
     background-color: var(--bg-color-13);
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#prototypes {
+    background-color: var(--bg-color-white-2);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }

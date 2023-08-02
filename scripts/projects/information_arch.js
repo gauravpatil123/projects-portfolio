@@ -1,4 +1,4 @@
-import { get_link_url } from "../utils.js";
+import { get_link_url, section_expand } from "../utils.js";
 
 var fig1_caption = "Fig #1: <i>Screenshot of the Redesigned Mid-Fidelity NYTM Desktop Homepage</i>";
 var introduction_text = "The New York Transit Museum displays historical artifacts of the New York City Subway, bus & commuter rail systems in the greater New York City metropolitan region. This project attempts to improve the user experience of NYTM’s website based on insights from user interviews, market research and through the use of personas, user stories, revamped information architecture, wireframes & prototypes.";
@@ -84,6 +84,8 @@ var conclusion_text4 = "After the required changes, this project can finally mov
 var conclusion_text5 = "As an alternative path to carry this project forward, one can also look into designing any of the other pages and task flows required for the full website. This can be done following the same iterative process as described above in this study. Some pages & task flows for future work can include the “exhibits” & “archive” pages; and the “make a donation” task flow.";
 
 function main() {
+
+    section_expand();
 
     get_link_url("#fig53");
     
