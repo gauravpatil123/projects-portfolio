@@ -1,5 +1,92 @@
 @import "../css_global_variables.css";
 
+@media (min-width: 1200px) {
+
+    .project-title {
+        font-family: var(--font-title);
+        font-size: var(--font-title-size);
+        margin-block: var(--title-margin-block);
+        margin-left: var(--title-margin-left);
+    }
+
+    .project-h1 {
+        font-family: var(--font-h1);
+        font-size: var(--font-h1-size);
+        margin-block: var(--h1-margin-block);
+        margin-left: var(--h1-margin-left);
+    }
+
+    .project-h2 {
+        font-family: var(--font-h2);
+        font-size: var(--font-h2-size);
+        margin-top: var(--h2-margin-top);
+        margin-bottom: var(--h2-margin-bot);
+        margin-left: var(--h2-margin-left);
+    }
+    
+    .project-h3 {
+        font-family: var(--font-h3);
+        font-size: var(--font-h3-size);
+        margin-top: var(--h3-margin-top);
+        margin-bottom: var(--h3-margin-bot);
+        margin-left: var(--h3-margin-left);
+    }
+
+    .project-text {
+        font-family: var(--font-text-project);
+        font-size: var(--font-text-size);
+        margin-top: var(--text-margin-top);
+        margin-bottom: var(--text-margin-bot);
+        margin-left: var(--text-margin-left);
+        margin-right: var(--text-margin-right);
+        line-height: var(--text-line-height);
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .project-title {
+        font-family: var(--font-title);
+        font-size: var(--font-title-size);
+        margin-block: var(--title-margin-block-mobile);
+        margin-inline: var(--title-margin-inline-mobile);
+    }
+
+    .project-h1 {
+        font-family: var(--font-h1);
+        font-size: var(--font-h1-size);
+        margin-block: var(--h1-margin-block-mobile);
+        margin-inline: var(--h1-margin-inline-mobile);
+    }
+
+    .project-h2 {
+        font-family: var(--font-h2);
+        font-size: var(--font-h2-size);
+        margin-top: var(--h2-margin-top-mobile);
+        margin-bottom: var(--h2-margin-bot-mobile);
+        margin-inline: var(--h2-margin-inline-mobile);
+    }
+    
+    .project-h3 {
+        font-family: var(--font-h3);
+        font-size: var(--font-h3-size);
+        margin-top: var(--h3-margin-top-mobile);
+        margin-bottom: var(--h3-margin-bot-mobile);
+        margin-inline: var(--h3-margin-inline-mobile);
+    }
+
+    .project-text {
+        font-family: var(--font-text-project-mobile);
+        font-size: var(--font-text-size);
+        margin-top: var(--text-margin-top-mobile);
+        margin-bottom: var(--text-margin-bot-mobile);
+        margin-inline: var(--text-margin-inline-mobile);
+        line-height: var(--text-line-height-mobile);
+    }
+
+}
+
 body {
     /* background-color: #efefef; */
     background-color: white;
@@ -9,46 +96,6 @@ body {
     max-width: 82vw;
     margin-inline: auto;
     background-color: var(--project-container-background-color);
-}
-
-.project-title {
-    font-family: var(--font-title);
-    font-size: var(--font-title-size);
-    margin-block: var(--title-margin-block);
-    margin-left: var(--title-margin-left);
-}
-
-.project-h1 {
-    font-family: var(--font-h1);
-    font-size: var(--font-h1-size);
-    margin-block: var(--h1-margin-block);
-    margin-left: var(--h1-margin-left);
-}
-
-.project-h2 {
-    font-family: var(--font-h2);
-    font-size: var(--font-h2-size);
-    margin-top: var(--h2-margin-top);
-    margin-bottom: var(--h2-margin-bot);
-    margin-left: var(--h2-margin-left);
-}
-
-.project-h3 {
-    font-family: var(--font-h3);
-    font-size: var(--font-h3-size);
-    margin-top: var(--h3-margin-top);
-    margin-bottom: var(--h3-margin-bot);
-    margin-left: var(--h3-margin-left);
-}
-
-.project-text {
-    font-family: var(--font-text-project);
-    font-size: var(--font-text-size);
-    margin-top: var(--text-margin-top);
-    margin-bottom: var(--text-margin-bot);
-    margin-left: var(--text-margin-left);
-    margin-right: var(--text-margin-right);
-    line-height: var(--text-line-height);
 }
 
 .project-figs1 {

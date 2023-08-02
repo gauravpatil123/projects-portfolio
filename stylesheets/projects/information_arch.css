@@ -67,6 +67,7 @@
 #client-duration-container, #team-container, #all-tools-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #client-text, #duration-text, #team-text, #all-tools-text {

@@ -176,23 +176,33 @@
     --font-title-size: 28pt;
     --title-margin-block: 0.5em;
     --title-margin-left: 60px;
+    --title-margin-block-mobile: 0.1em;
+    --title-margin-inline-mobile: 0.1em;
 
     --font-h1: "Montserrat Bold";
     --font-h1-size: 19pt;
     --h1-margin-block: 0.5em;
     --h1-margin-left: 60px;
+    --h1-margin-block-mobile: 0.1em;
+    --h1-margin-inline-mobile: 0.1em;
 
     --font-h2: "Montserrat Semi Bold";
     --font-h2-size: 15pt;
     --h2-margin-top: 1em;
     --h2-margin-bot: 0.5em;
     --h2-margin-left: 60px;
+    --h2-margin-top-mobile: 0.5em;
+    --h2-margin-bot-mobile: 0.25em;
+    --h2-margin-inline-mobile: 0.1em;
 
     --font-h3: "Montserrat Medium";
     --font-h3-size: 15pt;
     --h3-margin-top: 1em;
     --h3-margin-bot: 0.5em;
     --h3-margin-left: 60px;
+    --h3-margin-top-mobile: 0.5em;
+    --h3-margin-bot-mobile: 0.25em;
+    --h3-margin-inline-mobile: 0.1em;
 
     --font-text-project: "Georgia";
     --font-text-size: 15pt;
@@ -201,6 +211,11 @@
     --text-margin-left: 60px;
     --text-margin-right: 12em;
     --text-line-height: 2;
+    --font-text-size-mobile: 12pt;
+    --text-margin-top-mobile: 0.5em;
+    --text-margin-bot-mobile: 0.25em;
+    --text-margin-inline-mobile: 0.1em;
+    --text-line-height-mobile: 2;
 
     --font-caption: "Georgia";
     --font-caption-size: 12pt;
