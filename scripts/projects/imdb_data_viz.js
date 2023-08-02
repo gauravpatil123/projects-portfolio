@@ -1,4 +1,4 @@
-import { get_link_url } from "../utils.js";
+import { section_expand } from "../utils.js";
 
 var introduction_text = "IMDb is an online database containing various aspects of information related to films, tv series and other multimedia content types. In this project I have attempted to manipulate this huge database to create data art of large network graphs from the database. In this project I have had the opportunity to demonstrate & practice data ETL for a huge dataset. Further, in this project I have successfully created custom network graphs from the extracted data - details of which are mentioned in further sections.";
 
@@ -35,6 +35,8 @@ var fig16_caption = "Fig #16: <i>Overview of Network Graph showing relationship 
 var fig17_caption = "Fig #17: <i> Overview of Network Graph showing relationship between writers & movies from 2021 - 2022</i>";
 
 function main() {
+
+    section_expand();
 
     $("#introduction-text").html(introduction_text);
 

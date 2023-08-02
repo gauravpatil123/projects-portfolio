@@ -1,4 +1,4 @@
-import { get_link_url } from "../utils.js";
+import { section_expand } from "../utils.js";
 
 var fig1_caption = "Fig #1: <i>Watchlist Web Application Logo</i>";
 var introduction_text1 = "This project intends to help its users keep track of watchable content of their interest by enabling them to create a personal WatchList; and solve the problem of choosing what content to watch by attempting to create a recommendation system that delivers suggestions based on multiple parameter inputs by the user. In doing so, this project provides its users the affordance of an interactive web interface which is supported by an efficient backend & database system.";
@@ -33,6 +33,8 @@ var fig18_20_caption = "Fig #18, #19 & #20 (Scroll): <i>Screenshots showing pdo 
 var backend_development_text5 = "The SQL database is interacted by creating the pdo object in php and the same pdo object is used to pass & execute SQL queries and also to retrieve the outpost from the executed SQL queries. All the SQL queries used in this web application are passed via this pdo object created in php.";
 
 function main() {
+
+    section_expand();
 
     $("#fig1-caption").html(fig1_caption);
 

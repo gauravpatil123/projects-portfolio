@@ -123,6 +123,10 @@
 
     /* background pastel colors */
     --bg-border-1: white;
+    --bg-border-2: #222222;
+    --bg-color-white-1: white;
+    --bg-color-white-2: #FAF9F6;
+    --bg-color-white-3: #F9F6EE;
     --bg-color-1: #edf2fb;
     --bg-color-2: #d7e3fc;
     --bg-color-3: #ccdbfd;
