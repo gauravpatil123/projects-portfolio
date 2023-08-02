@@ -1,4 +1,4 @@
-import { get_link_url } from "../utils.js";
+import { get_link_url, section_expand } from "../utils.js";
 
 var introduction_text = "“The Transition in US Congress from 2014 - 2020” is an interactive visualization of the composition of US congress and major events during the 2014 - 2020 timeframe. The visualization is created using HTML5, CSS & D3 in JavaScript. Unlike other visualizations that try to display the same information using maps, this project has attempted to distance itself from maps & geographies of the land. This project starts with the representation of the US House of Representatives that formed after the 2014 election in the 114th US Congress shown in Fig #1. The user can then interact with the visualization & navigate through intuitive buttons and a year slider to find more information. The visualization also has a story-telling component which can be accessed with a horizontal scroll interaction to show the major events as shown in Fig #2. These major events start from 2014 and continue to build the narrative chronologically as the user interacts with the visualization through time.";
 var fig1_caption = "Fig #1: <i>US House of Representatives 2014</i>";
@@ -63,6 +63,8 @@ var next_steps_text2 = "After the user tests, the first good next step in taking
 var next_steps_text3 = "Other long term steps would include expanding the scope of the project on either side of the timeline. This project can be expanded by just adding the election data of other election cycles in the same format as used in this project. Maybe creation of an API for this dataset can help in its expansion. This project can also be expanded and updated with each election cycle to include the latest datasets & information.";
 
 function main() {
+
+    section_expand();
 
     $("#introduction-text").html(introduction_text);
     

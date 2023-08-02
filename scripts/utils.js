@@ -4,6 +4,27 @@ function setCss(querySelector, property, value) {
   
 }
 
+function section_expand() {
+  
+  $(".expand-button").on("click", function() {
+
+    $(this).toggleClass("collapse-button");
+    $(this).parents(".project-section").children(".project-section-closed").toggleClass("project-section-open")
+
+    if ($(this).hasClass("collapse-button")) {
+      
+      console.log("has collapse class");
+
+    } else {
+
+      console.log("no collapse class");
+
+    }
+
+  })
+
+}
+
 function mobile_menu_nav() {
 
   $("#mobile-menu").on("click", function() {
@@ -66,4 +87,4 @@ function get_link_url(selector_class, link_src="src") {
 
 }
 
-export { setCss, mobile_menu_nav, switch_class_to, redirect, append_tag, append_link, get_link_url };
+export { setCss, section_expand, mobile_menu_nav, switch_class_to, redirect, append_tag, append_link, get_link_url };
