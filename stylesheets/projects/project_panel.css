@@ -11,8 +11,8 @@
         width: 82vw;
         box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1);
         margin-inline: auto;
-        margin-top: 3em;
-        margin-bottom: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
     #thumbnail-container {

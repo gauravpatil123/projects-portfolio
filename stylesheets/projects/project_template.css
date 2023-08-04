@@ -88,8 +88,8 @@
 }
 
 body {
-    /* background-color: #efefef; */
     background-color: white;
+    min-height: 100vh;
 }
 
 #project-piece-container {
