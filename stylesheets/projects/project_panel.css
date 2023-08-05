@@ -82,6 +82,7 @@
         margin-inline: 0.25em;
         font-family: var(--font-text);
         transition: background-color 0.5s ease;
+        color: var(--color-4);
     }
     
     .link-item:hover {
