@@ -17,7 +17,11 @@ var DESIGN_PROJECTS = ["#project-3", "#project-4", "#project-5"];
 var DOCUMENT_PROJECTS = ["#project-6"];
 var ALL_PROJECTS = ["#project-1", "#project-2", "#project-3", "#project-4", "#project-5", "#project-6"];
 
+var home_intro_text = "This Portfolio includes projects that illustrate my work in data, design & Research. Design work includes projects on digital product design and web development - demonstrating the whole product design cycle from UI/UX research to final prototypes, frontend dev, backend dev & database design. The projects in data are focused on data collection, data cleaning, data ETL & Visualization. Research projects cover UI/UX research & Qualitative research."
+
 async function main() {
+
+    $("#home-intro").html(home_intro_text);
 
     $("#filter-data").on("click", function(){
 

@@ -187,6 +187,13 @@
 
 }
 
+#home-intro {
+    width: 82vw;
+    font-family: var(--font-text);
+    font-size: 11pt;
+    margin-inline: auto;
+}
+
 #project-1 {
     background-image: url("../assets/thumbnails/us-congress-fall22.png");
     background-size: contain;
