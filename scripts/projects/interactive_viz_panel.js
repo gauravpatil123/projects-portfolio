@@ -2,7 +2,7 @@ import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
 var project_thumbnail_url = "../../assets/thumbnails/us-congress-fall22.png";
 var title = "The Transition in US Congress from 2014 - 2020";
-var skills = ["Data Visualization", "Data Collection", "Data ETL"];
+var skills = ["Data Visualization", "Data Collection", "Data ETL", "Prototyping"];
 var tools = ["D3", "JavaScript", "CSS", "HTML"];
 var link_titles = ["Repository", "Visualization"];
 var link_srcs = ["https://github.com/gauravpatil123/Transitions-in-US-Congress", "https://gauravpatil123.github.io/Transitions-in-US-Congress"];
