@@ -17,7 +17,7 @@ var DESIGN_PROJECTS = ["#project-3", "#project-4", "#project-5"];
 var DOCUMENT_PROJECTS = ["#project-6"];
 var ALL_PROJECTS = ["#project-1", "#project-2", "#project-3", "#project-4", "#project-5", "#project-6"];
 
-var home_intro_text = "Hi, I am Gaurav and this portfolio includes select projects that illustrate my work in data, design & research. Design projects on digital product design show the whole product design cycle from UI/UX research to final prototypes; the design projects on web development include the full stack development & database design. Data projects are focused on data collection, data cleaning, data ETL & visualization. Research projects cover qualitative research."
+var home_intro_text = "";
 
 async function main() {
 
