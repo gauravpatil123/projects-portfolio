@@ -1,0 +1,39 @@
+@import "../css_global_variables.css";
+@import "../navigation_menu.css";
+@import "../footer.css";
+@import "./project_panel.css";
+@import "./project_template.css";
+
+#objective {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#concept-idea {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#datasets {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#fig1, #fig2 {
+    margin-inline: auto;
+    display: block;
+    border: 0.1em solid var(--fig-border-color);
+}
+
+#fig1 {
+    content: url(../../assets/projects/information_viz/Fig1.png);
+    max-width: 30vw;
+}
+
+#fig2 {
+    content: url(../../assets/projects/information_viz/Fig2.png);
+    max-width: 60vw;
+}

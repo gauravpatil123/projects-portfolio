@@ -8,14 +8,14 @@ var project_domains = {
     "project-4" : "Info-Architecture | Prototyping | UX Research",
     "project-5" : "Digital Product Design | Prototyping",
     "project-6" : "Research Paper | Research Methodology",
-    "project-7" : "Project 7 domain",
+    "project-7" : "Data Science | Data Viz",
     "project-8" : "Project 8 domain"
 }
 
-var DATA_PROJETCS = ["#project-1", "#project-2", "#project-3"];
+var DATA_PROJETCS = ["#project-1", "#project-2", "#project-3", "#project-7"];
 var DESIGN_PROJECTS = ["#project-3", "#project-4", "#project-5"];
 var DOCUMENT_PROJECTS = ["#project-6"];
-var ALL_PROJECTS = ["#project-1", "#project-2", "#project-3", "#project-4", "#project-5", "#project-6"];
+var ALL_PROJECTS = ["#project-1", "#project-2", "#project-3", "#project-4", "#project-5", "#project-6", "#project-7"];
 
 var home_intro_text = "";
 
@@ -123,6 +123,13 @@ async function main() {
     $("#project-6").on("click", function() {
 
         var url = "./projects/foundations_of_information.html";
+        redirect(url);
+
+    })
+
+    $("#project-7").on("click", function() {
+
+        var url = "./projects/information_viz.html";
         redirect(url);
 
     })
