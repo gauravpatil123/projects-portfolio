@@ -21,8 +21,37 @@
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
+#methodology {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
 
-#fig1, #fig2 {
+#methodology-fig-5-6-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+    border: 0.1em solid var(--fig-border-color);
+    padding: 0.75em;
+    width: 60vw;
+    margin-inline: auto;
+}
+
+#methodology-fig-5-6-container .fig-image {
+    margin-inline: 1em;
+}
+
+#methodology-fig-5-6-container .fig-image:first-child {
+    margin-left: auto;
+}
+
+#methodology-fig-5-6-container .fig-image:last-child {
+    margin-right: auto;
+}
+
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
@@ -35,5 +64,30 @@
 
 #fig2 {
     content: url(../../assets/projects/information_viz/Fig2.png);
+    max-width: 60vw;
+}
+
+#fig3 {
+    content: url(../../assets/projects/information_viz/Fig3.png);
+    max-width: 40vw;
+}
+
+#fig4 {
+    content: url(../../assets/projects/information_viz/Fig4.png);
+    max-width: 60vw;
+}
+
+#fig5 {
+    content: url(../../assets/projects/information_viz/Fig5.png);
+    max-width: 40vw;
+}
+
+#fig6 {
+    content: url(../../assets/projects/information_viz/Fig6.png);
+    max-width: 17vw;
+}
+
+#fig7 {
+    content: url(../../assets/projects/information_viz/Fig7.png);
     max-width: 60vw;
 }
