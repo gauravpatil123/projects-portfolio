@@ -21,13 +21,29 @@
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
+
 #methodology {
     background-color: whitesmoke;
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
-#methodology-fig-5-6-container {
+#network-graphs {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#map-hypergraphs {
+    background-color: whitesmoke;
+    padding: 0.5em;
+    border: 1em solid var(--bg-border-1);
+}
+
+#methodology-fig-5-6-container, #network-graphs-fig-8-15-container,
+#network-graphs-fig-16-20-container, #network-graphs-fig-21-28-container,
+#network-graphs-fig-29-33-container, #map-hypergraphs-fig-34-41-container,
+#map-hypergraphs-fig-42-46-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -39,19 +55,43 @@
     margin-inline: auto;
 }
 
-#methodology-fig-5-6-container .fig-image {
+#methodology-fig-5-6-container .fig-image,
+#network-graphs-fig-8-15-container .fig-image,
+#network-graphs-fig-16-20-container .fig-image,
+#network-graphs-fig-21-28-container .fig-image,
+#network-graphs-fig-29-33-container .fig-image,
+#map-hypergraphs-fig-34-41-container .fig-image,
+#map-hypergraphs-fig-42-46-container .fig-image {
     margin-inline: 1em;
 }
 
-#methodology-fig-5-6-container .fig-image:first-child {
+#methodology-fig-5-6-container .fig-image:first-child,
+#network-graphs-fig-8-15-container .fig-image:first-child,
+#network-graphs-fig-16-20-container .fig-image:first-child,
+#network-graphs-fig-21-28-container .fig-image:first-child,
+#network-graphs-fig-29-33-container .fig-image:first-child,
+#map-hypergraphs-fig-34-41-container .fig-image:first-child,
+#map-hypergraphs-fig-42-46-container .fig-image:first-child {
     margin-left: auto;
 }
 
-#methodology-fig-5-6-container .fig-image:last-child {
+#methodology-fig-5-6-container .fig-image:last-child,
+#network-graphs-fig-8-15-container .fig-image:last-child,
+#network-graphs-fig-16-20-container .fig-image:last-child,
+#network-graphs-fig-21-28-container .fig-image:last-child,
+#network-graphs-fig-29-33-container .fig-image:last-child,
+#map-hypergraphs-fig-34-41-container .fig-image:last-child,
+#map-hypergraphs-fig-42-46-container .fig-image:last-child {
     margin-right: auto;
 }
 
-#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7 {
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7,
+#fig8, #fig9, #fig10, #fig11, #fig12, #fig13, #fig14, #fig15,
+#fig16, #fig17, #fig18, #fig19, #fig20, 
+#fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27, #fig28,
+#fig29, #fig30, #fig31, #fig32, #fig33,
+#fig34, #fig35, #fig36, #fig37, #fig38, #fig39, #fig40, #fig41,
+#fig42, #fig43, #fig44, #fig45, #fig46 {
     margin-inline: auto;
     display: block;
     border: 0.1em solid var(--fig-border-color);
@@ -90,4 +130,172 @@
 #fig7 {
     content: url(../../assets/projects/information_viz/Fig7.png);
     max-width: 60vw;
+}
+
+#fig8, #fig9, #fig10, #fig11, #fig12, #fig13, #fig14, #fig15,
+#fig16, #fig17, #fig18, #fig19, #fig20,
+#fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27, #fig28,
+#fig29, #fig30, #fig31, #fig32, #fig33 {
+    max-width: 30vw;
+}
+
+#fig34, #fig35, #fig36, #fig37, #fig38, #fig39, #fig40, #fig41,
+#fig42, #fig43, #fig44, #fig45, #fig46 {
+    max-width: 50vw;
+}
+
+#fig8 {
+    content: url(../../assets/projects/information_viz/Fig8.png);
+}
+
+#fig9 {
+    content: url(../../assets/projects/information_viz/Fig9.png);
+}
+
+#fig10 {
+    content: url(../../assets/projects/information_viz/Fig10.png);
+}
+
+#fig11 {
+    content: url(../../assets/projects/information_viz/Fig11.png);
+}
+
+#fig12 {
+    content: url(../../assets/projects/information_viz/Fig12.png);
+}
+
+#fig13 {
+    content: url(../../assets/projects/information_viz/Fig13.png);
+}
+
+#fig14 {
+    content: url(../../assets/projects/information_viz/Fig14.png);
+}
+
+#fig15 {
+    content: url(../../assets/projects/information_viz/Fig15.png);
+}
+
+#fig16 {
+    content: url(../../assets/projects/information_viz/Fig16.png);
+}
+
+#fig17 {
+    content: url(../../assets/projects/information_viz/Fig17.png);
+}
+
+#fig18 {
+    content: url(../../assets/projects/information_viz/Fig18.png);
+}
+
+#fig19 {
+    content: url(../../assets/projects/information_viz/Fig19.png);
+}
+
+#fig20 {
+    content: url(../../assets/projects/information_viz/Fig20.png);
+}
+
+#fig21 {
+    content: url(../../assets/projects/information_viz/Fig21.png);
+}
+
+#fig22 {
+    content: url(../../assets/projects/information_viz/Fig22.png);
+}
+
+#fig23 {
+    content: url(../../assets/projects/information_viz/Fig23.png);
+}
+
+#fig24 {
+    content: url(../../assets/projects/information_viz/Fig24.png);
+}
+
+#fig25 {
+    content: url(../../assets/projects/information_viz/Fig25.png);
+}
+
+#fig26 {
+    content: url(../../assets/projects/information_viz/Fig26.png);
+}
+
+#fig27 {
+    content: url(../../assets/projects/information_viz/Fig27.png);
+}
+
+#fig28 {
+    content: url(../../assets/projects/information_viz/Fig28.png);
+}
+
+#fig29 {
+    content: url(../../assets/projects/information_viz/Fig29.png);
+}
+
+#fig30 {
+    content: url(../../assets/projects/information_viz/Fig30.png);
+}
+
+#fig31 {
+    content: url(../../assets/projects/information_viz/Fig31.png);
+}
+
+#fig32 {
+    content: url(../../assets/projects/information_viz/Fig32.png);
+}
+
+#fig33 {
+    content: url(../../assets/projects/information_viz/Fig33.png);
+}
+
+#fig34 {
+    content: url(../../assets/projects/information_viz/Fig34.png);
+}
+
+#fig35 {
+    content: url(../../assets/projects/information_viz/Fig35.png);
+}
+
+#fig36 {
+    content: url(../../assets/projects/information_viz/Fig36.png);
+}
+
+#fig37 {
+    content: url(../../assets/projects/information_viz/Fig37.png);
+}
+
+#fig38 {
+    content: url(../../assets/projects/information_viz/Fig38.png);
+}
+
+#fig39 {
+    content: url(../../assets/projects/information_viz/Fig39.png);
+}
+
+#fig40 {
+    content: url(../../assets/projects/information_viz/Fig40.png);
+}
+
+#fig41 {
+    content: url(../../assets/projects/information_viz/Fig41.png);
+}
+
+#fig42 {
+    content: url(../../assets/projects/information_viz/Fig42.png);
+}
+
+#fig43 {
+    content: url(../../assets/projects/information_viz/Fig43.png);
+}
+
+#fig44 {
+    content: url(../../assets/projects/information_viz/Fig44.png);
+}
+
+#fig45 {
+    content: url(../../assets/projects/information_viz/Fig45.png);
+}
+
+#fig46 {
+    content: url(../../assets/projects/information_viz/Fig46.png);
 }
