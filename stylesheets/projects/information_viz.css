@@ -5,37 +5,37 @@
 @import "./project_template.css";
 
 #objective {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-3);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
 #concept-idea {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-8);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
 #datasets {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-13);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
 #methodology {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-16);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
 #network-graphs {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-8);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
 
 #map-hypergraphs {
-    background-color: whitesmoke;
+    background-color: var(--bg-color-6);
     padding: 0.5em;
     border: 1em solid var(--bg-border-1);
 }
