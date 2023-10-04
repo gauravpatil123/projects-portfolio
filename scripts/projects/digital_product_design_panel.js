@@ -1,6 +1,6 @@
 import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
-var project_thumbnail_url = "../../assets/thumbnails/nyc-ddc-product-design-sp23-3.png";
+var project_thumbnail_url = "../../assets/thumbnails/nyc-ddc-product-design-sp23-5.png";
 var title = "Communicating Subsurface Infrastructure for NYC DDC";
 var skills = ["Wireframing", "Prototype Design", "User Testing", "Info Architecture"];
 var tools = ["Figma", "Adobe Illustrator"];
