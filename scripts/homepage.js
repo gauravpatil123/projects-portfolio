@@ -12,9 +12,11 @@ var project_domains = {
     "project-8" : "Project 8 domain"
 }
 
-var DATA_PROJETCS = ["#project-1", "#project-2", "#project-3", "#project-7"];
-var DESIGN_PROJECTS = ["#project-3", "#project-4", "#project-5"];
+var DATA_PROJETCS = ["#project-1", "#project-2", "#project-7"];
+var DESIGN_PROJECTS = ["#project-4", "#project-5"];
+var DEV_PROJECTS = ["#project-1", "#project-3"];
 var DOCUMENT_PROJECTS = ["#project-6"];
+var INTERACTIVE_PROJECTS = ["#project-1", "#project-3", "#project-4", "#project-5"];
 var ALL_PROJECTS = ["#project-1", "#project-2", "#project-3", "#project-4", "#project-5", "#project-6", "#project-7"];
 
 var home_intro_text = "";
@@ -42,6 +44,30 @@ async function main() {
         //setCss(".design", "display", "flex");
 
         DESIGN_PROJECTS.forEach(e => {
+            setCss(e, "display", "flex");            
+        });
+
+    });
+
+    $("#filter-dev").on("click", function(){
+
+        switch_class_to("#filter-dev");
+        setCss(".portfolio-piece-box", "display", "none");
+        //setCss(".data", "display", "flex");
+
+        DEV_PROJECTS.forEach(e => {
+            setCss(e, "display", "flex");            
+        });
+
+    });
+
+    $("#filter-ixt").on("click", function(){
+
+        switch_class_to("#filter-ixt");
+        setCss(".portfolio-piece-box", "display", "none");
+        //setCss(".data", "display", "flex");
+
+        INTERACTIVE_PROJECTS.forEach(e => {
             setCss(e, "display", "flex");            
         });
 
