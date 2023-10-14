@@ -1,7 +1,7 @@
 import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
 var project_thumbnail_url = "../../assets/thumbnails/got-networks-sum22.png";
-var title = "Network Visaulizations of - <i>The Game of Thrones</i>";
+var title = "Network Visualizations of - <i>The Game of Thrones</i>";
 var skills = ["Data Visualization", "Data ETL", "Data Munging"];
 var tools = ["Python", "Gephi", "Adobe Illustrator"];
 var link_titles = ["Repository", "Base Dataset"];
