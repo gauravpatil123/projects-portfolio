@@ -102,7 +102,7 @@
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
     --primary-background-color-1-alpha-8: rgba(61, 101, 153, 0.8);
-    --primary-background-color-2: white;
+    --primary-background-color-2: #efefef; /*white*/
     --accent-color-1: #FF6F40; /*sl 1*/
     --box-shadow-color-1: grey;
 
