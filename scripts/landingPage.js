@@ -49,7 +49,7 @@ async function main() {
   //click_enter(homepage_url);
   
   //direct redirect to homepage without need for click
-  await new Promise(r => setTimeout(r, 2000));
+  await new Promise(r => setTimeout(r, 500));
   landingAnimation(homepage_url);
 
 }
