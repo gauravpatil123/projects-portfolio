@@ -1,6 +1,6 @@
 import {setCss, append_tag, append_link, get_link_url} from "../utils.js";
 
-var project_thumbnail_url = "../../assets/thumbnails/nytm-info-arch-fall23.png";
+var project_thumbnail_url = "../../assets/thumbnails/nytm-info-arch-fall23-2.png";
 var title = "Revamping the Web Experience of New York Transit Museum";
 var skills = ["User Research", "Info Architecture", "User Testing", "Design Prototyping"];
 var tools = ["Figma", "InVision", "Optimal Workshop", "Miro"];

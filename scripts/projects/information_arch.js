@@ -87,9 +87,9 @@ function main() {
 
     section_expand();
 
-    get_link_url("#fig53");
+    get_link_url("#fig55", "link");
     
-    get_link_url("#fig54");
+    get_link_url("#fig56", "link");
 
     $("#fig1-caption").html(fig1_caption);
 

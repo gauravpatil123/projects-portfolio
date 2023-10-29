@@ -337,3 +337,17 @@
 #fig54 {
     background-image: url("../../assets/projects/information_arch/Fig54.png");
 }
+
+#fig55 {
+    content: url(../../assets/projects/information_arch/Fig55.png);
+    height: 30vw;
+    margin-inline: auto;
+    display: block;
+}
+
+#fig56 {
+    content: url(../../assets/projects/information_arch/Fig56.png);
+    height: 30vw;
+    margin-inline: auto;
+    display: block;
+}
