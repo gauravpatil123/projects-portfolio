@@ -230,24 +230,35 @@
 }
 
 .home-intro {
-    width: 82vw;
+    width: 73vw;
     height: fit-content;
-    margin-inline: auto;
+    margin-left: 6vw;
+    margin-right: auto;
 }
 
 #home-intro-l1 {
-    font-size: 37pt;
-    font-family: var(--font-text);
+    font-size: 46pt;
+    font-family: var(--font-intro);
+    color: var(--font-intro-color-1);
+    margin-block: 0.3em;
 }
 
 #home-intro-l2 {
-    font-size: 37pt;
-    font-family: var(--font-text);
+    font-size: 46pt;
+    font-family: var(--font-intro);
+    color: var(--font-intro-color-1);
+    margin-block: 0.3em;
+}
+
+#intro-name {
+    color: var(--font-intro-color-2);
 }
 
 #home-intro-l3 {
-    font-size: 33pt;
+    font-size: 21pt;
     font-family: var(--font-text);
+    color: var(--font-intro-color-3);
+    margin-block: 0.3em;
 }
 
 .filter-button-selected:hover {

@@ -90,6 +90,7 @@
     --font-accent: "Playfair Display Regular";
     --font-text: "Playfair Display Regular";
     --font-copyright: "Helvetica", sans-serif;
+    --font-intro: "Gotham Light";
 
     --font-family-1: "Gotham Bold";
     --font-family-3: "Gotham Thin";
@@ -97,6 +98,13 @@
     --font-family-6: "Lato Regular";
     --font-family-7: "Roboto Regular";
     --font-family-8: "Open Sans Regular";
+
+    /* font colors */
+    --font-intro-color-1: #111111;
+    --font-intro-color-2: #FF6F40;
+    --font-intro-color-3: #333333;
+    --font-intro-color-4: #1677F5;
+    --font-intro-color-5: #1856A8;
 
     /* colors */
     --primary-background-color-1: #3D6599;
