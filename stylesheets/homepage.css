@@ -229,15 +229,29 @@
 
 }
 
-.filter-button-selected:hover {
-    color: var(--color-4);
+.home-intro {
+    width: 82vw;
+    height: fit-content;
+    margin-inline: auto;
 }
 
-#home-intro {
-    width: 82vw;
+#home-intro-l1 {
+    font-size: 37pt;
     font-family: var(--font-text);
-    font-size: 11pt;
-    margin-inline: auto;
+}
+
+#home-intro-l2 {
+    font-size: 37pt;
+    font-family: var(--font-text);
+}
+
+#home-intro-l3 {
+    font-size: 33pt;
+    font-family: var(--font-text);
+}
+
+.filter-button-selected:hover {
+    color: var(--color-4);
 }
 
 #project-1 {
