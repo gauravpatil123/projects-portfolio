@@ -6,6 +6,16 @@
     body {
         background-color: var(--primary-background-color-2);
     }
+
+    .home-intro {
+        width: 73vw;
+        height: fit-content;
+        margin-left: 6vw;
+        margin-right: auto;
+        border: 0.08em solid black;
+        padding: 1em;
+        border-radius: 2rem;
+    }
     
     .filter-buttons-container {
         display: flex;
@@ -123,6 +133,15 @@
         background-color: var(--primary-background-color-2);
     }
 
+    .home-intro {
+        width: 73vw;
+        height: fit-content;
+        margin-inline: auto;
+        border: 0.08em solid black;
+        padding: 1em;
+        border-radius: 2rem;
+    }
+
     .filter-buttons-container {
         display: flex;
         flex-direction: column;
@@ -229,13 +248,6 @@
 
 }
 
-.home-intro {
-    width: 73vw;
-    height: fit-content;
-    margin-left: 6vw;
-    margin-right: auto;
-}
-
 #home-intro-l1 {
     font-size: 46pt;
     font-family: var(--font-intro);
@@ -258,7 +270,7 @@
     font-size: 21pt;
     font-family: var(--font-text);
     color: var(--font-intro-color-3);
-    margin-block: 0.3em;
+    margin-block: 0.5em;
 }
 
 .filter-button-selected:hover {
