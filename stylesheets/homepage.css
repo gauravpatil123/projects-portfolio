@@ -12,9 +12,9 @@
         height: fit-content;
         margin-left: 6vw;
         margin-right: auto;
-        border: 0.08em solid black;
+        border: 0.1em solid black;
         padding: 1em;
-        border-radius: 2rem;
+        border-radius: 2rem 2rem 2rem 0rem;
     }
     
     .filter-buttons-container {
@@ -137,9 +137,9 @@
         width: 73vw;
         height: fit-content;
         margin-inline: auto;
-        border: 0.08em solid black;
+        border: 0.1em solid black;
         padding: 1em;
-        border-radius: 2rem;
+        border-radius: 2rem 2rem 2rem 0rem;
     }
 
     .filter-buttons-container {
