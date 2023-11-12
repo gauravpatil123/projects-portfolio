@@ -76,6 +76,8 @@ var fig52_caption = "Fig #52: <i>Decision #10 | Added text to clearly convey the
 
 var fig53_caption = "Fig #53: <i>Desktop Prototype Link</i>";
 var fig54_caption = "Fig #54: <i>Mobile Protoytpe Link</i>";
+var fig_web_caption = "<i>Desktop Prototype Link</i>";
+var fig_mobile_caption = "<i>Mobile Prototype Link</i>";
 
 var conclusion_text1 = "The results of this project over its duration of 15 weeks have provided solutions to many existing problems on the current NYTM website. By implementing the designs & features that are mentioned above in this study including - the revised Information Architecture, added calendar in the ticket reservation pages, inclusion of icons for visitor policies & adding images for each type of school trip - the user experience of the NYTM website can be significantly improved making it more intuitive for its users.";
 var conclusion_text2 = "Looking back at the entire project the major takeaway for me is the whole process of research & design itself. The learned technical know-how of tools used during this project like Figma, Sketch & Invision are an added bonus.";
@@ -90,6 +92,10 @@ function main() {
     get_link_url("#fig55", "link");
     
     get_link_url("#fig56", "link");
+
+    $("#fig-web-caption").html(fig_web_caption);
+
+    $("#fig-mobile-caption").html(fig_mobile_caption);
 
     $("#fig1-caption").html(fig1_caption);
 
