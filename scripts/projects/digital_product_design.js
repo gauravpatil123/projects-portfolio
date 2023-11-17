@@ -1,8 +1,9 @@
 import { get_link_url, section_expand } from "../utils.js";
 
-var problem_text1 = 'Initial problem statement from NYC DDC: "How might we communicate subsurface infrastructure construction projects to the people."';
+var problem_text1 = '<b>Problem</b><br>Initial problem statement from NYC DDC: "How might we communicate subsurface infrastructure construction projects to the people."';
 var problem_text2 = "The NYC DDC is constantly building & maintaining infrastructure projects for the NYC public. But, these projects require opening up streets for an extensive amount of time.";
 var problem_text3 = "How can we better communicate the purpose & necessity of the DDC projects to NYC residents & business owners?";
+var problem_text4 = "<b>Client:</b> NYC Department of Design & Construction<br><b>Duration:</b> 15 Weeks<br><b>Team Members:</b> Gaurav Patil, Xinyu Wang."
 var fig1_caption = "Fig #1: <i>Search Screen in Final Prototype</i>";
 
 var fig2_caption = "Fig #2: <i>Project Timeline Outlining Critical Project Activities</i>";
@@ -38,13 +39,15 @@ function main() {
 
     section_expand();
 
-    get_link_url("#fig20", "link")
+    get_link_url(".fig20", "link")
 
     $("#problem-text1").html(problem_text1);
 
     $("#problem-text2").html(problem_text2);
 
     $("#problem-text3").html(problem_text3);
+
+    $("#problem-text4").html(problem_text4);
 
     $("#fig1-caption").html(fig1_caption);
 

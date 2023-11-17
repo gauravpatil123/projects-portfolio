@@ -183,7 +183,7 @@
     max-width: 60vw;
 }
 
-#fig20 {
+.fig20 {
     content: url(../../assets/projects/digital_product_design/Fig20.png);
     height: 30vw;
     margin-inline: auto;
