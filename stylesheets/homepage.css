@@ -222,13 +222,13 @@
     .project-title {
         display: block;
         margin-top: 0.75em;
-        font-size: 0.8em;
+        font-size: 1.2em;
         color: var(--primary-background-color-2);
     }
     
     .project-domain{
         margin-top: 1em;
-        font-size: 0.8em;
+        font-size: 1.2em;
         font-family: var(--font-headings);
     }
     
@@ -240,7 +240,7 @@
     
     .portfolio-piece-box:hover .inner {
         width: 75vw;
-        height: 8vh;
+        height: 10vh;
         background-color: var(--primary-background-color-1);
         color: var(--primary-background-color-2);
         text-align: center;
