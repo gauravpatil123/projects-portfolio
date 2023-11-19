@@ -95,10 +95,16 @@
     }
 
     .contact-button{
-        border: 0.1em solid black;
+        border: 0.08em solid black;
         padding: 0.5em;
-        margin: 0.5em;
+        margin: 1em;
         font-size: var(--page-button-font-size);
+        background: var(--primary-background-color-2);
+        border-radius: 0.5rem;
+        box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
+                    -6px -6px 10px rgba(255, 255, 255, .5),
+                    6px 6px 8px rgba(255, 255, 255, .075),
+                    6px 6px 10px rgba(0, 0, 0, .15);
     }
 
 }
