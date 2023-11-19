@@ -1,33 +1,78 @@
 @import "./css_global_variables.css";
 
-.footer-container {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    font-size: var(--nav-menu-button-font-size);
-    background-color: var(--primary-background-color-1);
-    margin-top: 1em;
-    margin-bottom: 0px;
-    border: 0.01em solid black;
-    padding-block: 0.5em;
-    height: 60px;
+@media (min-width: 1200px) {
+
+    .footer-container {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        font-size: var(--nav-menu-button-font-size);
+        background-color: var(--primary-background-color-1);
+        margin-top: 1em;
+        margin-bottom: 0px;
+        border: 0.01em solid black;
+        padding-block: 0.5em;
+        height: 60px;
+    }
+
+    .footer-logo {
+        width:155px;
+        height: 60px;
+        fill: var(--accent-color-1);
+        margin-inline: 1em;
+        margin-block: auto;
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-ini.svg);
+        background-size: cover;
+    }
+
+    #copyright{
+        position: absolute;
+        font-size: var(--font-size-copyright);
+        font-family: var(--font-copyright);
+        right: 3%;
+        top: 73%;
+        color: white;
+    }
+
 }
 
-.footer-logo {
-    width:155px;
-    height: 60px;
-    fill: var(--accent-color-1);
-    margin-inline: 1em;
-    margin-block: auto;
-    background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-ini.svg);
-    background-size: cover;
-}
+@media (max-width: 1199px) {
 
-#copyright{
-    position: absolute;
-    font-size: var(--font-size-copyright);
-    font-family: var(--font-copyright);
-    right: 3%;
-    top: 73%;
-    color: white;
+    .footer-container {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        font-size: var(--nav-menu-button-font-size);
+        background-color: var(--primary-background-color-1);
+        margin-top: 1em;
+        margin-bottom: 0px;
+        border: 0.01em solid black;
+        padding-block: 0.5em;
+        height: 210px;
+    }
+
+    .footer-container a {
+        height: fit-content;
+        margin-block: auto;
+    }
+
+    .footer-logo {
+        width:155px;
+        height: 60px;
+        fill: var(--accent-color-1);
+        margin-inline: 1em;
+        margin-block: auto;
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-ini.svg);
+        background-size: cover;
+    }
+
+    #copyright{
+        position: absolute;
+        font-size: var(--font-size-copyright);
+        font-family: var(--font-copyright);
+        right: 3%;
+        top: 82%;
+        color: white;
+    }    
+
 }
