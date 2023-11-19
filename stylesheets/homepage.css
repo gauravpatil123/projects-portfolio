@@ -210,7 +210,7 @@
     .inner{
         display: block;
         width: 75vw;
-        height: 3vh;
+        height: 6vh;
         text-align: center;
         padding-bottom: 1.5em;
         padding-top: 0.5em;
@@ -222,13 +222,13 @@
     .project-title {
         display: block;
         margin-top: 0.75em;
-        font-size: 1.2em;
+        font-size: 1.5em;
         color: var(--primary-background-color-2);
     }
     
     .project-domain{
         margin-top: 1em;
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-family: var(--font-headings);
     }
     
