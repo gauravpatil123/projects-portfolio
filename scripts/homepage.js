@@ -13,7 +13,7 @@ var project_domains = {
 }
 
 var DATA_PROJETCS = ["#project-1", "#project-2", "#project-7"];
-var DESIGN_PROJECTS = ["#project-4", "#project-5"];
+var DESIGN_PROJECTS = ["#project-1", "#project-4", "#project-5"];
 var DEV_PROJECTS = ["#project-1", "#project-3"];
 var DOCUMENT_PROJECTS = ["#project-6"];
 var INTERACTIVE_PROJECTS = ["#project-1", "#project-3", "#project-4", "#project-5"];
