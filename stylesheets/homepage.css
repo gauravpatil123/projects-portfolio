@@ -85,7 +85,7 @@
         align-items: end;
         justify-content: center;
         box-sizing: border-box;
-        box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6);
+        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6); */
     }
     
     .inner{
@@ -112,9 +112,9 @@
     }
     
     .portfolio-piece-box:hover {
-        border-color: var(--accent-color-1);
+        /* border-color: var(--accent-color-1); */
         border-width: 0.1em;
-        box-shadow: 0px 0px 10px var(--accent-color-1);
+        /* box-shadow: 0px 0px 10px var(--accent-color-1); */
     }
     
     .portfolio-piece-box:hover .inner {
@@ -204,7 +204,7 @@
         align-items: end;
         justify-content: center;
         box-sizing: border-box;
-        box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6);
+        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6); */
     }
     
     .inner{
@@ -233,9 +233,9 @@
     }
     
     .portfolio-piece-box:hover {
-        border-color: var(--accent-color-1);
+        /* border-color: var(--accent-color-1); */
         border-width: 0.1em;
-        box-shadow: 0px 0px 10px var(--accent-color-1);
+        /* box-shadow: 0px 0px 10px var(--accent-color-1); */
     }
     
     .portfolio-piece-box:hover .inner {
