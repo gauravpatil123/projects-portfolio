@@ -7,7 +7,7 @@
         display: flex;
         justify-content: space-around;
         font-size: var(--nav-menu-button-font-size);
-        background-color: var(--primary-background-color-1);
+        background-color: var(--primary-background-color-foot);
         margin-top: 1em;
         margin-bottom: 0px;
         border: 0.01em solid black;
@@ -43,7 +43,7 @@
         display: flex;
         justify-content: space-around;
         font-size: var(--nav-menu-button-font-size);
-        background-color: var(--primary-background-color-1);
+        background-color: var(--primary-background-color-foot);
         margin-top: 1em;
         margin-bottom: 0px;
         border: 0.01em solid black;
