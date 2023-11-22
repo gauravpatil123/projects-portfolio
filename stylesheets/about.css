@@ -118,7 +118,7 @@ h2 {
     font-size: var(--site-page-font-size-h2);
     margin-bottom: var( --site-page-margin-bot-h2);
     font-family: var(--font-accent);
-    color: var(--accent-color-1);
+    color: var(--color-h2);
 }
 
 .contact-buttons-container {
