@@ -10,9 +10,9 @@
     .landing-section {
         width: 100vw;
         height: 33vh;
-        background-color: black;
-        border-bottom: 0.1em solid white;
-        color: white;
+        background-color: var(--landing-page-black);
+        border-bottom: 0.1em solid var(--landing-page-white);
+        color: var(--landing-page-white);
     }
 
     .intro-box-1 {
@@ -30,7 +30,7 @@
     }
 
     #intro-text {
-        border: 0.01em solid white;
+        border: 0.01em solid var(--landing-page-white);
         border-radius: 1em;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -45,9 +45,9 @@
     #enter-button {
         width: 6em;
         height: 6em;
-        background-color: #FF4444;
+        background-color: var(--landing-page-accent);
         border-radius: 50%;
-        border: 0.05em solid white;
+        border: 0.05em solid var(--landing-page-white);
         text-align: center;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -55,10 +55,6 @@
         margin-inline: 6em;
         color: black;
         transition: color 0.6s ease;
-    }
-
-    #button-text {
-        margin-top: 40%;
     }
 
     .intro-box-3 {
@@ -70,39 +66,91 @@
     }
 
     #enter-button:hover {
-        color: white;
+        color: var(--landing-page-white);
     }
 
 }
 
 @media (max-width: 1199px) {
 
-    .portfolio-domain-logo {
-        width: 75vw;
-        height: 75vw;
-        background-image: url(../assets/logo/Portfolio-Domains-Logo-a.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-inline: auto;
-        margin-top: 5em;
-        margin-bottom: 0.25em;
+    .landing-container {
+        display: flex;
+        flex-direction: column;
     }
 
-    .portfolio-domain-logo-clicked {
-        width: 75vw;
-        height: 75vw;
-        background-image: url(../assets/logo/Portfolio-Domains-Logo-b.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-inline: auto;
-        margin-top: 5em;
-        margin-bottom: 0.25em;
+    .landing-section {
+        width: 100vw;
+        height: 33vh;
+        background-color: var(--landing-page-black);
+        border-bottom: 0.1em solid var(--landing-page-white);
+        color: var(--landing-page-white);
+    }
+
+    .intro-box-1 {
+        font-family: var(--font-landing-name-box-1);
+        font-size: 1em;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .intro-box-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    #intro-text {
+        border: 0.01em solid var(--landing-page-white);
+        border-radius: 1em;
+        font-size: 2em;
+        font-family: var(--font-landing-name-box-2);
+        width: 450px;
+        height: 150px;
+        text-align: left;
+        padding: 1em;
+        margin-top: 1.5em;
+        margin-right: 6em;
+        margin-left: auto;
+        /* margin-inline: 3em; */
+    }
+
+    #enter-button {
+        width: 6em;
+        height: 6em;
+        background-color: var(--landing-page-accent);
+        border-radius: 50%;
+        border: 0.05em solid var(--landing-page-white);
+        text-align: center;
+        font-size: 2em;
+        font-family: var(--font-landing-name-box-2);
+        margin-top: 1.5em;
+        margin-right: 6em;
+        margin-left: auto;
+        /* margin-inline: 19em; */
+        color: black;
+        transition: color 0.6s ease;
+    }
+
+    #button-text {
+        margin-top: 40%;
+    }
+
+    .intro-box-3 {
+        font-family: var(--font-landing-name-box-3);
+        font-size: 10em;
+        text-align: right;
+        padding-right: 0.1em;
+        padding-top: 0.1em;
+    }
+
+    #enter-button:hover {
+        color: var(--landing-page-white);
     }
 
 }
 
 #button-text {
     display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    margin-top: 38%;
 }

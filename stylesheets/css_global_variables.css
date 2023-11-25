@@ -162,6 +162,10 @@
     --color-blue: #4444FF;
 
     /* colors */
+    --landing-page-black: #101010;
+    --landing-page-white: #efefef;
+    --landing-page-accent: #FF3333;
+
     --primary-background-color-nav: rgba(22, 22, 23, 1.0);
     --primary-background-color-foot: rgba(22, 22, 23, 1.0);
 
