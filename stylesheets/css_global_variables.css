@@ -158,8 +158,10 @@
     --color-blue: #4444FF;
 
     /* colors */
-    --primary-background-color-nav: #212121;
+    --primary-background-color-nav: #efefef;
     --primary-background-color-foot: #212121;
+
+    --nav-buttons: #212121;
 
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
