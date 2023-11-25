@@ -104,6 +104,10 @@ body {
     justify-content: space-between;
 }
 
+.project-section {
+    border-radius: 2em;
+}
+
 .project-section-closed {
     display: none;
 }
@@ -119,6 +123,7 @@ body {
     height: 50px;
     margin-inline: 3em;
     border: 0.1em solid var(--fig-border-color);
+    border-radius: 1em;
 }
 
 .collapse-button {
@@ -128,6 +133,7 @@ body {
     height: 50px;
     margin-inline: 3em;
     border: 0.1em solid var(--fig-border-color);
+    border-radius: 1em;
 }
 
 .project-figs1 {
