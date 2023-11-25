@@ -36,10 +36,11 @@ async function landingAnimation(url) {
 
 async function click_enter(url) {
 
-  $("#enter-button-link-wrapper").click(async function(e){
+  $("#enter-button").click(async function(e){
 
-    e.preventDefault();
-    landingAnimation(url);
+    // e.preventDefault();
+    // landingAnimation(url);
+    redirect(url);
 
   });
 
