@@ -195,9 +195,13 @@
     --proficiency-b: #D6EAF8;
     --proficiency-c: #FDEBD0; */
 
-    --proficiency-a: rgba(68, 255, 68, 0.6);
+    /* --proficiency-a: rgba(68, 255, 68, 0.6);
     --proficiency-b: rgba(68, 68, 255, 0.6);
-    --proficiency-c: rgba(255, 111, 64, 0.8);
+    --proficiency-c: rgba(255, 111, 64, 0.8); */
+
+    --proficiency-a: #85DCB0;
+    --proficiency-b: #659DBD;
+    --proficiency-c: #E8A87C;
 
     --color-1: #ffb7af;
     --color-2: #D3F547;
