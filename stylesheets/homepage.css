@@ -199,6 +199,7 @@
         width: 75vw;
         height: 75vw;
         border: 0.1em solid var(--primary-container-border);
+        border-radius: 3em;
         margin-inline: auto;
         margin-block: 1em;
         z-index: 0;
@@ -211,11 +212,13 @@
     
     .inner{
         display: block;
-        width: 75vw;
+        width: 70vw;
         height: 4vh;
         text-align: center;
         padding-bottom: 1.5em;
         padding-top: 0.5em;
+        margin-bottom: 2em;
+        border-radius: 2em;
         background-color: var(--primary-inner-background-container-alpha-8);
         transition: background-color 0.3s ease, height 0.3s ease;
         font-family: var(--font-headings);
@@ -241,7 +244,7 @@
     }
     
     .portfolio-piece-box:hover .inner {
-        width: 75vw;
+        width: 70vw;
         height: 10vh;
         background-color: var(--primary-inner-background-container);
         color: var(--primary-background-color-2);
