@@ -133,7 +133,7 @@
     /* font families */
     --font-headings: "Gotham Light"; /*selected*/
     --font-button: "Inter Light"; 
-    --font-accent: "Gotham Light"; /*"Playfair Display Regular";*/
+    --font-accent: "Inter Light"; /*"Playfair Display Regular";*/
     --font-text: "Playfair Display Regular";
     --font-copyright: "Helvetica", sans-serif;
     --font-intro: "Gotham Light";
