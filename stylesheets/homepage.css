@@ -96,6 +96,7 @@
     
     .portfolio-piece-box:hover {
         border-width: 0.1em;
+        cursor: pointer;
     }
     
     .portfolio-piece-box:hover .inner {
@@ -204,6 +205,7 @@
     
     .portfolio-piece-box:hover {
         border-width: 0.1em;
+        cursor: pointer;
     }
     
     .portfolio-piece-box:hover .inner {

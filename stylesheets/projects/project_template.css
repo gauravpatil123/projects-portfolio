@@ -124,6 +124,7 @@ body {
     margin-inline: 3em;
     border: 0.1em solid var(--fig-border-color);
     border-radius: 1em;
+    cursor: pointer;
 }
 
 .collapse-button {
@@ -134,6 +135,7 @@ body {
     margin-inline: 3em;
     border: 0.1em solid var(--fig-border-color);
     border-radius: 1em;
+    cursor: pointer;
 }
 
 .project-figs1 {
