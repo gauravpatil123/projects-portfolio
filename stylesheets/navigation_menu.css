@@ -19,7 +19,7 @@
         height: 60px;
         margin-inline: 1em;
         margin-block: auto;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-Full.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-Full.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -82,7 +82,7 @@
         fill: var(--accent-color-1);
         margin-inline: auto;
         margin-block: 1em;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-C8-Full.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-Full.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
