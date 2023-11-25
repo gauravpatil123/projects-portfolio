@@ -165,7 +165,7 @@
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
     --primary-background-color-1-alpha-8: rgba(61, 101, 153, 0.8);
     --primary-background-color-2:#efefef; /*white*/
-    --accent-color-1: #FF4444; /*#FF6F40;*/ /*sl 1*/
+    --accent-color-1: #FF6F40; /*sl 1*/
     --box-shadow-color-1: grey;
 
     --primary-container-border: #212121;
@@ -175,9 +175,13 @@
     --color-h1: #212121;
     --color-h2: #212121;
 
-    --proficiency-a: #D5F5E3;
+    /* --proficiency-a: #D5F5E3;
     --proficiency-b: #D6EAF8;
-    --proficiency-c: #FDEBD0;
+    --proficiency-c: #FDEBD0; */
+
+    --proficiency-a: rgba(68, 255, 68, 0.6);
+    --proficiency-b: rgba(68, 68, 255, 0.6);
+    --proficiency-c: rgba(255, 111, 64, 0.8);
 
     --color-1: #ffb7af;
     --color-2: #D3F547;
