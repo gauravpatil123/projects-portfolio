@@ -48,7 +48,7 @@
     }
     
     .nav-menu-selected {
-        color: var(--accent-color-1);
+        color: var(--nav-buttons-selected);
     }
     
     h1 {
@@ -123,7 +123,7 @@
     }
 
     .nav-menu-selected {
-        color: var(--accent-color-1);
+        color: var(--nav-buttons-selected);
     }
     
     h1 {

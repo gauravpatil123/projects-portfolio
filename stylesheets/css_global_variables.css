@@ -158,10 +158,12 @@
     --color-blue: #4444FF;
 
     /* colors */
-    --primary-background-color-nav: #efefef;
-    --primary-background-color-foot: #212121;
+    --primary-background-color-nav: rgba(22, 22, 23, 0.8);
+    --primary-background-color-foot: rgba(22, 22, 23, 0.8);
 
-    --nav-buttons: #212121;
+    --nav-buttons: rgba(239, 239, 239, 0.8);
+    --nav-buttons-selected: rgba(255, 255, 255, 1.0);
+    --copyright-text: rgba(255, 255, 255, 1.0);
 
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
@@ -171,8 +173,8 @@
     --box-shadow-color-1: grey;
 
     --primary-container-border: #212121;
-    --primary-inner-background-container: #212121;
-    --primary-inner-background-container-alpha-8: rgba(33, 33, 33, 0.8);
+    --primary-inner-background-container: rgba(44, 44, 44, 1.0);
+    --primary-inner-background-container-alpha-8: rgba(44, 44, 44, 0.8);
 
     --color-h1: #212121;
     --color-h2: #212121;
