@@ -152,6 +152,11 @@
     --font-intro-color-4: #1677F5;
     --font-intro-color-5: #1856A8;
 
+    /*new color pallete*/
+    --color-red: #FF4444;
+    --color-green: #44FF44;
+    --color-blue: #4444FF;
+
     /* colors */
     --primary-background-color-nav: #212121;
     --primary-background-color-foot: #212121;
@@ -159,8 +164,8 @@
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
     --primary-background-color-1-alpha-8: rgba(61, 101, 153, 0.8);
-    --primary-background-color-2: #efefef; /*white*/
-    --accent-color-1: #FF6F40; /*sl 1*/
+    --primary-background-color-2:#efefef; /*white*/
+    --accent-color-1: #FF4444; /*#FF6F40;*/ /*sl 1*/
     --box-shadow-color-1: grey;
 
     --primary-container-border: #212121;
