@@ -5,9 +5,14 @@
 
     .about-intro-container {
         display: flex;
+        margin-inline: auto;
+        width: 91vw;
         flex-direction: row;
         justify-content: space-evenly;
         font-family: var(--font-text);
+        padding: 2em;
+        border: 0.1em solid black;
+        border-radius: 2em;
     }
     
     #profile-picture-container {
@@ -41,6 +46,16 @@
         font-size: 11pt;
     }
 
+    .contact-section {
+        margin-inline: auto;
+        margin-top: 2em;
+        width: 91vw;
+        padding-block: 1em;
+        padding-inline: 2em;
+        border: 0.1em solid black;
+        border-radius: 2em;
+    }
+
     .contact-button{
         border: 0.08em solid black;
         padding: 0.5em;
@@ -62,6 +77,11 @@
         display: flex;
         flex-direction: column;
         font-family: var(--font-text);
+        margin-inline: auto;
+        width: 82vw;
+        padding: 2em;
+        border: 0.1em solid black;
+        border-radius: 2em;
     }
     
     #profile-picture-container {
@@ -92,6 +112,16 @@
     
     #intro-detail {
         font-size: 11pt;
+    }
+
+    .contact-section {
+        margin-inline: auto;
+        margin-top: 2em;
+        width: 82vw;
+        padding-block: 1em;
+        padding-inline: 2em;
+        border: 0.1em solid black;
+        border-radius: 2em;
     }
 
     .contact-button{
