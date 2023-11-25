@@ -12,7 +12,7 @@
         margin-bottom: 0px;
         border: 0.05em solid black;
         border-radius: 1em;
-        padding-block: 0.5em;
+        padding-block: 0.25em;
         height: 60px;
     }
 
@@ -22,7 +22,7 @@
         fill: var(--accent-color-1);
         margin-inline: 1em;
         margin-block: auto;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-ini.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-InterExtraThin-White-ini.svg);
         background-size: cover;
     }
 
@@ -64,7 +64,7 @@
         fill: var(--accent-color-1);
         margin-inline: 1em;
         margin-block: auto;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-ini.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-InterExtraThin-White-ini.svg);
         background-size: cover;
     }
 

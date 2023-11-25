@@ -10,7 +10,7 @@
         margin-bottom: 1em;
         border: 0.05em solid black;
         border-radius: 1em;
-        padding-block: 0.5em;
+        padding-block: 0.25em;
     }
     
     .nav-logo {
@@ -19,7 +19,7 @@
         height: 60px;
         margin-inline: 1em;
         margin-block: auto;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-Full.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-InterExtraThin-White-Full.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -44,7 +44,8 @@
         padding: var(--nav-menu-button-padding);
         margin-left: var(--nav-menu-button-margin-left);
         margin-right: var(--nav-menu-button-margin-right);
-        font-family: var(--font-button);
+        font-family: var(--font-nav-button);
+        font-size: var(--nav-button-font-size);
     }
     
     .nav-menu-selected {
@@ -82,7 +83,7 @@
         fill: var(--accent-color-1);
         margin-inline: auto;
         margin-block: 1em;
-        background-image: url(../assets/logo/Portfolio-Logo-MrsSD-White-Full.svg);
+        background-image: url(../assets/logo/Portfolio-Logo-InterExtraThin-White-Full.svg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -118,7 +119,8 @@
         padding: var(--nav-menu-button-padding);
         margin-left: var(--nav-menu-button-margin-left);
         margin-right: var(--nav-menu-button-margin-right);
-        font-family: var(--font-button);
+        font-family: var(--font-nav-button);
+        font-size: var(--nav-button-font-size);
         margin-block: 0.25em;
     }
 

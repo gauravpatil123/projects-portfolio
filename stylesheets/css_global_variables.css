@@ -127,6 +127,8 @@
     --nav-menu-button-font-size: 2em;
     --page-button-font-size: 1em;
 
+    --nav-button-font-size: 0.8em;
+
     --font-size-copyright: x-small;
     --font-size-copyright-mobile: small;
 
@@ -137,6 +139,7 @@
     --font-text: "Playfair Display Regular";
     --font-copyright: "Helvetica", sans-serif;
     --font-intro: "Gotham Light";
+    --font-nav-button: "Inter Extra Light";
 
     --font-landing-name-box-1: "Inter Extra Light";
     --font-landing-name-box-2: "Inter Light";
