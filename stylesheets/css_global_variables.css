@@ -138,7 +138,8 @@
     --font-accent: "Inter Light"; /*"Playfair Display Regular";*/
     --font-text: "Playfair Display Regular";
     --font-copyright: "Helvetica", sans-serif;
-    --font-intro: "Gotham Light";
+    --font-intro: "Inter Light";
+    --font-intro-text: "Inter Extra Light";
     --font-nav-button: "Inter Extra Light";
 
     --font-landing-name-box-1: "Inter Extra Light";

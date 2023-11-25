@@ -31,41 +31,22 @@
         margin: var(--page-button-margin);
         font-size: var(--page-button-font-size);
         font-family: var(--font-button);
-        /* border-radius: 1.5em;
-        box-shadow: 0 0 3px #333333; */
-        /* border: none; */
         background: var(--primary-background-color-2);
         border-radius: 0.5rem;
         color: #333333;
         cursor: pointer;
         transition: 0.2s ease-in-out;
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                    -6px -6px 10px rgba(255, 255, 255, .5),
-                    6px 6px 8px rgba(255, 255, 255, .075),
-                    6px 6px 10px rgba(0, 0, 0, .15); */
     }
     
     .filter-button:hover {
         cursor: pointer;
         border-color: var(--accent-color-1);
-        /* color: var(--primary-background-color-1); */
         color: #333333;
-        /* box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
-                    -2px -2px 4px rgba(255, 255, 255, .4),
-                    2px 2px 2px rgba(255, 255, 255, .05),
-                    2px 2px 4px rgba(0, 0, 0, .1); */
     }
     
     .filter-button-selected {
         border-color: var(--accent-color-1);
-        /* background-color: var(--primary-background-color-1); */
-        /* color: var(--primary-background-color-2); */
-        /* color: var(--primary-background-color-1); */
         color: var(--color-4);
-        /* box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
-                    inset -2px -2px 4px rgba(255, 255, 255, .5),
-                    inset 2px 2px 2px rgba(255, 255, 255, .075),
-                    inset 2px 2px 4px rgba(0, 0, 0, .15); */
     }
     
     .portfolio-pieces-container{
@@ -86,7 +67,6 @@
         align-items: end;
         justify-content: center;
         box-sizing: border-box;
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6); */
     }
     
     .inner{
@@ -115,9 +95,7 @@
     }
     
     .portfolio-piece-box:hover {
-        /* border-color: var(--accent-color-1); */
         border-width: 0.1em;
-        /* box-shadow: 0px 0px 10px var(--accent-color-1); */
     }
     
     .portfolio-piece-box:hover .inner {
@@ -165,29 +143,17 @@
         color: #333333;
         cursor: pointer;
         transition: 0.2s ease-in-out;
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                    -6px -6px 10px rgba(255, 255, 255, .5),
-                    6px 6px 8px rgba(255, 255, 255, .075),
-                    6px 6px 10px rgba(0, 0, 0, .15); */
     }
     
     .filter-button:hover {
         cursor: pointer;
         border-color: var(--accent-color-1);
         color: #333333;
-        /* box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
-                    -2px -2px 4px rgba(255, 255, 255, .4),
-                    2px 2px 2px rgba(255, 255, 255, .05),
-                    2px 2px 4px rgba(0, 0, 0, .1); */
     }
     
     .filter-button-selected {
         border-color: var(--accent-color-1);
         color: var(--color-4);
-        /* box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
-                    inset -2px -2px 4px rgba(255, 255, 255, .5),
-                    inset 2px 2px 2px rgba(255, 255, 255, .075),
-                    inset 2px 2px 4px rgba(0, 0, 0, .15); */
     }
     
     .portfolio-pieces-container{
@@ -207,7 +173,6 @@
         align-items: end;
         justify-content: center;
         box-sizing: border-box;
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--primary-background-color-1-alpha-6); */
     }
     
     .inner{
@@ -238,9 +203,7 @@
     }
     
     .portfolio-piece-box:hover {
-        /* border-color: var(--accent-color-1); */
         border-width: 0.1em;
-        /* box-shadow: 0px 0px 10px var(--accent-color-1); */
     }
     
     .portfolio-piece-box:hover .inner {
@@ -273,7 +236,7 @@
 
 #home-intro-l3 {
     font-size: 21pt;
-    font-family: var(--font-text);
+    font-family: var(--font-intro-text);
     color: var(--font-intro-color-3);
     margin-block: 0.5em;
 }
