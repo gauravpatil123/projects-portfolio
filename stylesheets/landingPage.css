@@ -2,32 +2,75 @@
 
 @media (min-width: 1200px) {
 
-    body {
-        /* background-image: url(../assets/background/landingbg.svg); */
-        background-size: contain;
-        background-repeat: no-repeat;
+    .landing-container {
+        display: flex;
+        flex-direction: column;
     }
 
-    .portfolio-domain-logo {
-        width: 25vw;
-        height: 25vw;
-        background-image: url(../assets/logo/Portfolio-Domains-Logo-a.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-inline: auto;
-        margin-top: 5em;
-        margin-bottom: 0.25em;
+    .landing-section {
+        width: 100vw;
+        height: 33vh;
+        background-color: black;
+        border-bottom: 0.1em solid white;
+        color: white;
     }
 
-    .portfolio-domain-logo-clicked {
-        width: 25vw;
-        height: 25vw;
-        background-image: url(../assets/logo/Portfolio-Domains-Logo-b.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        margin-inline: auto;
-        margin-top: 5em;
-        margin-bottom: 0.25em;
+    .intro-box-1 {
+        font-family: var(--font-landing-name-box-1);
+        font-size: 1em;
+        text-align: left;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+    }
+
+    .intro-box-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #intro-text {
+        border: 0.01em solid white;
+        border-radius: 1em;
+        font-size: 2em;
+        font-family: var(--font-landing-name-box-2);
+        width: 460px;
+        height: 150px;
+        text-align: left;
+        padding: 1em;
+        margin-top: 1.5em;
+        margin-inline: 3em;
+    }
+
+    #enter-button {
+        width: 6em;
+        height: 6em;
+        background-color: #FF4444;
+        border-radius: 50%;
+        border: 0.05em solid white;
+        text-align: center;
+        font-size: 2em;
+        font-family: var(--font-landing-name-box-2);
+        margin-top: 1.5em;
+        margin-inline: 3em;
+        color: black;
+        transition: color 0.6s ease;
+    }
+
+    #button-text {
+        margin-top: 40%;
+    }
+
+    .intro-box-3 {
+        font-family: var(--font-landing-name-box-3);
+        font-size: 15em;
+        text-align: right;
+        padding-right: 0.1em;
+        padding-top: 0.1em;
+    }
+
+    #enter-button:hover {
+        color: white;
     }
 
 }
@@ -58,52 +101,8 @@
 
 }
 
-body {
-    background-color: var(--primary-background-color-2);
-}
-
-#enter-button {
-    width: 8em;
-    height: 6vh;
-    line-height: 5vh;
-    border: 1px solid black;
-    border-radius: 1.5em;
-    text-align: center;
-    margin-inline: auto;
-    margin-top: 0.25em;
-    margin-bottom: 1em;
-    transition: width 0.6s ease, background-color 0.6s ease;
-    font-size: 1.5em;
-    font-family: var(--font-button);
-    color: black;
-}
-
 #button-text {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-}
-
-#enter-button:hover {
-    width: 8em;
-    background-color: var(--primary-background-color-1);
-    color: var(--accent-color-1);
-}
-
-#enter-button-link-wrapper {
-    width: fit-content;
-    color: var(--primary-background-color-2);
-    text-decoration: none;
-    margin-inline: auto;
-}
-
-.logo-screen {
-    width:155px;
-    height: 60px;
-    fill: var(--accent-color-1);
-    margin-block: auto;
-    background-image: url(../assets/logo/Portfolio-Logo-MrsSD-Black-ini.svg.svg);
-    background-size: cover;
-    margin-inline: auto;
-    margin-top: 3em;
 }

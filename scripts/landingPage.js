@@ -1,5 +1,7 @@
 import { setCss } from "./utils.js";
 
+var intro_text = "Welcome to the portfolio of Gaurav. A digital product designer, data scientist & web developer."
+
 function redirect(url) {
 
   $(location).attr('href',url);
@@ -45,14 +47,11 @@ async function click_enter(url) {
 
 async function main() {
 
-  var homepage_url = "./pages/homepage.html";
-  //click_enter(homepage_url);
-  
-  //direct redirect to homepage without need for click
-  // await new Promise(r => setTimeout(r, 500));
-  // landingAnimation(homepage_url);
+  $("#intro-text").html(intro_text);
 
-  redirect(homepage_url);
+  var homepage_url = "./pages/homepage.html";
+  click_enter(homepage_url);
+  
 
 }
 
