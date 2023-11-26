@@ -16,11 +16,6 @@
         border-radius: 3em;
         padding: 1em;
         width: 25vw;
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1); */
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                    -6px -6px 10px rgba(255, 255, 255, .5),
-                    6px 6px 8px rgba(255, 255, 255, .075),
-                    6px 6px 10px rgba(0, 0, 0, .15); */
     }
 
     .skill-set {
@@ -71,11 +66,6 @@
         margin-inline: auto;
         margin-top: 2em;
         font-family: var(--font-text);
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1); */
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                    -6px -6px 10px rgba(255, 255, 255, .5),
-                    6px 6px 8px rgba(255, 255, 255, .075),
-                    6px 6px 10px rgba(0, 0, 0, .15); */
     }
 
     .tool-section-tile {
@@ -114,11 +104,6 @@
         border-radius: 3em;
         padding: 1em;
         width: 75vw;
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1); */
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-        -6px -6px 10px rgba(255, 255, 255, .5),
-        6px 6px 8px rgba(255, 255, 255, .075),
-        6px 6px 10px rgba(0, 0, 0, .15); */
     }
 
     .skill-set {
@@ -162,11 +147,6 @@
         margin-inline: auto;
         margin-top: 2em;
         font-family: var(--font-text);
-        /* box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1); */
-        /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                    -6px -6px 10px rgba(255, 255, 255, .5),
-                    6px 6px 8px rgba(255, 255, 255, .075),
-                    6px 6px 10px rgba(0, 0, 0, .15); */
     }
 
     .tool-section {
@@ -207,20 +187,6 @@ body {
     text-align: center;
     font-family: var(--font-headings);
 }
-
-/* .tools-container { */
-    /* width: 91vw;
-    border: 0.08em solid black;
-    border-radius: 1.5em;
-    margin-inline: auto;
-    margin-top: 2em;
-    font-family: var(--font-text); */
-    /* box-shadow: 0px 0px var(--box-shadow-spread) var(--box-shadow-color-1); */
-    /* box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-                -6px -6px 10px rgba(255, 255, 255, .5),
-                6px 6px 8px rgba(255, 255, 255, .075),
-                6px 6px 10px rgba(0, 0, 0, .15); */
-/* } */
 
 .tools-section-container {
     display: flex;
