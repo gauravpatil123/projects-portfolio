@@ -101,7 +101,7 @@
     }
     
     .portfolio-piece-box:hover .inner {
-        height: 7vh;
+        height: 8vh;
         background-color: var(--primary-inner-background-container);
         color: var(--primary-background-color-2);
         text-align: center;
