@@ -108,7 +108,7 @@
     --site-page-margin-top-h1: 0.2em;
     --site-page-margin-top-h1-mobile: 0.25em;
 
-    --site-page-margin-bot-h1: 0.3em;
+    --site-page-margin-bot-h1: 0.2em;
     --site-page-margin-bot-h1-mobile: 0.25em;
     --site-page-margin-bot-h2: 0.5em;
 
@@ -178,6 +178,14 @@
     --nav-buttons: rgba(239, 239, 239, 0.8);
     --nav-buttons-selected: rgba(255, 255, 255, 1.0);
     --copyright-text: rgba(255, 255, 255, 1.0);
+
+    --filter-buttons: rgba(239, 239, 239, 0.6);
+    --filter-buttons-border: rgba(22, 22, 22, 0.6);
+    --filter-buttons-hover: rgba(255, 255, 255, 0.8);
+    --filter-buttons-hover-border: rgba(22, 22, 22, 1.0);
+    --filter-buttons-selected: rgba(255, 255, 255, 1.0);
+    --filter-buttons-selected-border: #FF6F40; /*rgba(22, 22, 22, 1.0);*/
+    --filter-buttons-background: rgba(22, 22, 23, 1.0);
 
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);

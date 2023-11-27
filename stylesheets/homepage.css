@@ -23,30 +23,35 @@
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
+        background-color: var(--primary-background-color-nav);
+        border-radius: 2em;
+        padding-inline: 2em;
+        margin-bottom: 1em;
     }
     
     .filter-button{
-        border: 0.08em solid black;
-        padding: 0.5em;
+        /* border: 0.08em solid var(--filter-buttons-border); */
+        padding-block: 0.0em;
+        padding-inline: 0.5em;
         margin: var(--page-button-margin);
         font-size: var(--page-button-font-size);
         font-family: var(--font-button);
-        background: var(--primary-background-color-2);
+        background: var(--filter-buttons-background);
         border-radius: 0.5rem;
-        color: #333333;
+        color: var(--filter-buttons);
         cursor: pointer;
         transition: 0.2s ease-in-out;
     }
     
     .filter-button:hover {
         cursor: pointer;
-        border-color: var(--accent-color-1);
-        color: #333333;
+        border-color: var(--filter-buttons-hover-border);
+        color: var(--filter-buttons-hover);
     }
     
     .filter-button-selected {
-        border-color: var(--accent-color-1);
-        color: var(--color-4);
+        border-color: var(--filter-buttons-selected-border);
+        color: var(--filter-buttons-selected);
     }
     
     .portfolio-pieces-container{
@@ -245,7 +250,7 @@
 }
 
 .filter-button-selected:hover {
-    color: var(--color-4);
+    color: var(--filter-buttons-selected);
 }
 
 #project-1 {
