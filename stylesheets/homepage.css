@@ -228,17 +228,17 @@
 }
 
 #home-intro-l1 {
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: var(--font-intro);
     color: var(--font-intro-color-1);
-    margin-block: 0.3em;
+    margin-block: 0.2em;
 }
 
 #home-intro-l2 {
-    font-size: 3em;
+    font-size: 1.5em;
     font-family: var(--font-intro);
     color: var(--font-intro-color-1);
-    margin-block: 0.3em;
+    margin-block: 0.2em;
 }
 
 #intro-name {
@@ -246,10 +246,10 @@
 }
 
 #home-intro-l3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-family: var(--font-intro-text);
     color: var(--font-intro-color-3);
-    margin-block: 0.5em;
+    margin-block: 0.3em;
 }
 
 .filter-button-selected:hover {
