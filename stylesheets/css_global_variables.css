@@ -188,6 +188,14 @@
     --filter-buttons-selected-border: #FF6F40; /*rgba(22, 22, 22, 1.0);*/
     --filter-buttons-background: rgba(22, 22, 23, 1.0);
 
+    --contact-buttons: rgba(239, 239, 239, 0.8);
+    --contact-buttons-border: rgba(22, 22, 22, 0.8);
+    --contact-buttons-hover: rgba(255, 255, 255, 1.0);
+    --contact-buttons-hover-border: rgba(22, 22, 22, 1.0);
+    --contact-buttons-selected: rgba(255, 255, 255, 1.0);
+    --contact-buttons-selected-border: #FF6F40; /*rgba(22, 22, 22, 1.0);*/
+    --contact-buttons-background: rgba(22, 22, 23, 1.0);
+
     --primary-background-color-1: #3D6599;
     --primary-background-color-1-alpha-6: rgba(61, 101, 153, 0.6);
     --primary-background-color-1-alpha-8: rgba(61, 101, 153, 0.8);

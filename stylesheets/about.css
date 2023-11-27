@@ -58,15 +58,6 @@
         border-radius: 2em;
     }
 
-    .contact-button{
-        border: 0.08em solid black;
-        padding: 0.5em;
-        margin: 1em;
-        font-size: var(--page-button-font-size);
-        background: var(--primary-background-color-2);
-        border-radius: 0.5rem;
-    }
-
 }
 
 @media (max-width: 1199px) {
@@ -124,15 +115,6 @@
         border-radius: 2em;
     }
 
-    .contact-button{
-        border: 0.08em solid black;
-        padding: 0.5em;
-        margin: 1em;
-        font-size: var(--page-button-font-size);
-        background: var(--primary-background-color-2);
-        border-radius: 0.5rem;
-    }
-
 }
 
 body {
@@ -153,6 +135,10 @@ h2 {
     width: fit-content;
     margin-inline: auto;
     font-family: var(--font-button);
+    background-color: var(--primary-background-color-nav);
+    border-radius: 2em;
+    padding-inline: 2em;
+    margin-bottom: 1em;
 }
 
 .contact-links {
@@ -160,12 +146,25 @@ h2 {
     color: black;
 }
 
+.contact-button{
+    padding-inline: 0.5em;
+    margin: var(--page-button-margin);
+    font-size: var(--page-button-font-size);
+    font-family: var(--font-button);
+    background: var(--contact-buttons-background);
+    border-radius: 0.5rem;
+    color: var(--contact-buttons);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
 .contact-button:hover {
-    border-color: var(--accent-color-1);
-    color: var(--color-4);
+    cursor: pointer;
+    border-color: var(--contact-buttons-hover-border);
+    color: var(--contact-buttons-hover);
 }
 
 .contact-button:active {
-    border-color: var(--accent-color-1);
-    color: var(--color-4);
+    border-color: var(--contact-buttons-selected-border);
+    color: var(--contact-buttons-selected);
 }
