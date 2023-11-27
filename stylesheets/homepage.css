@@ -132,35 +132,38 @@
     .filter-buttons-container {
         display: flex;
         flex-direction: column;
-        width: fit-content;
+        width: 75vw;
         margin-left: auto;
         margin-right: auto;
+        background-color: var(--primary-background-color-nav);
+        border-radius: 3em;
+        padding-block: 1em;
+        margin-bottom: 1em;
     }
     
     .filter-button{
-        border: 0.08em solid black;
-        padding: 0.5em;
+        /* border: 0.08em solid black; */
+        padding-block: 0.25em;
         text-align: center;
         margin: var(--page-button-margin-mobile);
-        font-size: var(--page-button-font-size);
+        font-size: var(--page-button-font-size-mobile);
         font-family: var(--font-button);
-
-        background: var(--primary-background-color-2);
+        background: var(--filter-buttons-background);
         border-radius: 0.5rem;
-        color: #333333;
+        color: var(--filter-buttons);
         cursor: pointer;
         transition: 0.2s ease-in-out;
     }
     
     .filter-button:hover {
         cursor: pointer;
-        border-color: var(--accent-color-1);
-        color: #333333;
+        border-color: var(--filter-buttons-hover-border);
+        color: var(--filter-buttons-hover);
     }
     
     .filter-button-selected {
-        border-color: var(--accent-color-1);
-        color: var(--color-4);
+        border-color: var(--filter-buttons-selected-border);
+        color: var(--filter-buttons-selected);
     }
     
     .portfolio-pieces-container{
