@@ -10,9 +10,9 @@
     .landing-section {
         width: 100vw;
         height: 33vh;
-        background-color: var(--landing-page-black);
-        border-bottom: 0.1em solid var(--landing-page-white);
-        color: var(--landing-page-white);
+        background-color: var(--landing-page-white);
+        border-bottom: 0.1em solid var(--landing-page-black);
+        color: var(--landing-page-black);
     }
 
     .intro-box-1 {
@@ -30,7 +30,7 @@
     }
 
     #intro-text {
-        border: 0.01em solid var(--landing-page-white);
+        border: 0.05em solid var(--landing-page-black);
         border-radius: 1em;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -47,7 +47,7 @@
         height: 6em;
         background-color: var(--landing-page-accent);
         border-radius: 50%;
-        border: 0.05em solid var(--landing-page-white);
+        border: 0.05em solid var(--landing-page-black);
         text-align: center;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -81,9 +81,9 @@
     .landing-section {
         width: 100vw;
         height: 33vh;
-        background-color: var(--landing-page-black);
-        border-bottom: 0.1em solid var(--landing-page-white);
-        color: var(--landing-page-white);
+        background-color: var(--landing-page-white);
+        border-bottom: 0.1em solid var(--landing-page-black);
+        color: var(--landing-page-black);
     }
 
     .intro-box-1 {
@@ -101,7 +101,7 @@
     }
 
     #intro-text {
-        border: 0.01em solid var(--landing-page-white);
+        border: 0.05em solid var(--landing-page-black);
         border-radius: 1em;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -120,7 +120,7 @@
         height: 6em;
         background-color: var(--landing-page-accent);
         border-radius: 50%;
-        border: 0.05em solid var(--landing-page-white);
+        border: 0.05em solid var(--landing-page-black);
         text-align: center;
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
@@ -151,7 +151,7 @@
 }
 
 body {
-    background-color: var(--landing-page-black);
+    background-color: var(--landing-page-white);
 }
 
 #button-text {
