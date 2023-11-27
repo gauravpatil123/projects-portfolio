@@ -2,15 +2,34 @@
 
 @media (min-width: 1200px) {
 
+    .page-wrapper {
+        position: relative;       
+    }
+
+    .profile-pic {
+        position: absolute;
+        z-index: 0;
+        border: 0.1em solid var(--landing-page-black);
+        border-radius: 2em;
+        width: 41vw;
+        height: 91vh;
+        margin-top: 6vh;
+        content: url("/assets/background/landing-profile-pic.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .landing-container {
         display: flex;
+        position: absolute;
         flex-direction: column;
+        z-index: 1;
     }
 
     .landing-section {
         width: 100vw;
         height: 33vh;
-        background-color: var(--landing-page-white);
+        /* background-color: var(--landing-page-white); */
         border-bottom: 0.1em solid var(--landing-page-black);
         color: var(--landing-page-black);
     }
@@ -21,6 +40,7 @@
         text-align: left;
         padding-left: 0.5em;
         padding-top: 0.5em;
+        margin-left: 1vw;
     }
 
     .intro-box-2 {
@@ -39,7 +59,7 @@
         text-align: left;
         padding: 1em;
         margin-top: 1em;
-        margin-inline: 3em;
+        margin-inline: 1.5em;
     }
 
     #enter-button {
@@ -52,17 +72,19 @@
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
         margin-top: 1em;
-        margin-inline: 3em;
+        margin-inline: 1.5em;
         color: black;
         transition: color 0.6s ease;
     }
 
     .intro-box-3 {
         font-family: var(--font-landing-name-box-3);
-        font-size: 12em;
+        font-size: 7.5em;
         text-align: right;
         padding-right: 0.1em;
         padding-top: 0.1em;
+        margin-top: 6vh;
+        margin-right: 1vw;
     }
 
     #enter-button:hover {
