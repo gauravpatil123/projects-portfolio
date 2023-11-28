@@ -14,7 +14,7 @@
         width: 41vw;
         height: 48vw;
         margin-top: 6vh;
-        content: url("/assets/background/landing-profile-pic.jpg");
+        content: url("/assets/background/landing-profile-pic-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -108,7 +108,7 @@
         height: 55vw;
         margin-top: 4vh;
         margin-left: 3vw;
-        content: url("/assets/background/landing-profile-pic.jpg");
+        content: url("/assets/background/landing-profile-pic-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -133,6 +133,7 @@
         text-align: left;
         padding-left: 0.5em;
         padding-top: 0.5em;
+        margin-left: 3vw;
     }
 
     .intro-box-2 {
