@@ -12,7 +12,7 @@
         border: 0.1em solid var(--landing-page-black);
         border-radius: 2em;
         width: 41vw;
-        height: 91vh;
+        height: 48vw;
         margin-top: 6vh;
         content: url("/assets/background/landing-profile-pic.jpg");
         background-size: cover;
