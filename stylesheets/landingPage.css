@@ -95,15 +95,34 @@
 
 @media (max-width: 1199px) {
 
+    .page-wrapper {
+        position: relative;       
+    }
+
+    .profile-pic {
+        position: absolute;
+        z-index: 0;
+        border: 0.1em solid var(--landing-page-black);
+        border-radius: 2em;
+        width: 44vw;
+        height: 55vw;
+        margin-top: 4vh;
+        margin-left: 3vw;
+        content: url("/assets/background/landing-profile-pic.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
     .landing-container {
         display: flex;
+        position: absolute;
         flex-direction: column;
+        z-index: 1;
     }
 
     .landing-section {
         width: 100vw;
         height: 33vh;
-        background-color: var(--landing-page-white);
         border-bottom: 0.1em solid var(--landing-page-black);
         color: var(--landing-page-black);
     }
@@ -131,8 +150,8 @@
         height: 150px;
         text-align: left;
         padding: 1em;
-        margin-top: 1.5em;
-        margin-right: 6em;
+        margin-top: 3em;
+        margin-right: 3em;
         margin-left: auto;
         /* margin-inline: 3em; */
     }
@@ -147,7 +166,7 @@
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
         margin-top: 1.5em;
-        margin-right: 6em;
+        margin-right: 3em;
         margin-left: auto;
         /* margin-inline: 19em; */
         color: black;
