@@ -1,6 +1,6 @@
 import { setCss } from "./utils.js";
 
-var intro_text = "Welcome to the portfolio of Gaurav. A digital product designer, data scientist & web developer."
+var intro_text = "Welcome to my portfolio. I am Gaurav a digital product designer, data scientist & web developer."
 
 function redirect(url) {
 
