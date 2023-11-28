@@ -107,7 +107,7 @@
         width: 44vw;
         height: 55vw;
         margin-top: 4vh;
-        margin-left: 3vw;
+        margin-left: 27vw;
         content: url("/assets/background/landing-profile-pic-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -152,7 +152,7 @@
         text-align: left;
         padding: 1em;
         margin-top: 3em;
-        margin-right: 3em;
+        margin-right: 7em;
         margin-left: auto;
         /* margin-inline: 3em; */
     }
@@ -167,7 +167,7 @@
         font-size: 2em;
         font-family: var(--font-landing-name-box-2);
         margin-top: 1.5em;
-        margin-right: 3em;
+        margin-right: 7em;
         margin-left: auto;
         /* margin-inline: 19em; */
         color: black;
