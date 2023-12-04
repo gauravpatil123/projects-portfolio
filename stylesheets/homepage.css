@@ -86,7 +86,7 @@
         border-radius: 2em;
         background-color: var(--primary-inner-background-container-alpha-8);
         transition: background-color 0.3s ease, height 0.3s ease;
-        font-family: var(--font-headings);
+        font-family: var(--font-headings-reg);
     }
     
     .project-title {
@@ -97,7 +97,7 @@
     
     .project-domain{
         margin-top: 1em;
-        font-family: var(--font-headings);
+        font-family: var(--font-headings-reg);
     }
     
     .portfolio-piece-box:hover {
@@ -174,7 +174,7 @@
     .portfolio-piece-box {
         width: 75vw;
         height: 75vw;
-        border: 0.1em solid var(--primary-container-border);
+        /* border: 0.1em solid var(--primary-container-border); */
         border-radius: 3em;
         margin-inline: auto;
         margin-block: 1em;
@@ -196,7 +196,7 @@
         border-radius: 2em;
         background-color: var(--primary-inner-background-container-alpha-8);
         transition: background-color 0.3s ease, height 0.3s ease;
-        font-family: var(--font-headings);
+        font-family: var(--font-headings-reg);
     }
     
     .project-title {
@@ -209,7 +209,7 @@
     .project-domain{
         margin-top: 1em;
         font-size: 1.5em;
-        font-family: var(--font-headings);
+        font-family: var(--font-headings-reg);
     }
     
     .portfolio-piece-box:hover {
