@@ -5,7 +5,7 @@
     .project-panel {
         display: flex;
         flex-direction: row;
-        border: 0.1em solid black;
+        /* border: 0.1em solid black; */
         border-radius: 2em;
         padding: 1em;
         width: 82vw;
@@ -104,7 +104,7 @@
     .project-panel {
         display: flex;
         flex-direction: column;
-        border: 0.1em solid black;
+        /* border: 0.1em solid black; */
         border-radius: 2em;
         padding: 1em;
         width: 85vw;
