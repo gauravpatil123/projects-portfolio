@@ -6,12 +6,12 @@ function setCss(querySelector, property, value) {
 
 function section_expand() {
   
-  $(".expand-button").on("click", function() {
+  $(".collapse-button").on("click", function() {
 
-    $(this).toggleClass("collapse-button");
-    $(this).parents(".project-section").children(".project-section-closed").toggleClass("project-section-open")
+    $(this).toggleClass("expand-button");
+    $(this).parents(".project-section").children(".project-section-open").toggleClass("project-section-closed")
 
-    if ($(this).hasClass("collapse-button")) {
+    if ($(this).hasClass("expand-button")) {
       
       console.log("has collapse class");
 

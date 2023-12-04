@@ -109,7 +109,7 @@ body {
 }
 
 .project-section-closed {
-    display: none;
+    display: none !important;
 }
 
 .project-section-open {
