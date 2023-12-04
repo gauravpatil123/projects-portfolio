@@ -65,7 +65,7 @@
     .portfolio-piece-box {
         width: 25vw;
         height: 25vw;
-        border: 0.1em solid var(--primary-container-border);
+        /* border: 0.1em solid var(--primary-container-border); */
         border-radius: 3em;
         margin: 1em;
         z-index: 0;
