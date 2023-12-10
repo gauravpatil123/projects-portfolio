@@ -26,6 +26,7 @@
         height: 25vw;
         margin-left: auto;
         margin-right: 10%;
+        margin-top: 10%;
         background: url(../assets/account/profile-pic.jpg);
         background-size: contain;
         background-repeat: no-repeat;
@@ -38,7 +39,7 @@
     #intro-text {
         font-size: 1.5em;
         margin-left: 10%;
-        margin-right: 30%;
+        margin-right: 20%;
         margin-top: 10%;
         font-family: var(--font-about-intro-text);
     }
