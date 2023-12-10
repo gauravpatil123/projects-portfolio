@@ -20,15 +20,14 @@
     }
     
     #profile-picture {
-        border: 0.1em solid black;
-        border-radius: 50%;
-        width: 25vw;
-        height: 25vw;
+        border-radius: 2em;
+        width: 41vw;
+        height: 49vw;
         margin-left: auto;
         margin-right: 10%;
         margin-top: 10%;
         background: url(../assets/account/landing-profile-pic-bw.jpg);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     
