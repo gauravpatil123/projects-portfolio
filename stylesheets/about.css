@@ -78,13 +78,12 @@
     }
     
     #profile-picture {
-        border: 0.1em solid black;
-        border-radius: 50%;
+        border-radius: 2em;
         width: 60vw;
-        height: 60vw;
+        height: 70vw;
         margin-inline: auto;
-        background: url(../assets/account/profile-pic.jpg);
-        background-size: contain;
+        background: url(../assets/account/landing-profile-pic-bw.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
     }
     
