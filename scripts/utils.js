@@ -9,17 +9,7 @@ function section_expand() {
   $(".collapse-button").on("click", function() {
 
     $(this).toggleClass("expand-button");
-    $(this).parents(".project-section").children(".project-section-open").toggleClass("project-section-closed")
-
-    // if ($(this).hasClass("expand-button")) {
-      
-    //   console.log("has collapse class");
-
-    // } else {
-
-    //   console.log("no collapse class");
-
-    // }
+    $(this).parents(".project-section").children(".project-section-open").toggleClass("project-section-closed");
 
   })
 
