@@ -11,15 +11,15 @@ function section_expand() {
     $(this).toggleClass("expand-button");
     $(this).parents(".project-section").children(".project-section-open").toggleClass("project-section-closed")
 
-    if ($(this).hasClass("expand-button")) {
+    // if ($(this).hasClass("expand-button")) {
       
-      console.log("has collapse class");
+    //   console.log("has collapse class");
 
-    } else {
+    // } else {
 
-      console.log("no collapse class");
+    //   console.log("no collapse class");
 
-    }
+    // }
 
   })
 
