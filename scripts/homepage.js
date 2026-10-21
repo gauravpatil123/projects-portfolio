@@ -160,6 +160,8 @@ async function main() {
 
     })
 
+    $("#copyright-year").html(new Date().getFullYear());
+
 }
 
 main();

@@ -311,8 +311,9 @@
         </div>
         <div class="footer-container">
             <a href="#"><div class="footer-logo"></div></a>
-            <div id="copyright">©2023 Gaurav K. Patil</div>
+            <div id="copyright">©<span id="copyright-year"></span> Gaurav K. Patil</div>
         </div>
+        <script>$("#copyright-year").html(new Date().getFullYear());</script>
         <script type="module" src="../scripts/mobile_nav.js"></script>
     </body>
 </html>

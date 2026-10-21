@@ -3,6 +3,7 @@ var intro_detail = "I am interested in digital product design, data science & we
 function main() {
 
     $("#intro-detail").html(intro_detail);
+    $("#copyright-year").html(new Date().getFullYear());
 
 }
 
